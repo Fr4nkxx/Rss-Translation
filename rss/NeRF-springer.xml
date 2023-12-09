@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>最新结果</title>
+    <link>http://link.springer.com</link>
+    <description>Springer 提供的最新内容</description>
+    <lastBuildDate>Sat, 09 Dec 2023 16:56:29 GMT</lastBuildDate>
+    <item>
+      <title>神经网络作为摄影测量的替代方案。使用即时 NeRF 和体积渲染</title>
+      <link>http://link.springer.com/10.1007/978-3-031-36155-5_30</link>
+      <description><![CDATA[摘要
+人工智能 (AI) 和机器学习算法的使用最近给许多领域带来了革命性的变化，包括通过数字孪生增强遗产及其在 VR 维度中的使用。本文讨论了各种人工智能技术（生成对抗网络（GAN））在开发交互式和沉浸式 VR 严肃游戏以增强遗产方面的潜在用途。 GAN 可用于生成空间、物体和人脸的真实且完全人工的图像，可应用于构建交互式环境的设计和概念过程。此外，机器学习算法可以提高游戏对用户的适应性，例如根据用户的动作自动构建游戏的难度级别或情节。然而，近年来，新的、更高性能的人工智能过程已经出现，它们已经超越了 GAN 算法的生成能力，后者主要用于生成不存在元素的 2D 图像。 NeRF（神经辐射场）是 NVIDIA 开发的一项技术，由最近由名为 Instant NeRF 的专有代码优化的复杂神经网络提供支持。与不直接支持人工智能的替代照片建模技术相比，该技术能够使用更少的摄影数据快速准确地生成物理环境的详细 3D 模型。未来，该技术可用于生成与现实无区别的虚拟环境，也可积极用于遗产保护。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-36155-5_30</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>T(G)V-NeRF：规则化神经辐射场的强大基线，训练视图很少</title>
+      <link>http://link.springer.com/10.1007/978-3-031-47765-2_12</link>
+      <description><![CDATA[摘要
+诸如神经辐射场 (NeRF) 之类的隐式表示已成为新颖视图领域的事实上标准3D 场景合成。然而，他们令人惊叹的结果通常意味着使用数十张训练图像，并将相应的摄像机很好地定位在场景中。本文研究了新的、基于全变分的正则化方法，用于在很少（少于 10 个）训练图像的情况下训练 NeRF。它利用 NeRF 反向传播算法来评估推断深度图上的一阶和二阶导数项，以增强场景底层表面的平滑度。通过标准真实图像基准上最先进的性能，我们表明所提出的方法（称为 TV-NeRF 和 TGV-NeRF）在很少的训练视图的新颖视图合成中建立了强有力的基线。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-47765-2_12</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算智能的进展</title>
+      <link>http://link.springer.com/10.1007/978-3-031-47765-2</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-47765-2</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>超越数字表示</title>
+      <link>http://link.springer.com/10.1007/978-3-031-36155-5</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-36155-5</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>软计算的进展</title>
+      <link>http://link.springer.com/10.1007/978-3-031-47640-2</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-47640-2</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学习森林结构的神经辐射场以进行可扩展和精细的监控</title>
+      <link>http://link.springer.com/10.1007/978-3-031-47640-2_23</link>
+      <description><![CDATA[摘要
+这项工作利用神经辐射场和遥感进行林业应用。在这里，我们展示了神经辐射场为改进森林监测中现有遥感方法提供了广泛的可能性。我们提出的实验证明了它们的潜力：(1) 表达森林 3D 结构的精细特征，(2) 融合可用的遥感模式，以及 (3) 改进 3D 结构衍生的森林指标。总而言之，这些特性使神经场成为一种有吸引力的计算工具，具有进一步提高森林监测项目的可扩展性和准确性的巨大潜力。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-47640-2_23</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>医学影像中的机器学习</title>
+      <link>http://link.springer.com/10.1007/978-3-031-45673-2</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-45673-2</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>神经信息处理</title>
+      <link>http://link.springer.com/10.1007/978-981-99-8181-6</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-981-99-8181-6</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>神经信息处理</title>
+      <link>http://link.springer.com/10.1007/978-981-99-8148-9</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-981-99-8148-9</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>深度归一化稳定视图合成</title>
+      <link>http://link.springer.com/10.1007/978-981-99-8181-6_5</link>
+      <description><![CDATA[摘要
+新颖的视图合成 (NVS) 旨在利用现有的源图像合成描绘场景的逼真图像。合成的图像应该尽可能接近场景内容。我们提出了深度归一化稳定视图合成（DNSVS），这是一种基于稳定视图合成（SVS）管道的大规模场景 NVS 方法。 SVS 将神经网络与从运动结构和多视图立体获得的 3D 场景表示相结合，其中对应于场景表示的每个表面点的视图光线和源视图特征向量一起产生图像中每个像素的值。目标视图。然而，它在细化阶段削弱了几何信息，导致新视图中的模糊和伪影。为了解决这个问题，我们提出了 DNSVS，它利用深度图通过标准化方法来增强渲染过程。所提出的方法在 Tanks 和 Temples 数据集以及 FVS 数据集上进行了评估。我们结果的平均学习感知图像块相似度 (LPIPS) 比最先进的 NVS 方法好 0.12%，表明我们方法的优越性。
+      ]]></description>
+      <guid>http://link.springer.com/10.1007/978-981-99-8181-6_5</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>多视图一致性视图合成</title>
+      <link>http://link.springer.com/10.1007/978-981-99-8148-9_25</link>
+      <description><![CDATA[摘要
+新颖的视图合成 (NVS) 旨在利用现有的源图像合成描绘场景的逼真图像。核心目标是合成图像应尽可能接近场景内容。近年来，各种方法将焦点转向连续空间或时间中图像的视觉效果。目前的静态场景方法将图像的渲染视为孤立的过程，忽略了静态场景中的几何一致性。这通常会导致合成图像序列中出现不连贯的视觉体验，例如闪烁或伪影。为了解决这个限制，我们提出了多视图一致性视图合成（MCVS）。 MCVS 利用长短期记忆 (LSTM) 和自注意力机制来模拟合成图像之间的空间相关性，从而迫使它们更接近真实情况。 MCVS不仅增强了多视图一致性，还提高了合成图像的整体质量。所提出的方法在 Tanks 和 Temples 数据集以及 FVS 数据集上进行了评估。平均而言，学习感知图像块相似度 (LPIPS) 比最先进的方法好 0.14 到 0.16%，表明我们方法的优越性。]]></description>
+      <guid>http://link.springer.com/10.1007/978-981-99-8148-9_25</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉与激光测振仪，第 6 卷</title>
+      <link>http://link.springer.com/10.1007/978-3-031-34910-2</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-34910-2</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于基于事件的逼真结构动力学的数字孪生</title>
+      <link>http://link.springer.com/10.1007/978-3-031-34910-2_13</link>
+      <description><![CDATA[摘要
+数字孪生是现实世界结构的虚拟表示，可用于建模和仿真。由于数字孪生能够模拟复杂的结构行为，因此它们也具有结构健康监测（SHM）应用的潜力。基于视频的 SHM 技术具有较低的安装/维护成本、高空间分辨率分析及其非接触式监控功能等优势。数字孪生和基于视频的技术在无损评估、损伤识别和模态分析领域都特别受关注。在 SHM 应用中有效使用这些技术仍然面临一些挑战。神经辐射场 (NeRF) 是一种新兴且有前途的神经网络类型，可以使用稀疏的 2D 图像数据集渲染复杂场景的真实感新颖视图。 NeRF 最初设计用于捕捉静态场景，但最近的工作已扩展其捕捉动态场景的能力，这对中长期 SHM 具有影响。然而，迄今为止，大多数 NeRF 使用基于帧的图像和视频作为输入数据。基于帧的视频监测方法会产生冗余信息，因为对于结构动力学监测，只有少量活动像素记录结构中的实际动态变化，导致数据处理和存储的计算负荷很大。一个有前途的替代方案是基于事件的成像，它仅记录场景照明的像素级变化。基于事件的成像创建稀疏数据集，同时准确捕获动态。这项工作提出了一种使用生成的数字孪生来提取结构动力学的方法。使用虚幻引擎 5，生成了刚性和非刚性结构的数字孪生体。然后将数字孪生模型与基于事件的相机模拟器一起使用来生成基于事件的数据。然后开发了频率分析框架来提取结构的模态信息。使用基于事件的相机对已知动态结构进行验证。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-34910-2_13</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>域适应和表示迁移</title>
+      <link>http://link.springer.com/10.1007/978-3-031-45857-6</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-45857-6</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>设计和数字通信的进展 IV</title>
+      <link>http://link.springer.com/10.1007/978-3-031-47281-7</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-47281-7</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    </channel>
+</rss>
