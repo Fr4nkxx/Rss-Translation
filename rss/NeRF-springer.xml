@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Sat, 23 Dec 2023 21:09:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2023 21:09:55 GMT</lastBuildDate>
     <item>
       <title>神经网络作为摄影测量的替代方案。使用即时 NeRF 和体积渲染</title>
       <link>http://link.springer.com/10.1007/978-3-031-36155-5_30</link>
@@ -78,7 +78,7 @@
       <title>学习森林结构的神经辐射场以进行可扩展和精细的监控</title>
       <link>http://link.springer.com/10.1007/978-3-031-47640-2_23</link>
       <description><![CDATA[摘要
-这项工作利用神经辐射场和遥感进行林业应用。在这里，我们展示了神经辐射场为改进森林监测中现有遥感方法提供了广泛的可能性。我们提出的实验证明了它们的潜力：(1) 表达森林 3D 结构的精细特征，(2) 融合可用的遥感模式，(3) 改进 3D 结构导出的森林指标。总而言之，这些特性使神经场成为一种有吸引力的计算工具，具有进一步提高森林监测项目的可扩展性和准确性的巨大潜力。]]></description>
+这项工作利用神经辐射场和遥感进行林业应用。在这里，我们展示了神经辐射场为改进森林监测中现有遥感方法提供了广泛的可能性。我们提出的实验证明了它们的潜力：(1) 表达森林 3D 结构的精细特征，(2) 融合可用的遥感模式，以及 (3) 改进 3D 结构衍生的森林指标。总而言之，这些特性使神经场成为一种有吸引力的计算工具，具有进一步提高森林监测项目的可扩展性和准确性的巨大潜力。]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-47640-2_23</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
     </item>
@@ -91,23 +91,23 @@
     </item>
     <item>
       <title>神经信息处理</title>
-      <link>http://link.springer.com/10.1007/978-981-99-8181-6</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-981-99-8181-6</guid>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>神经信息处理</title>
       <link>http://link.springer.com/10.1007/978-981-99-8148-9</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-981-99-8148-9</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>神经信息处理</title>
+      <link>http://link.springer.com/10.1007/978-981-99-8181-6</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-981-99-8181-6</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>深度归一化稳定视图合成</title>
       <link>http://link.springer.com/10.1007/978-981-99-8181-6_5</link>
       <description><![CDATA[摘要
-新颖的视图合成 (NVS) 旨在利用现有的源图像合成描绘场景的逼真图像。合成的图像应该尽可能接近场景内容。我们提出了深度归一化稳定视图合成（DNSVS），这是一种基于稳定视图合成（SVS）管道的大规模场景 NVS 方法。 SVS 将神经网络与从运动结构和多视图立体获得的 3D 场景表示相结合，其中对应于场景表示的每个表面点的视图光线和源视图特征向量一起产生图像中每个像素的值。目标视图。然而，它在细化阶段削弱了几何信息，导致新视图中的模糊和伪影。为了解决这个问题，我们提出了 DNSVS，它利用深度图通过标准化方法来增强渲染过程。所提出的方法在 Tanks 和 Temples 数据集以及 FVS 数据集上进行了评估。我们结果的平均学习感知图像块相似度 (LPIPS) 比最先进的 NVS 方法好 0.12%，表明我们方法的优越性。
+新颖的视图合成 (NVS) 旨在利用现有的源图像合成描绘场景的逼真图像。合成的图像应该尽可能接近场景内容。我们提出了深度归一化稳定视图合成（DNSVS），这是一种基于稳定视图合成（SVS）管道的大规模场景 NVS 方法。 SVS 将神经网络与从运动结构和多视图立体获得的 3D 场景表示相结合，其中与场景表示的每个表面点相对应的视图光线和源视图特征向量一起产生图像中每个像素的值。目标视图。然而，它在细化阶段削弱了几何信息，导致新视图中的模糊和伪影。为了解决这个问题，我们提出了 DNSVS，它利用深度图通过标准化方法来增强渲染过程。所提出的方法在 Tanks 和 Temples 数据集以及 FVS 数据集上进行了评估。我们结果的平均学习感知图像块相似度 (LPIPS) 比最先进的 NVS 方法好 0.12%，表明我们方法的优越性。
       ]]></description>
       <guid>http://link.springer.com/10.1007/978-981-99-8181-6_5</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
