@@ -4,7 +4,15 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Wed, 27 Dec 2023 21:10:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2023 00:41:14 GMT</lastBuildDate>
+    <item>
+      <title>通过多平面 NeRF 进行点云渲染</title>
+      <link>http://link.springer.com/10.1007/978-3-031-50072-5_16</link>
+      <description><![CDATA[摘要
+我们结合点云多平面投影和 NeRF 提出了一种新的神经点云渲染方法[https://github.com/Mayxmu/PCMP-NeRF .]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-50072-5_16</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>神经网络作为摄影测量的替代方案。使用即时 NeRF 和体积渲染</title>
       <link>http://link.springer.com/10.1007/978-3-031-36155-5_30</link>
@@ -19,6 +27,21 @@
       <description><![CDATA[摘要
 诸如神经辐射场 (NeRF) 之类的隐式表示已成为新颖视图领域的事实上标准3D 场景合成。然而，他们令人惊叹的结果通常意味着使用数十张训练图像，并将相应的摄像机很好地定位在场景中。本文研究了一种新的、基于全变分的正则化方法，用于在很少（少于 10 个）训练图像的情况下训练 NeRF。它利用 NeRF 反向传播算法来评估推断深度图上的一阶和二阶导数项，以增强场景底层表面的平滑度。通过标准真实图像基准上最先进的性能，我们表明所提出的方法（称为 TV-NeRF 和 TGV-NeRF）在很少的训练视图的新颖视图合成中建立了强有力的基线。]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-47765-2_12</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CaSE-NeRF：神经辐射场的相机设置编辑</title>
+      <link>http://link.springer.com/10.1007/978-3-031-50072-5_8</link>
+      <description><![CDATA[摘要
+神经辐射场 (NeRF) 通过从多视图图像合成新颖的视图，在三维 (3D) 重建方面表现出了卓越的质量。然而，之前基于 NeRF 的方法不允许用户在场景中执行用户控制的摄像机设置编辑。虽然现有的工作提出了修改辐射场的方法，但这些修改仅限于训练集中的相机设置。因此，我们提出了神经辐射场的相机设置编辑（CaSE-NeRF），以从具有不同相机设置的一组视图中恢复辐射场。在我们的方法中，我们允许用户在场景上执行受控的相机设置编辑，并合成编辑场景的新颖视图图像，而无需重新训练网络。我们方法的关键在于分别对每个相机参数进行建模，并根据薄镜头成像原理渲染各种 3D 散焦效果。通过遵循真实相机的图像处理，我们对其进行隐式建模并学习在潜在空间中连续且独立于图像的增益。色温和曝光的控制是即插即用的，并且可以轻松集成到基于 NeRF 的框架中。因此，我们的方法允许对 3D 场景的视点和相机设置进行手动和自由的捕获后控制。通过对两个真实场景数据集的广泛实验，我们证明了我们的方法在重建具有一致的 3D 几何和外观的正常 NeRF 方面的成功。我们的相关代码和数据可以在 https://github.com/CPREgroup/CaSE-NeRF 获取.]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-50072-5_8</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机图形学的进展</title>
+      <link>http://link.springer.com/10.1007/978-3-031-50072-5</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-50072-5</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -94,30 +117,6 @@
       <link>http://link.springer.com/10.1007/978-981-99-8148-9</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-981-99-8148-9</guid>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>神经信息处理</title>
-      <link>http://link.springer.com/10.1007/978-981-99-8181-6</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-981-99-8181-6</guid>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>深度归一化稳定视图合成</title>
-      <link>http://link.springer.com/10.1007/978-981-99-8181-6_5</link>
-      <description><![CDATA[摘要
-新颖的视图合成 (NVS) 旨在利用现有的源图像合成描绘场景的逼真图像。合成的图像应该尽可能接近场景内容。我们提出了深度归一化稳定视图合成（DNSVS），这是一种基于稳定视图合成（SVS）管道的大规模场景 NVS 方法。 SVS 将神经网络与从运动结构和多视图立体获得的 3D 场景表示相结合，其中对应于场景表示的每个表面点的视图光线和源视图特征向量一起产生图像中每个像素的值。目标视图。然而，它在细化阶段削弱了几何信息，导致新视图中的模糊和伪影。为了解决这个问题，我们提出了 DNSVS，它利用深度图通过标准化方法来增强渲染过程。所提出的方法在 Tanks 和 Temples 数据集以及 FVS 数据集上进行了评估。我们结果的平均学习感知图像块相似度 (LPIPS) 比最先进的 NVS 方法好 0.12%，表明我们方法的优越性。
-      ]]></description>
-      <guid>http://link.springer.com/10.1007/978-981-99-8181-6_5</guid>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>多视图一致性视图合成</title>
-      <link>http://link.springer.com/10.1007/978-981-99-8148-9_25</link>
-      <description><![CDATA[摘要
-新颖的视图合成 (NVS) 旨在利用现有的源图像合成描绘场景的逼真图像。核心目标是合成图像应尽可能接近场景内容。近年来，各种方法将焦点转向连续空间或时间中图像的视觉效果。目前的静态场景方法将图像的渲染视为孤立的过程，忽略了静态场景中的几何一致性。这通常会导致合成图像序列中出现不连贯的视觉体验，例如闪烁或伪影。为了解决这个限制，我们提出了多视图一致性视图合成（MCVS）。 MCVS 利用长短期记忆 (LSTM) 和自注意力机制来模拟合成图像之间的空间相关性，从而迫使它们更接近真实情况。 MCVS不仅增强了多视图一致性，还提高了合成图像的整体质量。所提出的方法在 Tanks 和 Temples 数据集以及 FVS 数据集上进行了评估。平均而言，学习感知图像块相似度 (LPIPS) 比最先进的方法好 0.14 到 0.16%，表明我们的方法的优越性。]]></description>
-      <guid>http://link.springer.com/10.1007/978-981-99-8148-9_25</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
