@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Mon, 05 Feb 2024 15:10:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Feb 2024 15:11:01 GMT</lastBuildDate>
     <item>
       <title>PLKA-MVSNet：具有大型内核卷积注意力的并行多视图立体</title>
       <link>http://link.springer.com/10.1007/978-981-99-8145-8_10</link>
@@ -82,13 +82,6 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>神经信息处理</title>
-      <link>http://link.springer.com/10.1007/978-981-99-8070-3</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-981-99-8070-3</guid>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>网络修剪</title>
       <link>http://link.springer.com/10.1007/978-981-99-5068-3_5</link>
       <description><![CDATA[摘要
@@ -97,10 +90,10 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>计算机图形学的进展</title>
-      <link>http://link.springer.com/10.1007/978-3-031-50072-5</link>
+      <title>神经信息处理</title>
+      <link>http://link.springer.com/10.1007/978-981-99-8070-3</link>
       <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-50072-5</guid>
+      <guid>http://link.springer.com/10.1007/978-981-99-8070-3</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -109,6 +102,13 @@
       <description><![CDATA[摘要
 平面扫描深度 MVS 的设计主要依赖于基于块相似度的匹配。然而，当处理场景中的低纹理、相似纹理和反射区域时，这种方法变得不切实际，导致匹配结果不准确。避免这种错误的方法之一是在匹配过程中结合语义信息。在本文中，我们提出了一种使用单目深度估计向深度 MVS 添加语义信息的端到端方法。此外，我们分析了两种主要深度表示的优缺点，并提出了一种协作方法来减轻它们的缺点。最后，我们引入了一种新颖的过滤准则“分布一致性”，它可以有效地过滤掉概率分布较差（例如均匀分布）的异常值，从而进一步提高重建质量。]]></description>
       <guid>http://link.springer.com/10.1007/978-981-99-8070-3_23</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机图形学的进展</title>
+      <link>http://link.springer.com/10.1007/978-3-031-50072-5</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-50072-5</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
