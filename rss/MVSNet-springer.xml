@@ -4,7 +4,20 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Sat, 27 Apr 2024 00:50:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2024 00:54:55 GMT</lastBuildDate>
+    <item>
+      <title>DepthGAN：从语义布局生成基于 GAN 的深度</title>
+      <link>http://link.springer.com/10.1007/s41095-023-0350-8</link>
+      <description><![CDATA[摘要
+现有的基于 GAN 的生成方法通常用于语义图像合成。我们提出了基于 GAN 的架构是否可以生成可信深度图的问题，并发现现有方法由于缺乏全局几何相关性而难以生成合理表示 3D 场景结构的深度图。因此，我们提出了 DepthGAN，这是一种使用语义布局作为输入来生成深度图的新方法，以辅助构建和操作结构良好的 3D 场景点云。具体而言，我们首先构建一个具有级联语义感知转换器块的特征生成模型，以获得具有全局结构信息的深度特征。对于我们的语义感知转换器块，我们提出了一个混合注意力模块和一个语义感知层规范化模块，以更好地利用语义一致性来生成深度特征。此外，我们提出了一种新颖的语义加权深度合成模块，它为当前场景生成自适应深度间隔。我们通过使用不同深度范围的语义感知深度权重的加权组合来生成最终的深度图。通过这种方式，我们获得了更准确的深度图。在室内和室外数据集上进行的大量实验表明，DepthGAN 在深度生成任务中在数量和视觉上都取得了优异的结果。
+
+
+
+
+]]></description>
+      <guid>http://link.springer.com/10.1007/s41095-023-0350-8</guid>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>CT-MVSNet：带有变压器的曲率引导多视图立体</title>
       <link>http://link.springer.com/10.1007/s11042-024-19227-3</link>
@@ -134,13 +147,6 @@
       <description><![CDATA[摘要
 广义神经辐射场模型的出现极大地扩展了新颖的视图合成任务的适用性。然而，现有的方法主要依赖从相邻视图获得的 2D 特征来辅助渲染，这通常会导致看不见的视点的退化。一些方法在模型中引入成本量来提供几何先验，但这种粗略的几何信息无法有效地约束模型，导致渲染图像具有丰富的伪影。在这项工作中，我们建议为模型提供分层几何约束，以实现更好的渲染结果。我们引入级联 MVSNet 来提供分层场景结构特征，以推断底层场景几何形状。它限制了模型在看不见的视点下的渲染。此外，分层特征提供了有助于细节重建的精细表示。此外，我们利用级联 MVSNet 生成的分层深度图来约束采样过程，确保采样点集中在场景表面附近。这种采样策略过滤掉了大量无用的采样点，提高了采样效率和渲染质量。与之前的广义方法不同，我们采用 Neus 提出的新权重函数来消除密度场中的固有偏差，从而将颜色和密度的预测与带符号的距离场分开。大量实验表明，我们提出的方法显着提高了渲染质量，并且优于以前的方法。]]></description>
       <guid>http://link.springer.com/10.1007/978-981-99-8432-9_26</guid>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>多媒体建模</title>
-      <link>http://link.springer.com/10.1007/978-3-031-53311-2</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-53311-2</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
