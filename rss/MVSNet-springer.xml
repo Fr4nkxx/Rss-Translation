@@ -4,32 +4,19 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Tue, 14 May 2024 18:14:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2024 21:10:24 GMT</lastBuildDate>
     <item>
       <title>DepthGAN：从语义布局生成基于 GAN 的深度</title>
       <link>http://link.springer.com/10.1007/s41095-023-0350-8</link>
       <description><![CDATA[摘要
 现有的基于 GAN 的生成方法通常用于语义图像合成。我们提出了基于 GAN 的架构是否可以生成合理的深度图的问题，并发现由于缺乏全局几何相关性，现有方法很难生成合理表示 3D 场景结构的深度图。因此，我们提出了 DepthGAN，这是一种使用语义布局作为输入来生成深度图的新方法，以帮助构建和操作结构良好的 3D 场景点云。具体来说，我们首先构建一个具有级联语义感知转换器块的特征生成模型，以获得具有全局结构信息的深度特征。对于我们的语义感知转换器块，我们提出了一个混合注意模块和一个语义感知层归一化模块，以更好地利用语义一致性来生成深度特征。此外，我们提出了一种新颖的语义加权深度合成模块，它为当前场景生成自适应深度间隔。我们通过使用不同深度范围的语义感知深度权重的加权组合来生成最终深度图。通过这种方式，我们获得了更准确的深度图。对室内和室外数据集的大量实验表明，DepthGAN 在深度生成任务中在定量和视觉上都取得了优异的结果。
-
+      
 
 
 
 ]]></description>
       <guid>http://link.springer.com/10.1007/s41095-023-0350-8</guid>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于多尺度哈希编码的神经几何表示</title>
-      <link>http://link.springer.com/10.1007/s41095-023-0340-x</link>
-      <description><![CDATA[摘要
-最近，基于神经隐函数的表示引起了越来越多的关注，并被广泛用于使用可微神经网络来表示表面。然而，使用现有的神经几何表示从点云或多视图图像进行表面重建仍然存在计算速度慢和精度差的问题。为了缓解这些问题，我们提出了一种基于多尺度哈希编码的神经几何表示，它有效且高效地将表面表示为带符号的距离场。我们新颖的神经网络结构仔细地将低频傅里叶位置编码与多尺度哈希编码结合起来。相应地重新设计了几何网络的初始化和渲染模块的几何特征。我们的实验表明，所提出的表示对于重建具有数百万个点的点云来说至少快 10 倍。它还显着提高了多视图重建的速度和准确性。我们的代码和模型可以在 https://github.com/Dengzhi-中国科学技术大学/神经几何重建。
-
-
-
-
-]]></description>
-      <guid>http://link.springer.com/10.1007/s41095-023-0340-x</guid>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>CT-MVSNet：带有变压器的曲率引导多视图立体</title>
@@ -55,6 +42,19 @@
       ]]></description>
       <guid>http://link.springer.com/10.1007/s00371-024-03321-6</guid>
       <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>基于多尺度哈希编码的神经几何表示</title>
+      <link>http://link.springer.com/10.1007/s41095-023-0340-x</link>
+      <description><![CDATA[摘要
+最近，基于神经隐函数的表示引起了越来越多的关注，并被广泛用于使用可微神经网络来表示表面。然而，使用现有的神经几何表示从点云或多视图图像进行表面重建仍然存在计算速度慢和精度差的问题。为了缓解这些问题，我们提出了一种基于多尺度哈希编码的神经几何表示，它有效且高效地将表面表示为带符号的距离场。我们新颖的神经网络结构仔细地将低频傅里叶位置编码与多尺度哈希编码结合起来。相应地重新设计了几何网络的初始化和渲染模块的几何特征。我们的实验表明，所提出的表示对于重建具有数百万个点的点云来说至少快 10 倍。它还显着提高了多视图重建的速度和准确性。我们的代码和模型可以在 https://github.com/Dengzhi-中国科学技术大学/神经几何重建。
+      
+
+
+
+]]></description>
+      <guid>http://link.springer.com/10.1007/s41095-023-0340-x</guid>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>BSI-MVS：具有双向语义信息的多视图立体网络</title>
