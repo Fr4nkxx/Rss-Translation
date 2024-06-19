@@ -4,7 +4,15 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Sat, 15 Jun 2024 15:12:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 21:12:51 GMT</lastBuildDate>
+    <item>
+      <title>通过改进的 MVSNet 增强多视图 3D 重建</title>
+      <link>http://link.springer.com/10.1038/s41598-024-64805-y</link>
+      <description><![CDATA[摘要
+三维重建作为环境感知的关键组成部分，已广泛应用于多个领域，但现有技术在三维场景重建方面仍有进一步改进的潜力。我们提出了一种基于MVSNet网络架构的改进重建算法。为了从图像中获取更丰富的像素细节，我们建议部署一个集成残差框架的DE模块，以取代现有的特征提取机制。DE模块使用ECA-Net和空洞卷积来扩大感受野范围，通过残差结构进行特征拼接和融合，以保留原始图像的全局信息。此外，利用注意力机制细化了3D成本体积的正则化过程，增强了跨多尺度特征体积的信息整合，从而提高了深度估计精度。使用 DTU 数据集评估我们的模型时，结果显示网络的 3D 重建的完整性 (comp) 为 0.411 毫米，总体质量为 0.418 毫米。这一性能高于传统方法和其他基于深度学习的方法。此外，点云模型的视觉表示表现出显着的进步。在 Blended MVS 数据集上的试验表明我们的网络表现出了值得称赞的泛化能力。]]></description>
+      <guid>http://link.springer.com/10.1038/s41598-024-64805-y</guid>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>具有自适应相关成本体积的多视角立体增强特征金字塔</title>
       <link>http://link.springer.com/10.1007/s10489-024-05574-z</link>
@@ -53,7 +61,7 @@
       <title>DAR-MVSNet：一种用于多视角立体视觉的新型双重注意残差网络</title>
       <link>http://link.springer.com/10.1007/s11760-024-03276-0</link>
       <description><![CDATA[摘要
-基于学习的多视角立体视觉（MVS）在三维重建领域展现出巨大的应用前景。然而，现有的MVS方法在特征学习过程中，存在感受野大小固定的问题，导致信息丢失，影响对场景几何结构的理解，对具有复杂几何结构和光照条件的区域的重建质量构成挑战。因此，我们提出了DAR-MVSNet，它由双注意引导的特征金字塔网络（DA-FPN）和3D残差U-net模块（3D-RUM）组成。DA-FPN包括两个模块：基于注意的上下文提取模块（ACEM）和基于自注意的模块（SAM）。ACEM通过多个扩张卷积、空间和通道注意来扩张感受野并初步过滤深度特征。为了进一步消除冗余特征，提出SAM来增强深度特征的表示能力。此外，3D-RUM旨在增强特征传递和信息流动，从而解决严重的全局特征信息丢失问题。本文通过大量实验证明了DAR-MVSNet的有效性。在DTU数据集和Tanks and Temples基准上的结果与最先进的MVS方法的比较证明了其优越的性能。
+基于学习的多视角立体视觉（MVS）在三维重建领域显示出巨大的应用前景。然而，现有的MVS方法在特征学习过程中，存在感受野大小固定的问题，导致信息丢失，影响对场景几何结构的理解，对具有复杂几何结构和光照条件的区域的重建质量构成挑战。因此，我们提出了DAR-MVSNet，它由双注意引导的特征金字塔网络（DA-FPN）和3D残差U-net模块（3D-RUM）组成。DA-FPN包括两个模块：基于注意的上下文提取模块（ACEM）和基于自注意的模块（SAM）。ACEM通过多个扩张卷积、空间和通道注意来扩张感受野并初步过滤深度特征。为了进一步消除冗余特征，提出SAM来增强深度特征的表示能力。此外，3D-RUM旨在增强特征传递和信息流动，从而解决严重的全局特征信息丢失问题。本文通过大量实验证明了DAR-MVSNet的有效性。在DTU数据集和Tanks and Temples基准上的结果与最先进的MVS方法的比较证明了其优越的性能。
 ]]></description>
       <guid>http://link.springer.com/10.1007/s11760-024-03276-0</guid>
       <pubDate>Fri, 31 May 2024 00:00:00 GMT</pubDate>
@@ -118,7 +126,7 @@
       <title>PLKA-MVSNet：具有大核卷积注意力机制的并行多视角立体视觉</title>
       <link>http://link.springer.com/10.1007/978-981-99-8145-8_10</link>
       <description><![CDATA[摘要
-本文提出了PLKA-MVSNet，以解决基于学习的多视角立体（MVS）方法深度估计中剩余的挑战，特别是在低纹理区域、弱光照条件和非朗伯表面等具有挑战性的区域中深度估计不准确的问题。我们将这个问题归因于特征提取器性能不足和MVS管道传输造成的信息丢失，并给出了优化方案。具体来说，我们引入并行大核注意力（PLKA），通过使用多个小卷积代替单个大卷积来增强对纹理和结构信息的感知，这使我们能够捕获更大的感受野和长距离信息。为了适应由粗到细的MVS管道，我们使用PLKA构建了一个多阶段特征提取器。此外，我们提出了并行成本体积聚合（PCVA）来增强聚合成本体积的鲁棒性。它在二维维度上引入了两个决策注意点来弥补三维卷积压缩中的信息丢失和像素遗漏。特别地，我们的方法在DTU数据集上表现出超越基于Transformer的方法的最佳整体性能，并在具有挑战性的Tanks and Temples高级数据集上取得了最好的结果。
+本文提出了PLKA-MVSNet，以解决基于学习的多视角立体（MVS）方法深度估计中剩余的挑战，特别是在低纹理区域、弱光照条件和非朗伯表面等具有挑战性的区域中深度估计不准确的问题。我们将此问题归因于特征提取器性能不足和MVS管道传输造成的信息丢失，并给出了优化方案。具体来说，我们通过使用多个小卷积而不是单个大卷积来引入并行大核注意力（PLKA），以增强对纹理和结构信息的感知，这使我们能够捕获更大的感受野和长距离信息。为了适应由粗到细的MVS管道，我们使用PLKA构建多阶段特征提取器。此外，我们提出了并行成本体积聚合（PCVA）来增强聚合成本体积的鲁棒性。它在二维维度上引入了两个决策注意点来弥补三维卷积压缩中的信息丢失和像素遗漏。特别地，我们的方法在DTU数据集上表现出超越基于Transformer的方法的最佳整体性能，并在具有挑战性的Tanks and Temples高级数据集上取得了最好的结果。
 ]]></description>
       <guid>http://link.springer.com/10.1007/978-981-99-8145-8_10</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
@@ -151,13 +159,6 @@
       <link>http://link.springer.com/10.1007/978-981-99-8145-8</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-981-99-8145-8</guid>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>多媒体建模</title>
-      <link>http://link.springer.com/10.1007/978-3-031-53308-2</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-53308-2</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
