@@ -13,3 +13,4 @@
 ## 已转换翻译源
  - source001 [https://link.springer.com/search.rss?query=mvsnet&sortOrder=newestFirst](https://link.springer.com/search.rss?query=mvsnet&sortOrder=newestFirst) -> [MVSNet-springer](rss/MVSNet-springer.xml)
  - source002 [https://link.springer.com/search.rss?query=nerf&sortOrder=newestFirst](https://link.springer.com/search.rss?query=nerf&sortOrder=newestFirst) -> [NeRF-springer](rss/NeRF-springer.xml)
+ - source003 [https://rss.arxiv.org/rss/cs.CV](https://rss.arxiv.org/rss/cs.CV) -> [CV-arxiv](rss/CV-arxiv.xml)
