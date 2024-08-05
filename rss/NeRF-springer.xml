@@ -4,7 +4,15 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Thu, 01 Aug 2024 21:13:44 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Aug 2024 15:13:11 GMT</lastBuildDate>
+    <item>
+      <title>用于野外细粒度单目 3D 人脸重建的自监督学习</title>
+      <link>http://link.springer.com/10.1007/s00530-024-01436-3</link>
+      <description><![CDATA[摘要
+由于传统 3DMM（3D 可变形模型）的局限性以及缺乏高保真 3D 面部扫描数据，从单目图像重建 3D 人脸是一项具有挑战性的计算机视觉任务。为了解决这个问题，我们提出了一种新颖的从粗到细的自监督学习框架，用于从野外单目图像重建细粒度 3D 人脸。在粗阶段，从单个图像中提取的人脸参数用于通过 3DMM 重建粗 3D 人脸。在细化阶段，我们设计了一个小波变换感知模型，从输入图像中提取不同频域中的面部细节。此外，我们提出了一个基于小波变换感知模型的深度位移模块，从输入图像和渲染的粗面部的展开 UV 纹理生成细化的位移图，可用于合成详细的 3D 人脸几何形状。此外，我们提出了一种基于小波变换感知模型的新型反照率图模块，以捕获高频纹理信息并生成与面部照明一致的详细反照率图。详细的面部几何形状和反照率图用于重建细粒度的 3D 面部，而无需任何标记数据。我们已经进行了大量实验，证明了我们的方法优于现有的最先进的 3D 面部重建方法，这些方法在四个公共数据集（包括 CelebA、LS3D、LFW 和 NoW 基准）上进行。实验结果表明，我们的方法实现了更高的准确性和鲁棒性，特别是在遮挡、大姿势和变化的照明等具有挑战性的条件下。]]></description>
+      <guid>http://link.springer.com/10.1007/s00530-024-01436-3</guid>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>ReliTalk：通过单个视频生成可重新点亮的会说话的肖像</title>
       <link>http://link.springer.com/10.1007/s11263-024-02007-9</link>
@@ -121,29 +129,6 @@
  米的城市景观，其中包含超过 200 万个三角形，并证明我们的结果在客观和主观上与我们的范例相似。]]></description>
       <guid>http://link.springer.com/10.1007/s00371-024-03528-7</guid>
       <pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>灾难和大规模伤亡事件院前响应的关键绩效指标：范围审查</title>
-      <link>http://link.springer.com/10.1007/s00068-024-02533-8</link>
-      <description><![CDATA[摘要
-
-目的
-本研究的目的是对用于评估灾难和大规模伤亡事件 (MCI) 院前响应的现有关键绩效指标 (KPI) 进行全面综合。
-
-
-方法
-2022 年 12 月底，已对 PubMed、Scopus、Embase 和 Medline 进行了范围界定审查，以确定描述使用 KPI 评估 MCI（真实或模拟）院前阶段急救人员表现的文章。根据系统评价和荟萃分析的首选报告项目指南，分析中纳入了 14 篇文章。
-
-
-结果
-11 篇文章在练习和/或模拟中应用了指标。两篇文章提出了新的 KPI，一篇文章使用 KPI 来开发用于对院前响应进行基准测试的模型。所有文章都分析了时间的量化指标，其中两篇文章还研究了结构、过程和结果的指标。
-
-
-结论
-本综述的结果强调，如果要获得标准化的评估方法，就需要使用通用术语和统一的数据收集工具。
-]]></description>
-      <guid>http://link.springer.com/10.1007/s00068-024-02533-8</guid>
-      <pubDate>Thu, 11 Jul 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
