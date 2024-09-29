@@ -4,7 +4,37 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Fri, 20 Sep 2024 18:17:59 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2024 09:14:12 GMT</lastBuildDate>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72649-1</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72649-1</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72670-5</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72670-5</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72761-0</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72761-0</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MVSGaussian：基于多视角立体图像的快速通用高斯溅射重建</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72649-1_3</link>
+      <description><![CDATA[摘要
+我们提出了 MVSSgaussian，这是一种源自多视图立体 (MVS) 的新型可泛化 3D 高斯表示方法，可以有效地重建未见过的场景。具体而言，1) 我们利用 MVS 对几何感知的高斯表示进行编码并将其解码为高斯参数。2) 为了进一步提高性能，我们提出了一种混合高斯渲染，该渲染集成了高效的体积渲染设计以实现新颖的视图合成。3) 为了支持针对特定场景的快速微调，我们引入了一种多视图几何一致聚合策略来有效聚合由可泛化模型生成的点云，作为每个场景优化的初始化。与以前基于 NeRF 的可泛化方法相比，MVSSgaussian 可以实现实时渲染，并且每个场景的合成质量更好。以前的基于 NeRF 的可泛化方法通常需要几分钟的微调和几秒的每张图像渲染时间。与 vanilla 3D-GS 相比，MVSGaussian 以更少的训练计算成本实现了更好的视图合成。在 DTU、Real Forward-facing、NeRF Synthetic 和 Tanks and Temples 数据集上进行的大量实验验证了 MVSGaussian 以令人信服的通用性、实时渲染速度和快速的场景优化实现了最先进的性能。
+]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72649-1_3</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>基于深度学习的高效精准三维实景重建框架</title>
       <link>http://link.springer.com/10.1007/s41870-024-02066-8</link>
@@ -113,54 +143,6 @@
 ]]></description>
       <guid>http://link.springer.com/10.1007/s41095-023-0340-x</guid>
       <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于神经辐射场的多视角内窥镜场景重建用于手术模拟</title>
-      <link>http://link.springer.com/10.1007/s11548-024-03080-8</link>
-      <description><![CDATA[摘要
-
-目的
-在虚拟手术中，由 CT 图像构建的 3D 模型外观缺乏真实感，导致住院医生产生误解。因此，使用内窥镜捕获的多视图图像重建逼真的内窥镜场景至关重要。
-
-
-方法
-我们提出了一种 Endoscope-NeRF 网络，用于非固定光源下内窥镜场景的隐式辐射场重建，并使用体积渲染合成新视图。具有多个 MLP 网络和射线变换器网络的内窥镜-NeRF 网络将内窥镜场景表示为具有连续 5D 矢量（3D 位置和 2D 方向）的颜色和体积密度的隐式场函数。通过使用体积渲染聚合目标相机每条射线上的所有采样点，获得最终合成图像。我们的方法考虑了从光源到采样点的距离对场景辐射度的影响。
-
-
-结果
-我们的网络在我们的设备采集的猪的肺、肝、肾和心脏上得到了验证。结果表明，我们的方法合成的内窥镜场景新视图在 PSNR、SSIM 和 LPIPS 指标方面优于现有方法（NeRF 和 IBRNet）。
-
-
-结论
-我们的网络可以有效地学习具有泛化能力的辐射场函数。在新的内窥镜场景上对预训练模型进行微调，以进一步优化场景的神经辐射场，从而可以为手术模拟提供更逼真的高分辨率渲染图像。
-]]></description>
-      <guid>http://link.springer.com/10.1007/s11548-024-03080-8</guid>
-      <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>CT-MVSNet：带有 Transformer 的曲率引导多视角立体视觉</title>
-      <link>http://link.springer.com/10.1007/s11042-024-19227-3</link>
-      <description><![CDATA[摘要
-多视角立体视觉（MVS）可以从一组多视角图像中实现密集的三维重建。尽管基于深度学习的 MVS 显著提高了重建性能，但重建精度和完整性仍需要改进才能满足三维内容生成实际应用的需求。因此，提出了一种新的 MVS 方法，即带变换器的曲率引导多视角立体视觉。通过探索视角间关系并利用表面曲率测量感受野的大小和图像表面上的特征信息，该方法可以适应各种候选曲率尺度，以自适应地提取更详细的特征，从而实现精确的成本计算。此外，提出了一种基于变换器的特征匹配网络，以更好地识别视角间相似性并提高特征匹配精度。此外，基于特征匹配的相似度测量模块将曲率和视角间相似度测量紧密结合，以进一步提高重建精度。在DTU数据集和Tanks and Temples数据集上的实验验证了所提方法的有效性。]]></description>
-      <guid>http://link.springer.com/10.1007/s11042-024-19227-3</guid>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>多视角立体视觉的特征分布归一化网络</title>
-      <link>http://link.springer.com/10.1007/s00371-024-03334-1</link>
-      <description><![CDATA[摘要
-作为三维重建的关键技术，多视角立体视觉（MVS）的研究随着深度学习的发展取得了重大进展。然而，由于不同视角之间的特征分布不一致，MVS 面临着挑战。这一现象被认为是 MVS 的一个重要瓶颈。为了克服这一限制，我们提出了一种称为特征分布规范化网络（FDN-MVS）的创新方法。为了减轻由不一致的相对姿势引起的误差，我们利用多个视图之间的单应性变换并提出分布残差细化（DRR）模块。扩大尺度、残差连接和坐标系固定可以实现更有意义的特征分布学习。为了进一步缩小不同视图之间的差异，我们建议进行特征规范化，将特征的计算限制在一个共同的分布内。实验结果证明了我们方法的有效性。与常用的基准算法 CasMVSNet 相比，我们在 DTU 数据集上的误差降低了 13.52%，在 Tanks and Temples 数据集上的 F 得分提高了 18.77%。代码可在 https://github.com/ZYangChen/FDN-MVS 获取。]]></description>
-      <guid>http://link.springer.com/10.1007/s00371-024-03334-1</guid>
-      <pubDate>Wed, 17 Apr 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于城市场景新颖视图合成的多视角立体调节 NeRF</title>
-      <link>http://link.springer.com/10.1007/s00371-024-03321-6</link>
-      <description><![CDATA[摘要
-神经辐射场 (NeRF) 将场景编码为神经表示，在单个物体和小空间区域上表现出令人印象深刻的新颖视图合成质量。然而，当面对城市户外环境时，NeRF 受到单个 MLP 容量和输入视图不足的限制，导致几何形状不正确，阻碍了逼真渲染的产生。在本文中，我们提出了 MVSRegNeRF，这是神经辐射场的扩展，专注于大规模自动驾驶场景。我们采用传统的基于面片匹配的多视图立体 (MVS) 方法来生成密集深度图，我们利用这些深度图来调节 NeRF 的几何优化。我们还将多分辨率哈希编码集成到我们的神经场景表示中，以加速训练过程。由于我们的方法具有相对精确的几何约束，我们在现实世界的大规模街道场景中实现了高质量的新颖视图合成。我们在 KITTI-360 数据集上进行的实验表明，MVSRegNeRF 在新颖视图外观合成任务中的表现优于最先进的方法。
-]]></description>
-      <guid>http://link.springer.com/10.1007/s00371-024-03321-6</guid>
-      <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
