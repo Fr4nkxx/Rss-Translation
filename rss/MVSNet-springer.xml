@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Sun, 29 Sep 2024 09:14:12 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 09:16:32 GMT</lastBuildDate>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72649-1</link>
@@ -17,6 +17,13 @@
       <link>http://link.springer.com/10.1007/978-3-031-72670-5</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72670-5</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72998-0</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72998-0</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -129,19 +136,6 @@
 
 ]]></description>
       <guid>http://link.springer.com/10.1007/s41095-023-0350-8</guid>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于多尺度哈希编码的神经几何表示</title>
-      <link>http://link.springer.com/10.1007/s41095-023-0340-x</link>
-      <description><![CDATA[摘要
-最近，基于神经隐函数的表示方法受到越来越多的关注，并被广泛用于使用可微分神经网络表示表面。然而，使用现有的神经几何表示方法从点云或多视图图像进行表面重建仍然受到计算速度慢和精度差的影响。为了缓解这些问题，我们提出了一种基于多尺度哈希编码的神经几何表示方法，该方法可以有效、高效地将表面表示为有符号距离场。我们新颖的神经网络结构将低频傅里叶位置编码与多尺度哈希编码巧妙地结合起来。相应地重新设计了几何网络的初始化和渲染模块的几何特征。我们的实验表明，对于重建具有数百万点的点云，所提出的表示方法至少快 10 倍。它还显著提高了多视图重建的速度和准确性。我们的代码和模型可在 https://github.com/Dengzhi-USTC/Neural-Geometry-Reconstruction 上找到。
-
-
-
-
-]]></description>
-      <guid>http://link.springer.com/10.1007/s41095-023-0340-x</guid>
       <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
