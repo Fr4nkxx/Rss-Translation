@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Tue, 01 Oct 2024 01:10:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2024 03:18:41 GMT</lastBuildDate>
     <item>
       <title>Deblur e-NeRF：高速或低光条件下运动模糊事件中的 NeRF</title>
       <link>http://link.springer.com/10.1007/978-3-031-73232-4_11</link>
@@ -41,7 +41,7 @@
       <title>Structured-NeRF：具有神经表征的分层场景图</title>
       <link>http://link.springer.com/10.1007/978-3-031-72761-0_11</link>
       <description><![CDATA[摘要
-我们提出了一种结构化神经辐射场 (Structured-NeRF)，用于室内场景表示，该结构基于一种新颖的分层场景图结构来组织神经辐射场。现有的以对象为中心的方法仅关注对象的固有特性，而忽略了它们之间的语义和物理关系。我们的场景图擅长管理场景内对象之间复杂的现实世界相关性，从而实现超越新颖视图合成的功能，例如场景重新排列。基于分层结构，我们引入了基于语义和物理关系的优化策略，从而简化了场景编辑所涉及的操作，并确保了效率和准确性。此外，我们对对象进行阴影渲染，以进一步增强渲染图像的真实感。实验结果表明，我们的结构化表示不仅在对象级和场景级渲染中实现了最佳（SOTA）性能，而且还与LLM/VLM结合推进了下游应用，例如自动和指令/图像条件场景重新排列，从而方便且可控地将NeRF扩展到交互式编辑。]]></description>
+我们提出了一种结构化神经辐射场 (Structured-NeRF)，用于室内场景表示，该结构基于一种新颖的分层场景图结构来组织神经辐射场。现有的以对象为中心的方法仅关注对象的固有特征，而忽略了它们之间的语义和物理关系。我们的场景图擅长管理场景内对象之间复杂的现实世界相关性，从而实现超越新颖视图合成的功能，例如场景重新排列。基于分层结构，我们引入了基于语义和物理关系的优化策略，从而简化了场景编辑所涉及的操作，并确保了效率和准确性。此外，我们对对象进行阴影渲染，以进一步增强渲染图像的真实感。实验结果表明，我们的结构化表示不仅在对象级和场景级渲染中实现了最佳（SOTA）性能，而且还与LLM/VLM结合推进了下游应用，例如自动和指令/图像条件场景重新排列，从而方便且可控地将NeRF扩展到交互式编辑。]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72761-0_11</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
@@ -95,6 +95,13 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72658-3</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72658-3</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>神经辐射场的物理合理色彩校正</title>
       <link>http://link.springer.com/10.1007/978-3-031-72784-9_10</link>
       <description><![CDATA[摘要
@@ -109,16 +116,6 @@
       <description><![CDATA[摘要
 本文介绍了 NGP-RT，这是一种提高 Instant-NGP 渲染速度以实现实时新视图合成的新方法。作为一种经典的基于 NeRF 的方法，Instant-NGP 将隐式特征存储在多级网格或哈希表中，并应用浅层 MLP 将隐式特征转换为显式颜色和密度。虽然它实现了快速的训练速度，但由于隐式多级特征聚合的每点 MLP 执行，其渲染速度仍有很大提升空间，尤其是对于实时应用。为了应对这一挑战，我们提出的 NGP-RT 明确将颜色和密度存储为哈希特征，并利用轻量级注意机制来消除哈希冲突的歧义，而不是使用计算密集型 MLP。在渲染阶段，NGP-RT 将预先计算的占用距离网格纳入光线行进策略，以告知到最近占用体素的距离，从而减少行进点的数量和全局内存访问。实验结果表明，在具有挑战性的 Mip-NeRF 360 数据集上，NGP-RT 实现了比以前基于 NeRF 的方法更好的渲染质量，在单个 Nvidia RTX 3090 GPU 上以 1080p 分辨率实现了 108 fps。我们的方法对于需要高效高质量渲染的基于 NeRF 的实时应用很有前景。]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72670-5_9</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>G $$^2$$ fR：基于网格的特征编码神经辐射场中的频率正则化</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72670-5_11</link>
-      <description><![CDATA[摘要
-神经辐射场 (NeRF) 方法引起了广泛关注，尤其是随着基于网格的特征编码 (GFE) 方法（例如 Instant-NGP 和 TensoRF）的引入。传统的 NeRF 采用位置编码 (PE) 并使用多层感知器 (MLP) 表示场景。频率正则化已被确定为克服基于 PE 的 NeRF 中主要挑战的有效策略，包括对已知相机姿势的依赖和对大量图像数据集的要求。虽然有几项研究试图将频率正则化扩展到 GFE 方法，但这些方法仍然缺乏基本的理论基础。因此，我们首先阐明频率正则化的潜在机制。随后，我们对基于 GFE 的 NeRF 的表达能力进行了全面研究，并尝试将频率正则化与 GFE 方法联系起来。此外，我们提出了一种通用策略，G
-\(^2\)
- fR：基于广义网格的频率正则化，用于解决使用 GFE 方法进行相机姿态优化和少样本重建的问题。我们通过一系列在不同场景中采用各种表示的实验来验证我们方法的有效性。]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72670-5_11</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
