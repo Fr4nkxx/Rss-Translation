@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Mon, 30 Sep 2024 09:16:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2024 15:14:43 GMT</lastBuildDate>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72649-1</link>
@@ -17,6 +17,13 @@
       <link>http://link.springer.com/10.1007/978-3-031-72670-5</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72670-5</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72658-3</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72658-3</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -34,12 +41,27 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72933-1</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72933-1</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>MVSGaussian：基于多视角立体图像的快速通用高斯溅射重建</title>
       <link>http://link.springer.com/10.1007/978-3-031-72649-1_3</link>
       <description><![CDATA[摘要
-我们提出了 MVSSgaussian，这是一种源自多视图立体 (MVS) 的新型可泛化 3D 高斯表示方法，可以有效地重建未见过的场景。具体而言，1) 我们利用 MVS 对几何感知的高斯表示进行编码并将其解码为高斯参数。2) 为了进一步提高性能，我们提出了一种混合高斯渲染，该渲染集成了高效的体积渲染设计以实现新颖的视图合成。3) 为了支持针对特定场景的快速微调，我们引入了一种多视图几何一致聚合策略来有效聚合由可泛化模型生成的点云，作为每个场景优化的初始化。与以前基于 NeRF 的可泛化方法相比，MVSSgaussian 可以实现实时渲染，并且每个场景的合成质量更好。以前的基于 NeRF 的可泛化方法通常需要几分钟的微调和几秒的每张图像渲染时间。与 vanilla 3D-GS 相比，MVSGaussian 以更少的训练计算成本实现了更好的视图合成。在 DTU、Real Forward-facing、NeRF Synthetic 和 Tanks and Temples 数据集上进行的大量实验验证了 MVSGaussian 以令人信服的通用性、实时渲染速度和快速的场景优化实现了最先进的性能。
+我们提出了 MVSSagaussian，这是一种源自多视图立体 (MVS) 的新型可泛化 3D 高斯表示方法，可以有效地重建未见过的场景。具体而言，1) 我们利用 MVS 对几何感知的高斯表示进行编码并将其解码为高斯参数。2) 为了进一步提高性能，我们提出了一种混合高斯渲染，该渲染集成了高效的体积渲染设计以实现新颖的视图合成。3) 为了支持针对特定场景的快速微调，我们引入了一种多视图几何一致聚合策略来有效聚合由可泛化模型生成的点云，作为每个场景优化的初始化。与以前基于 NeRF 的可泛化方法相比，MVSSagaussian 可以实现实时渲染，并且每个场景的合成质量更好。以前的基于 NeRF 的可泛化方法通常需要几分钟的微调和几秒的每张图像渲染时间。与 vanilla 3D-GS 相比，MVSGaussian 以更少的训练计算成本实现了更好的视图合成。在 DTU、Real Forward-facing、NeRF Synthetic 和 Tanks and Temples 数据集上进行的大量实验验证了 MVSGaussian 以令人信服的通用性、实时渲染速度和快速的场景优化实现了最先进的性能。
 ]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72649-1_3</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CaesarNeRF：针对小样本通用神经渲染的校准语义表征</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72658-3_5</link>
+      <description><![CDATA[摘要
+通用性和小样本学习是神经辐射场 (NeRF) 中的关键挑战，这通常是由于缺乏对像素级渲染的整体理解。我们引入了 CaesarNeRF，这是一种端到端方法，它利用场景级CAlibratEd SemAntic R表示以及像素级表示来推进小样本、可通用的神经渲染，在不损害高质量细节的情况下促进整体理解。CaesarNeRF 明确地模拟了参考视图的差异以结合场景级语义表示，从而提供经过校准的整体理解。此校准过程将各种视点与精确位置对齐，并通过连续细化来进一步增强以捕捉不同的细节。在公共数据集（包括 LLFF、Shiny、mip-NeRF 360 和 MVImgNet）上进行的大量实验表明，CaesarNeRF 在不同数量的参考视图中均能提供最先进的性能，即使使用单个参考图像也能证明其有效性。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72658-3_5</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -108,35 +130,6 @@
 最近，神经辐射场（NeRF）在通过多视图进行新视图合成的任务中表现出色。本研究引入了一种先进的优化框架，称为姿势插值深度监督神经辐射场（PIDSNeRF），旨在解决 NeRF 在新视图合成中遇到的挑战。这些挑战表现为伪影、纹理细节丢失和几何不一致，特别是在以不同的光照条件、无纹理区域和稀疏图像为输入的场景中。PIDSNeRF 的原理涉及基于已知相机在 3D 空间域中插值虚拟相机位置，随后，将相机姿势估计期间形成的稀疏点云重新投影到这些虚拟姿势上，采用反角度加权策略，从而生成深度监督射线。此外，我们提出了一种深度扩散方法，将深度监督的射线沿像素平面扩散，根据扩散距离形成具有不同方差的高斯函数。最后，通过优化每条射线沿线采样点的权重分布与相应高斯函数沿该射线的概率密度函数之间的 Kullback-Leibler（KL）散度来实现体绘制时的深度监督。上述过程可以更全面地优化与射线沿线采样点对齐的多分辨率网格特征。在DTU、LLFF和DL3DV-10K数据集上的实验表明，PIDSNeRF可以在几分钟内合成完整的新颖视图，并且合成图像的各项指标都达到了最优性能。]]></description>
       <guid>http://link.springer.com/10.1007/s11042-024-19978-z</guid>
       <pubDate>Tue, 06 Aug 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SG-NeRF：用于新颖视图合成的稀疏输入广义神经辐射场</title>
-      <link>http://link.springer.com/10.1007/s11390-024-4157-6</link>
-      <description><![CDATA[摘要
-用于渲染新视图的传统神经辐射场需要密集的输入图像和场景前优化，这限制了它们的实际应用。我们提出了一种从输入图像推断场景并进行高质量渲染的泛化方法，称为SG-NeRF（稀疏输入广义神经辐射场），无需场景前优化。首先，我们基于卷积注意和多级融合机制构建改进的多视图立体结构，以从稀疏输入图像中获得场景的几何特征和外观特征，然后通过多头注意将这些特征聚合为神经辐射场的输入。这种利用神经辐射场解码场景特征而不是映射位置和方向的策略使我们的方法能够进行跨场景训练和推理，从而使神经辐射场能够泛化用于在看不见的场景上进行新视图合成。在DTU数据集上测试了泛化能力，在同等输入条件下，我们的PSNR（峰值信噪比）比基线方法提高了3.14。此外，如果场景中有密集的输入视图，通过进一步的细化训练，可以在短时间内将平均PSNR提高1.04，获得更高质量的渲染效果。]]></description>
-      <guid>http://link.springer.com/10.1007/s11390-024-4157-6</guid>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过改进的 MVSNet 增强多视图 3D 重建</title>
-      <link>http://link.springer.com/10.1038/s41598-024-64805-y</link>
-      <description><![CDATA[摘要
-三维重建作为环境感知的关键组成部分，已广泛应用于多个领域，但现有技术在三维场景重建方面仍有进一步改进的潜力。我们提出了一种基于MVSNet网络架构的改进重建算法。为了从图像中获取更丰富的像素细节，我们建议部署一个集成残差框架的DE模块，以取代现行的特征提取机制。DE模块使用ECA-Net和空洞卷积来扩大感受野范围，通过残差结构进行特征拼接和融合，以保留原始图像的全局信息。此外，利用注意力机制细化了3D成本体积的正则化过程，增强了跨多尺度特征体积的信息整合，从而提高了深度估计精度。使用 DTU 数据集评估我们的模型时，结果显示网络的 3D 重建的完整性 (comp) 为 0.411 毫米，总体质量为 0.418 毫米。这一性能高于传统方法和其他基于深度学习的方法。此外，点云模型的视觉表示表现出显着的进步。在 Blended MVS 数据集上的试验表明我们的网络表现出值得称赞的泛化能力。]]></description>
-      <guid>http://link.springer.com/10.1038/s41598-024-64805-y</guid>
-      <pubDate>Wed, 19 Jun 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DepthGAN：基于 GAN 的语义布局深度生成</title>
-      <link>http://link.springer.com/10.1007/s41095-023-0350-8</link>
-      <description><![CDATA[摘要
-现有的基于 GAN 的生成方法通常用于语义图像合成。我们提出了基于 GAN 的架构是否可以生成可信深度图的问题，并发现现有方法由于缺乏全局几何相关性而难以生成合理表示 3D 场景结构的深度图。因此，我们提出了 DepthGAN，这是一种使用语义布局作为输入来生成深度图的新方法，以辅助构建和操作结构良好的 3D 场景点云。具体而言，我们首先构建一个具有级联语义感知转换器块的特征生成模型，以获得具有全局结构信息的深度特征。对于我们的语义感知转换器块，我们提出了一个混合注意力模块和一个语义感知层规范化模块，以更好地利用语义一致性来生成深度特征。此外，我们提出了一种新颖的语义加权深度合成模块，它为当前场景生成自适应深度间隔。我们通过使用不同深度范围的语义感知深度权重的加权组合来生成最终的深度图。通过这种方式，我们获得了更准确的深度图。在室内和室外数据集上进行的大量实验表明，DepthGAN 在深度生成任务中在数量和视觉上都取得了优异的结果。
-
-
-
-
-]]></description>
-      <guid>http://link.springer.com/10.1007/s41095-023-0350-8</guid>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
