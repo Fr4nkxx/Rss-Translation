@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Wed, 02 Oct 2024 18:19:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2024 21:14:52 GMT</lastBuildDate>
     <item>
       <title>Deblur e-NeRF：高速或低光条件下运动模糊事件中的 NeRF</title>
       <link>http://link.springer.com/10.1007/978-3-031-73232-4_11</link>
@@ -61,13 +61,6 @@
     </item>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72933-1</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72933-1</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72920-1</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72920-1</guid>
@@ -115,6 +108,14 @@
 神经辐射场已成为许多 3D 计算机视觉和计算机图形应用的首选表示，例如新颖的视图合成和 3D 重建。多摄像头系统通常用作基于 NeRF 的多视图任务（例如动态场景采集或逼真的头像动画）中的图像捕获设置。然而，这种设置中经常被忽视的一个关键问题是多个摄像头之间的颜色响应存在明显差异，这会对 NeRF 重建性能产生不利影响。多个输入图像之间的这些颜色差异源于两个方面：1) 场景的隐式属性，例如反射和阴影，以及 2) 相机设置和光照条件的外部差异。在本文中，我们通过提出一种新颖的色彩校正模块来解决这个问题，该模块模拟相机中的物理色彩处理并嵌入到 NeRF 中，从而实现统一的色彩 NeRF 重建。除了用于外部差异的独立于视图的色彩校正模块之外，我们还预测了一个与视图相关的函数来最小化色彩残差（包括 例如 镜面反射和阴影），以消除固有属性的影响。我们进一步描述了如何使用参考图作为指导来扩展该方法，以在新颖的视图上实现美观的色彩一致性和色彩转换。实验验证了我们的方法在色彩校正和色彩一致性的定量和定性评估方面均优于基线方法。
 ]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72784-9_10</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NGP-RT：融合多级哈希特征和轻量级注意力机制，实现实时新颖视图合成</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72670-5_9</link>
+      <description><![CDATA[摘要
+本文介绍了 NGP-RT，这是一种提高 Instant-NGP 渲染速度以实现实时新视图合成的新方法。作为一种经典的基于 NeRF 的方法，Instant-NGP 将隐式特征存储在多级网格或哈希表中，并应用浅层 MLP 将隐式特征转换为显式颜色和密度。虽然它实现了快速的训练速度，但由于隐式多级特征聚合的每点 MLP 执行，其渲染速度仍有很大提升空间，尤其是对于实时应用。为了应对这一挑战，我们提出的 NGP-RT 明确将颜色和密度存储为哈希特征，并利用轻量级注意机制来消除哈希冲突的歧义，而不是使用计算密集型 MLP。在渲染阶段，NGP-RT 将预先计算的占用距离网格纳入光线行进策略，以告知到最近占用体素的距离，从而减少行进点的数量和全局内存访问。实验结果表明，在具有挑战性的 Mip-NeRF 360 数据集上，NGP-RT 实现了比以前基于 NeRF 的方法更好的渲染质量，在单个 Nvidia RTX 3090 GPU 上以 1080p 分辨率实现了 108 fps。我们的方法对于需要高效高质量渲染的基于 NeRF 的实时应用很有前景。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72670-5_9</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
