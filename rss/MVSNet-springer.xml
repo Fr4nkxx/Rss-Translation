@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Wed, 02 Oct 2024 15:14:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Oct 2024 21:12:39 GMT</lastBuildDate>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72649-1</link>
@@ -65,6 +65,14 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>基于可变形卷积网络的改进弱纹理多视角三维重建算法</title>
+      <link>http://link.springer.com/10.1007/s12206-024-0922-2</link>
+      <description><![CDATA[摘要
+DP-MVSNet 是一种基于学习的多视图立体 (MVS) 网络，利用可变形卷积解决了 MVS 重建中纹理较弱的挑战。DP-MVSNet 超越了基础 MVSNet 架构，引入了可变形卷积模块以增强特征提取，并将可变形 3D 卷积合并到视图加权网络中以优化跨视图信息特征聚合。DP-MVSNet 在 DTU（0.338 vs. PatchMatchNet 的 0.352）和 Tanks &amp; Temples（55.07 vs. PatchMatchNet 的 53.15）数据集上取得了先进的结果，生成了更密集的点云，具有更精细的细节和更高的场景完整性。消融研究证实了基于可变形卷积的多尺度特征提取 (DMFE) 和基于可变形 3D 卷积的基于学习的块匹配 (DLP) 模块的有效性，与基线相比，总体误差降低了 4.0%，同时保持了有竞争力的运行时间。DP-MVSNet 在无需地面真实校准的情况下重建真实景观方面表现出了卓越的稳健性，代表了复杂环境（尤其是纹理较弱的区域）的精确高效 3D 重建方面的重大进步。]]></description>
+      <guid>http://link.springer.com/10.1007/s12206-024-0922-2</guid>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>基于深度学习的高效精准三维实景重建框架</title>
       <link>http://link.springer.com/10.1007/s41870-024-02066-8</link>
       <description><![CDATA[摘要
@@ -122,14 +130,6 @@
 本研究对卷积神经网络在虚拟现实、增强现实、混合现实和扩展现实技术中的应用进行了系统的文献综述。我们将这些应用分为三个主要类别：交互，其中网络通过虚拟和增强设置扩大用户参与度；创作，展示网络协助生成高质量视觉表现的能力；执行，强调应用程序在不同设备和情况下的优化和适应性。本研究为沉浸式技术领域的学者、研究人员和专业人士提供了全面的指南，为这些现实中跨学科的网络应用领域提供了深刻见解。此外，我们强调了有关这些现实及其与神经网络交集的显著贡献。]]></description>
       <guid>http://link.springer.com/10.1007/s10055-024-01044-6</guid>
       <pubDate>Fri, 30 Aug 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>PIDSNeRF：姿势插值深度监督神经辐射场，用于从具有挑战性的输入中进行视图合成</title>
-      <link>http://link.springer.com/10.1007/s11042-024-19978-z</link>
-      <description><![CDATA[摘要
-最近，神经辐射场（NeRF）在通过多视图进行新视图合成的任务中表现出色。本研究引入了一种先进的优化框架，称为姿势插值深度监督神经辐射场（PIDSNeRF），旨在解决 NeRF 在新视图合成中遇到的挑战。这些挑战表现为伪影、纹理细节丢失和几何不一致，特别是在以不同的光照条件、无纹理区域和稀疏图像为输入的场景中。PIDSNeRF 的原理涉及基于已知相机在 3D 空间域中插值虚拟相机位置，随后，将相机姿势估计期间形成的稀疏点云重新投影到这些虚拟姿势上，采用反角度加权策略，从而生成深度监督射线。此外，我们提出了一种深度扩散方法，将深度监督的射线沿像素平面扩散，根据扩散距离形成具有不同方差的高斯函数。最后，通过优化每条射线沿线采样点的权重分布与相应高斯函数沿该射线的概率密度函数之间的 Kullback-Leibler（KL）散度来实现体绘制时的深度监督。上述过程可以更全面地优化与射线沿线采样点对齐的多分辨率网格特征。在DTU、LLFF和DL3DV-10K数据集上的实验表明，PIDSNeRF可以在几分钟内合成完整的新颖视图，并且合成图像的各项指标都达到了最优性能。]]></description>
-      <guid>http://link.springer.com/10.1007/s11042-024-19978-z</guid>
-      <pubDate>Tue, 06 Aug 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
