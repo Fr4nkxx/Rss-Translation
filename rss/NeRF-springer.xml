@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Sat, 19 Oct 2024 21:12:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 03:20:29 GMT</lastBuildDate>
     <item>
       <title>Deblur e-NeRF：高速或低光条件下运动模糊事件中的 NeRF</title>
       <link>http://link.springer.com/10.1007/978-3-031-73232-4_11</link>
@@ -54,9 +54,24 @@
     </item>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72673-6</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72673-6</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72670-5</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72670-5</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GeometrySticker：启用重新着色的神经辐射场的所有权声明</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72673-6_24</link>
+      <description><![CDATA[摘要
+神经辐射场 (NeRF) 重新着色方面的显著进步简化了修改 NeRF 颜色属性的过程。然而，由于 NeRF 有可能作为可共享的数字资产，人们担心恶意用户可能会改变 NeRF 模型的颜色并错误地声称重新着色的版本是他们自己的。为了防止此类所有权侵犯，让原始 NeRF 创建者能够对重新着色的 NeRF 建立权利至关重要。虽然已经引入了 CopyRNeRF 等方法将二进制消息嵌入 NeRF 模型作为版权保护的数字签名，但重新着色过程可能会删除这些二进制消息。在我们的论文中，我们提出了 GeometrySticker，这是一种将二进制消息无缝集成到辐射场的几何组件中的方法，类似于贴上贴纸。GeometrySticker 可以将二进制消息嵌入 NeRF 模型中，同时保留这些消息对重新着色的有效性。我们的全面研究表明，GeometrySticker 可适应流行的 NeRF 架构，并且对各种失真保持了令人称赞的稳健性。项目页面：https://kevinhuangxf.github.io/GeometrySticker。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72673-6_24</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -99,20 +114,6 @@
       <link>http://link.springer.com/10.1007/978-3-031-72952-2</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72952-2</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72998-0</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72998-0</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72658-3</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72658-3</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
