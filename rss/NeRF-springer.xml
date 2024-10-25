@@ -4,13 +4,21 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Tue, 22 Oct 2024 03:20:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2024 09:15:20 GMT</lastBuildDate>
     <item>
       <title>Deblur e-NeRF：高速或低光条件下运动模糊事件中的 NeRF</title>
       <link>http://link.springer.com/10.1007/978-3-031-73232-4_11</link>
       <description><![CDATA[摘要
-事件相机的独特设计理念使其成为高速、高动态范围和低光环境的理想选择，而标准相机在这些环境中表现不佳。然而，与大多数人的想法相反，事件相机也存在运动模糊，尤其是在这些具有挑战性的条件下。这是由于事件传感器像素的带宽有限，而带宽主要与光强度成正比。因此，为了确保事件相机能够真正在这种条件下表现出色，比标准相机更具优势，必须在下游任务（尤其是重建）中考虑事件运动模糊。然而，之前没有关于从事件中重建神经辐射场 (NeRF) 的研究，也没有事件模拟器考虑过事件运动模糊的全部影响。为此，我们提出了 Deblur e-NeRF，这是一种新方法，可以直接有效地从高速或低光条件下产生的运动模糊事件中重建模糊最小的 NeRF。这项工作的核心部分是一个物理上精确的像素带宽模型，该模型考虑了事件运动模糊。我们还引入了阈值归一化总变分损失，以更好地规范大型无纹理斑块。在真实和新颖的现实模拟序列上进行的实验验证了我们的有效性。我们的代码、事件模拟器和合成事件数据集都是开源的。]]></description>
+事件相机的独特设计理念使其成为高速、高动态范围和低光环境的理想选择，而标准相机在这些环境中表现不佳。然而，与大多数人的想法相反，事件相机也存在运动模糊，尤其是在这些具有挑战性的条件下。这是由于事件传感器像素的带宽有限，而带宽主要与光强度成正比。因此，为了确保事件相机能够真正在这种条件下表现出色，使其比标准相机更具优势，必须在下游任务（尤其是重建）中考虑事件运动模糊。然而，之前没有关于从事件重建神经辐射场 (NeRF) 的研究，也没有事件模拟器考虑过事件运动模糊的全部影响。为此，我们提出了 Deblur e-NeRF，这是一种新方法，可以直接有效地从高速或低光条件下产生的运动模糊事件中重建模糊最小的 NeRF。这项工作的核心部分是一个物理上精确的像素带宽模型，该模型考虑了事件运动模糊。我们还引入了阈值归一化总变分损失，以更好地规范大型无纹理斑块。在真实和新颖的现实模拟序列上进行的实验验证了我们的有效性。我们的代码、事件模拟器和合成事件数据集都是开源的。]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-73232-4_11</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>改进 NeRF 表征，无需姿势先验，实现结肠镜检查中的新型视图合成</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73748-0_15</link>
+      <description><![CDATA[摘要
+结肠镜检查是治疗胃肠道恶性肿瘤的黄金标准程序。然而，一些限制会影响筛查过程的质量。对被调查区域进行可靠的 3D 重建可以减轻这些限制并改善诊断和治疗结果。大多数 3D 重建框架依赖于两个基本任务：a) 可靠的相机深度预测，以及 b) 准确的相机姿势估计。虽然这些框架在自然场景中表现出色，但由于缺乏带注释的地面真实数据，它们对结肠镜检查数据的影响受到极大限制。我们提出了一种新颖的射线采样技术来指导神经辐射场 (NeRF) 系统的优化，而无需姿势先验来联合估计相机姿势预测和新颖的视图合成 (NVS)。我们的方法建立在 NoPe-NeRF [4] 的基础上，该方法在 NVS 和相机姿态估计方面表现出色，但目前仅限于具有大量纹理的自然场景。为了解决这一限制，我们引入了新的深度加权块聚焦随机光线采样 (DW-PFRRS) 技术，并在 C3VD 数据集上评估了我们的方法。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73748-0_15</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -46,6 +54,16 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>高效的 NeRF 优化——并非所有样本都同样坚硬</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72764-1_12</link>
+      <description><![CDATA[摘要
+我们提出了一种在线硬样本挖掘应用，用于有效训练神经辐射场 (NeRF)。NeRF 模型可为许多 3D 重建和渲染任务提供最先进的质量，但需要大量计算资源。NeRF 网络参数中的场景信息编码需要随机采样。我们观察到，在训练过程中，大部分计算时间和内存使用量都花在处理已经学习过的样本上，这不再对模型更新产生重大影响。我们将随机样本的后向传递确定为优化过程中的计算瓶颈。因此，我们在推理模式下执行第一次前向传递，作为相对低成本的硬样本搜索。然后构建计算图并仅使用硬样本更新 NeRF 网络参数。为了证明所提方法的有效性，我们将该方法应用于 Instant-NGP，结果与基线相比，视图合成质量显著提高（平均每次训练提高 1 dB，或加速 2 倍以达到相同的 PSNR 水平），同时 
+\(\sim \)
+仅使用硬样本构建计算图即可节省 40% 的内存。由于我们的方法仅与网络模块交互，我们预计它将具有广泛的适用性。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72764-1_12</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72761-0</link>
       <description><![CDATA[]]></description>
@@ -57,6 +75,13 @@
       <link>http://link.springer.com/10.1007/978-3-031-72673-6</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72673-6</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72698-9</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72698-9</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -93,27 +118,6 @@
       <link>http://link.springer.com/10.1007/978-3-031-73232-4</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-73232-4</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72784-9</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72784-9</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72627-9</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72627-9</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72952-2</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72952-2</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
