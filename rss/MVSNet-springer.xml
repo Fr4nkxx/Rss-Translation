@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Wed, 16 Oct 2024 15:15:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2024 12:24:56 GMT</lastBuildDate>
     <item>
       <title>全光成像和处理</title>
       <link>http://link.springer.com/10.1007/978-981-97-6915-5</link>
@@ -50,6 +50,13 @@
     </item>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72624-8</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72624-8</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72761-0</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72761-0</guid>
@@ -80,6 +87,13 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72664-4</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72664-4</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>基于可变形卷积网络的改进弱纹理多视角三维重建算法</title>
       <link>http://link.springer.com/10.1007/s12206-024-0922-2</link>
       <description><![CDATA[摘要
@@ -99,36 +113,9 @@ DP-MVSNet 是一种基于学习的多视图立体 (MVS) 网络，利用可变形
       <title>LLR-MVSNet：用于低纹理场景重建的轻量级网络</title>
       <link>http://link.springer.com/10.1007/s00530-024-01464-z</link>
       <description><![CDATA[摘要
-近年来，基于学习的MVS方法相对于传统方法取得了优异的性能，但这些方法仍然存在明显的不足，例如传统卷积网络效率低、特征融合简单导致重建不完整等。本研究提出了一种用于低纹理场景重建的轻量级网络（LLR-MVSNet）。为了提高精度和效率，提出了一种轻量级网络，包括多尺度特征提取模块和加权特征融合模块。多尺度特征提取模块采用深度可分离卷积和逐点卷积替代传统卷积，可以减少网络参数，提高模型效率。为了提高融合精度，提出了加权特征融合模块，可以选择性地强调特征，抑制无用信息，提高融合精度。凭借快速的计算速度和高性能，我们的方法超越了最先进的基准，并在 DTU 和 Tanks &amp; Temples 数据集上表现良好。我们方法的代码将在 https://github.com/wln19/LLR-MVSNet 上提供。]]></description>
+近年来，基于学习的MVS方法相对于传统方法取得了优异的性能，但这些方法仍然存在明显的不足，如传统卷积网络效率低、特征融合简单导致重建不完整等。本研究提出了一种用于低纹理场景重建的轻量级网络（LLR-MVSNet）。为了提高精度和效率，提出了一种轻量级网络，包括多尺度特征提取模块和加权特征融合模块。多尺度特征提取模块采用深度可分离卷积和逐点卷积替代传统卷积，可以减少网络参数，提高模型效率。为了提高融合精度，提出了加权特征融合模块，可以选择性地强调特征，抑制无用信息，提高融合精度。凭借快速的计算速度和高性能，我们的方法超越了最先进的基准，并在 DTU 和 Tanks &amp; Temples 数据集上表现良好。我们方法的代码将在 https://github.com/wln19/LLR-MVSNet 上提供。]]></description>
       <guid>http://link.springer.com/10.1007/s00530-024-01464-z</guid>
       <pubDate>Mon, 09 Sep 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DAR-MVSNet：一种用于多视角立体视觉的新型双重注意残差网络</title>
-      <link>http://link.springer.com/10.1007/s11760-024-03276-0</link>
-      <description><![CDATA[摘要
-基于学习的多视角立体视觉（MVS）在三维重建领域显示出巨大的应用前景。然而，现有的MVS方法在特征学习过程中，存在感受野大小固定的问题，导致信息丢失，影响对场景几何结构的理解，对具有复杂几何结构和光照条件的区域的重建质量构成挑战。因此，我们提出了DAR-MVSNet，它由双注意引导的特征金字塔网络（DA-FPN）和3D残差U-net模块（3D-RUM）组成。DA-FPN包括两个模块：基于注意的上下文提取模块（ACEM）和基于自注意的模块（SAM）。ACEM通过多个扩张卷积、空间和通道注意来扩张感受野并初步过滤深度特征。为了进一步消除冗余特征，提出SAM来增强深度特征的表示能力。此外，3D-RUM旨在增强特征传递和信息流动，从而解决严重的全局特征信息丢失问题。本文通过大量实验证明了DAR-MVSNet的有效性。在DTU数据集和Tanks and Temples基准上的结果与最先进的MVS方法的比较证明了其优越的性能。
-]]></description>
-      <guid>http://link.springer.com/10.1007/s11760-024-03276-0</guid>
-      <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>具有自适应相关成本体积的多视角立体增强特征金字塔</title>
-      <link>http://link.springer.com/10.1007/s10489-024-05574-z</link>
-      <description><![CDATA[
-摘要
-多级特征通常用于级联网络，这是目前多视角立体视觉 (MVS) 中的主导框架。然而，最近流行的多级特征提取器网络存在一个潜在问题，即忽略了细粒度​​结构特征对于 MVS 任务中粗深度推断的重要性。判别性结构特征在匹配中起着重要作用，有助于提高深度推断的性能。在本文中，我们提出了一种有效的级联结构 MVS 模型 FANet，其中构建了一个增强特征金字塔，旨在预测可靠的初始深度值。具体而言，通过自下而上的特征增强路径，使用浅层中丰富的空间结构信息增强深层特征。对于增强的最顶层特征，还采用了注意机制来抑制冗余信息并选择重要特征进行后续匹配。为了保证整个模型的轻量级和最优性能，构建了一个高效的模块，通过利用平均相似度度量来计算参考视图和源视图之间的特征相关性，然后自适应地将它们聚合成统一的相关性成本量，构建一个轻量级有效的成本量，可靠地表示视点对应关系。在 DTU 和 Tanks &amp;Temple 基准上进行的大量定量和定性比较表明，所提出的模型比最先进的 MVS 方法表现出更好的重建质量。
-
-
-图形摘要
-
-
-
-
-
-]]></description>
-      <guid>http://link.springer.com/10.1007/s10489-024-05574-z</guid>
-      <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
