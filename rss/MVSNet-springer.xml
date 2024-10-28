@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Sat, 26 Oct 2024 12:24:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2024 15:15:15 GMT</lastBuildDate>
     <item>
       <title>全光成像和处理</title>
       <link>http://link.springer.com/10.1007/978-981-97-6915-5</link>
@@ -22,9 +22,23 @@
     </item>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72640-8</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72640-8</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72649-1</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72649-1</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73347-5</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73347-5</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -70,10 +84,18 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Omni-Recon：利用基于图像的渲染实现通用神经辐射场</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72640-8_9</link>
+      <description><![CDATA[摘要
+神经辐射场 (NeRF) 的最新突破引发了将其集成到现实世界 3D 应用中的巨大需求。然而，不同的 3D 应用程序所需的不同功能通常需要具有各种管道的不同 NeRF 模型，导致每个目标任务的 NeRF 训练繁琐，反复试验繁琐。从新兴基础模型的泛化能力和适应性中汲取灵感，我们的工作旨在开发一种用于处理各种 3D 任务的通用 NeRF。我们通过提出一个名为 Omni-Recon 的框架来实现这一目标，该框架能够 (1) 实现可泛化的 3D 重建和零样本多任务场景理解，以及 (2) 适应各种下游 3D 应用，例如实时渲染和场景编辑。我们的主要见解是，具有精确几何和外观估计的基于图像的渲染管道可以将 2D 图像特征提升到 3D 特征中，从而以可推广的方式将广泛探索的 2D 任务扩展到 3D 世界。具体来说，我们的 Omni-Recon 采用基于图像的渲染的通用 NeRF 模型，该模型具有两个解耦的分支：一个基于复杂变换器的分支，逐步融合几何和外观特征以进行精确的几何估计；一个轻量级分支，用于预测源视图的混合权重。该设计实现了最先进 (SOTA) 的可推广 3D 表面重建质量，混合权重可在各种任务中重复使用，实现零样本多任务场景理解。此外，它可以在将复杂的几何分支烘焙成网格后实现实时渲染，快速适应以实现 SOTA 可推广的 3D 理解性能，并与 2D 扩散模型无缝集成以进行文本引导的 3D 编辑。我们的代码可在以下位置获取：https://github.com/GATECH-EIC/Omni-Recon。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72640-8_9</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>MVSGaussian：基于多视角立体图像的快速通用高斯溅射重建</title>
       <link>http://link.springer.com/10.1007/978-3-031-72649-1_3</link>
       <description><![CDATA[摘要
-我们提出了 MVSSgaussian，这是一种源自多视图立体 (MVS) 的新型可泛化 3D 高斯表示方法，可以有效地重建未见过的场景。具体而言，1) 我们利用 MVS 对几何感知的高斯表示进行编码并将其解码为高斯参数。2) 为了进一步提高性能，我们提出了一种混合高斯渲染，该渲染集成了高效的体积渲染设计以实现新颖的视图合成。3) 为了支持针对特定场景的快速微调，我们引入了一种多视图几何一致聚合策略来有效聚合由可泛化模型生成的点云，作为每个场景优化的初始化。与以前基于 NeRF 的可泛化方法相比，MVSSgaussian 可以实现实时渲染，并且每个场景的合成质量更好。以前的基于 NeRF 的可泛化方法通常需要几分钟的微调和几秒的每张图像渲染时间。与 vanilla 3D-GS 相比，MVSGaussian 以更少的训练计算成本实现了更好的视图合成。在 DTU、Real Forward-facing、NeRF Synthetic 和 Tanks and Temples 数据集上进行的大量实验验证了 MVSGaussian 以令人信服的通用性、实时渲染速度和快速的场景优化实现了最先进的性能。
+我们提出了 MVSSagaussian，这是一种源自多视图立体 (MVS) 的新型可泛化 3D 高斯表示方法，可以有效地重建未见过的场景。具体而言，1) 我们利用 MVS 对几何感知的高斯表示进行编码并将其解码为高斯参数。2) 为了进一步提高性能，我们提出了一种混合高斯渲染，该渲染集成了高效的体积渲染设计以实现新颖的视图合成。3) 为了支持特定场景的快速微调，我们引入了一种多视图几何一致聚合策略来有效地聚合由可泛化模型生成的点云，作为每个场景优化的初始化。与以前基于 NeRF 的可泛化方法相比，MVSSagaussian 可以实现实时渲染，并且每个场景的合成质量更好。以前的基于 NeRF 的可泛化方法通常需要几分钟的微调和几秒的每张图像渲染时间。与 vanilla 3D-GS 相比，MVSGaussian 以更少的训练计算成本实现了更好的视图合成。在 DTU、Real Forward-facing、NeRF Synthetic 和 Tanks and Temples 数据集上进行的大量实验验证了 MVSGaussian 以令人信服的通用性、实时渲染速度和快速的场景优化实现了最先进的性能。
 ]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72649-1_3</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
@@ -92,30 +114,6 @@
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72664-4</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于可变形卷积网络的改进弱纹理多视角三维重建算法</title>
-      <link>http://link.springer.com/10.1007/s12206-024-0922-2</link>
-      <description><![CDATA[摘要
-DP-MVSNet 是一种基于学习的多视图立体 (MVS) 网络，利用可变形卷积解决了 MVS 重建中纹理较弱的难题。DP-MVSNet 超越了基础 MVSNet 架构，引入了可变形卷积模块以增强特征提取，并将可变形 3D 卷积整合到视图加权网络中，以优化跨视图信息特征聚合。DP-MVSNet 在 DTU（0.338 vs. PatchMatchNet 的 0.352）和 Tanks &amp; Temples（55.07 vs. PatchMatchNet 的 53.15）数据集上取得了先进的结果，生成了更密集的点云，具有更精细的细节和更高的场景完整性。消融研究证实了基于可变形卷积的多尺度特征提取 (DMFE) 和基于可变形 3D 卷积的基于学习的块匹配 (DLP) 模块的有效性，与基线相比，总体误差降低了 4.0%，同时保持了有竞争力的运行时间。DP-MVSNet 在无需地面真实校准的情况下重建真实景观方面表现出了卓越的稳健性，代表了复杂环境（尤其是纹理较弱的区域）的精确高效 3D 重建方面的重大进步。]]></description>
-      <guid>http://link.springer.com/10.1007/s12206-024-0922-2</guid>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于深度学习的高效精准三维实景重建框架</title>
-      <link>http://link.springer.com/10.1007/s41870-024-02066-8</link>
-      <description><![CDATA[摘要
-通常，可以借助用于 3D 地理可视化和场景分析的几种照片成像技术来重建 3D 场景。然而，重建场景所涉及的方法并不准确且耗时。因此，本文提出了一种基于深度学习的多视图立体 (MVS) 图像 3D 重建框架。所提出的多视图聚合匹配网络 (MVAMN) 包括数据集的预处理、使用卷积神经网络 (CNN) 进行多尺度特征提取、成本体积正则化和深度图推理的细化，以处理更具挑战性的情况，包括相互遮挡、倾斜照片中的大深度变化和实质性的视点变化。细化阶段涉及从初始深度图和细化深度图计算概率分布。细化完成后，计算损失函数来量化初始深度图和细化深度图之间的误差，从而优化和提高所提框架的性能。最后，通过考虑开源图像数据集，验证了该模型的性能并与现有的深度学习 MVS 方法进行了比较。结果表明，较低的内存利用率和较高的效率使该模型非常适合大规模高分辨率 3D 表面重建任务中的航空影像。]]></description>
-      <guid>http://link.springer.com/10.1007/s41870-024-02066-8</guid>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLR-MVSNet：用于低纹理场景重建的轻量级网络</title>
-      <link>http://link.springer.com/10.1007/s00530-024-01464-z</link>
-      <description><![CDATA[摘要
-近年来，基于学习的MVS方法相对于传统方法取得了优异的性能，但这些方法仍然存在明显的不足，如传统卷积网络效率低、特征融合简单导致重建不完整等。本研究提出了一种用于低纹理场景重建的轻量级网络（LLR-MVSNet）。为了提高精度和效率，提出了一种轻量级网络，包括多尺度特征提取模块和加权特征融合模块。多尺度特征提取模块采用深度可分离卷积和逐点卷积替代传统卷积，可以减少网络参数，提高模型效率。为了提高融合精度，提出了加权特征融合模块，可以选择性地强调特征，抑制无用信息，提高融合精度。凭借快速的计算速度和高性能，我们的方法超越了最先进的基准，并在 DTU 和 Tanks &amp; Temples 数据集上表现良好。我们方法的代码将在 https://github.com/wln19/LLR-MVSNet 上提供。]]></description>
-      <guid>http://link.springer.com/10.1007/s00530-024-01464-z</guid>
-      <pubDate>Mon, 09 Sep 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>

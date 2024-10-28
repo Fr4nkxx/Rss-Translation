@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Sat, 26 Oct 2024 12:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2024 15:15:28 GMT</lastBuildDate>
     <item>
       <title>Deblur e-NeRF：高速或低光条件下运动模糊事件中的 NeRF</title>
       <link>http://link.springer.com/10.1007/978-3-031-73232-4_11</link>
@@ -46,6 +46,14 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Deceptive-NeRF/3DGS：扩散生成的伪观测，用于高质量稀疏视图重建</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72640-8_19</link>
+      <description><![CDATA[摘要
+通过神经辐射场 (NeRF) 或 3D 高斯溅射 (3DGS) 进行新颖的视图合成通常需要对数百张输入图像进行密集观察以规避伪影。我们引入了Deceptive-NeRF/3DGS（在和声进行中，Deceptive Cadence 可能会扰乱和弦进行的预期，但会丰富音乐的情感表达。我们的 Deceptive-X，其中“X”可以是 NeRF、3DGS 或相关的 3D 重建框架，通过密集合成一致的伪观察来抵消对稀疏输入视图的过度拟合，将原始稀疏输入丰富五到十倍。），通过利用从多视图数据集预先训练的扩散模型，仅使用一组有限的输入图像来增强稀疏视图重建。与使用扩散先验来正则化表示优化不同，我们的方法直接使用扩散生成的图像来训练 NeRF/3DGS，就好像它们是真实的输入视图一样。具体来说，我们提出了一个欺骗性扩散模型，将由少视图重建渲染的噪声图像转换为高质量的照片级真实感伪观测。为了解决伪观测和真实输入视图之间的一致性问题，我们开发了一种不确定性度量来指导扩散模型的生成。我们的系统逐步将扩散生成的伪观测纳入训练图像集，最终将稀疏的输入观测密集化 5 到 10 倍。在各种具有挑战性的数据集上进行的大量实验验证了我们的方法优于现有的最先进方法，并且能够在少视图设置中合成具有超分辨率的新视图。项目页面：https://xinhangliu.com/deceptive-nerf-3dgs。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72640-8_19</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Structured-NeRF：具有神经表征的分层场景图</title>
       <link>http://link.springer.com/10.1007/978-3-031-72761-0_11</link>
       <description><![CDATA[摘要
@@ -79,6 +87,20 @@
     </item>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72640-8</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72640-8</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72646-0</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72646-0</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72698-9</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72698-9</guid>
@@ -97,27 +119,6 @@
       <description><![CDATA[摘要
 神经辐射场 (NeRF) 重新着色方面的显著进步简化了修改 NeRF 颜色属性的过程。然而，由于 NeRF 有可能作为可共享的数字资产，人们担心恶意用户可能会改变 NeRF 模型的颜色并错误地声称重新着色的版本是他们自己的。为了防止此类所有权侵犯，让原始 NeRF 创建者能够对重新着色的 NeRF 建立权利至关重要。虽然已经引入了 CopyRNeRF 等方法将二进制消息嵌入 NeRF 模型作为版权保护的数字签名，但重新着色过程可能会删除这些二进制消息。在我们的论文中，我们提出了 GeometrySticker，这是一种将二进制消息无缝集成到辐射场的几何组件中的方法，类似于贴上贴纸。GeometrySticker 可以将二进制消息嵌入 NeRF 模型中，同时保留这些消息对重新着色的有效性。我们的全面研究表明，GeometrySticker 可适应流行的 NeRF 架构，并且对各种失真保持了令人称赞的稳健性。项目页面：https://kevinhuangxf.github.io/GeometrySticker。]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72673-6_24</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72933-1</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72933-1</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72920-1</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72920-1</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-73232-4</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-73232-4</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
