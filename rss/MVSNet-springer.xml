@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Mon, 28 Oct 2024 15:15:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2024 18:19:07 GMT</lastBuildDate>
     <item>
       <title>全光成像和处理</title>
       <link>http://link.springer.com/10.1007/978-981-97-6915-5</link>
@@ -25,6 +25,13 @@
       <link>http://link.springer.com/10.1007/978-3-031-72640-8</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72640-8</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73404-5</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73404-5</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -106,13 +113,6 @@
       <description><![CDATA[摘要
 通用性和小样本学习是神经辐射场 (NeRF) 中的关键挑战，这通常是由于缺乏对像素级渲染的整体理解。我们引入了 CaesarNeRF，这是一种端到端方法，它利用场景级CAlibratEd SemAntic R表示以及像素级表示来推进小样本、可通用的神经渲染，在不损害高质量细节的情况下促进整体理解。CaesarNeRF 明确地模拟了参考视图的差异以结合场景级语义表示，从而提供经过校准的整体理解。此校准过程将各种视点与精确位置对齐，并通过连续细化来进一步增强以捕捉不同的细节。在公共数据集（包括 LLFF、Shiny、mip-NeRF 360 和 MVImgNet）上进行的大量实验表明，CaesarNeRF 在不同数量的参考视图中均能提供最先进的性能，即使使用单个参考图像也能证明其有效性。]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72658-3_5</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72664-4</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72664-4</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
