@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Tue, 29 Oct 2024 18:19:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 21:13:02 GMT</lastBuildDate>
     <item>
       <title>全光成像和处理</title>
       <link>http://link.springer.com/10.1007/978-981-97-6915-5</link>
@@ -57,6 +57,13 @@
     </item>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73116-7</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73116-7</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72658-3</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72658-3</guid>
@@ -99,20 +106,10 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>MVSGaussian：基于多视角立体图像的快速通用高斯溅射重建</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72649-1_3</link>
-      <description><![CDATA[摘要
-我们提出了 MVSSagaussian，这是一种源自多视图立体 (MVS) 的新型可泛化 3D 高斯表示方法，可以有效地重建未见过的场景。具体而言，1) 我们利用 MVS 对几何感知的高斯表示进行编码并将其解码为高斯参数。2) 为了进一步提高性能，我们提出了一种混合高斯渲染，该渲染集成了高效的体积渲染设计以实现新颖的视图合成。3) 为了支持特定场景的快速微调，我们引入了一种多视图几何一致聚合策略来有效地聚合由可泛化模型生成的点云，作为每个场景优化的初始化。与以前基于 NeRF 的可泛化方法相比，MVSSagaussian 可以实现实时渲染，并且每个场景的合成质量更好。以前的基于 NeRF 的可泛化方法通常需要几分钟的微调和几秒的每张图像渲染时间。与 vanilla 3D-GS 相比，MVSGaussian 以更少的训练计算成本实现了更好的视图合成。在 DTU、Real Forward-facing、NeRF Synthetic 和 Tanks and Temples 数据集上进行的大量实验验证了 MVSGaussian 以令人信服的通用性、实时渲染速度和快速的场景优化实现了最先进的性能。
-]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72649-1_3</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>CaesarNeRF：针对小样本通用神经渲染的校准语义表征</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72658-3_5</link>
-      <description><![CDATA[摘要
-通用性和小样本学习是神经辐射场 (NeRF) 中的关键挑战，这通常是由于缺乏对像素级渲染的整体理解。我们引入了 CaesarNeRF，这是一种端到端方法，它利用场景级CAlibratEd SemAntic R表示以及像素级表示来推进小样本、可通用的神经渲染，在不损害高质量细节的情况下促进整体理解。CaesarNeRF 明确地模拟了参考视图的差异以结合场景级语义表示，从而提供经过校准的整体理解。此校准过程将各种视点与精确位置对齐，并通过连续细化来进一步增强以捕捉不同的细节。在公共数据集（包括 LLFF、Shiny、mip-NeRF 360 和 MVImgNet）上进行的大量实验表明，CaesarNeRF 在不同数量的参考视图中均能提供最先进的性能，即使使用单个参考图像也能证明其有效性。]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72658-3_5</guid>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72949-2</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72949-2</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
