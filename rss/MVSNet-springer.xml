@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Wed, 30 Oct 2024 21:13:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 21:13:49 GMT</lastBuildDate>
     <item>
       <title>全光成像和处理</title>
       <link>http://link.springer.com/10.1007/978-981-97-6915-5</link>
@@ -18,6 +18,13 @@
       <description><![CDATA[摘要
 重建具有无与伦比的真实感和细节水平的真实世界场景一直是计算机视觉和图形领域的长期目标。实现这一目标需要在传感技术和全光重建算法方面进行协调努力。]]></description>
       <guid>http://link.springer.com/10.1007/978-981-97-6915-5_5</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73247-8</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73247-8</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -57,6 +64,13 @@
     </item>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73209-6</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73209-6</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-73116-7</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-73116-7</guid>
@@ -91,25 +105,13 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72933-1</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72933-1</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Omni-Recon：利用基于图像的渲染实现通用神经辐射场</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72640-8_9</link>
+      <title>LaRa：高效的大基线辐射场</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73247-8_20</link>
       <description><![CDATA[摘要
-神经辐射场 (NeRF) 的最新突破引发了将其集成到现实世界 3D 应用中的巨大需求。然而，不同的 3D 应用程序所需的不同功能通常需要具有各种管道的不同 NeRF 模型，导致每个目标任务的 NeRF 训练繁琐，反复试验繁琐。从新兴基础模型的泛化能力和适应性中汲取灵感，我们的工作旨在开发一种用于处理各种 3D 任务的通用 NeRF。我们通过提出一个名为 Omni-Recon 的框架来实现这一目标，该框架能够 (1) 实现可泛化的 3D 重建和零样本多任务场景理解，以及 (2) 适应各种下游 3D 应用，例如实时渲染和场景编辑。我们的主要见解是，具有精确几何和外观估计的基于图像的渲染管道可以将 2D 图像特征提升到 3D 特征中，从而以可推广的方式将广泛探索的 2D 任务扩展到 3D 世界。具体来说，我们的 Omni-Recon 采用基于图像的渲染的通用 NeRF 模型，该模型具有两个解耦的分支：一个基于复杂变换器的分支，逐步融合几何和外观特征以进行精确的几何估计；一个轻量级分支，用于预测源视图的混合权重。该设计实现了最先进 (SOTA) 的可推广 3D 表面重建质量，混合权重可在各种任务中重复使用，实现零样本多任务场景理解。此外，它可以在将复杂的几何分支烘焙成网格后实现实时渲染，快速适应以实现 SOTA 可推广的 3D 理解性能，并与 2D 扩散模型无缝集成以进行文本引导的 3D 编辑。我们的代码可在以下位置获取：https://github.com/GATECH-EIC/Omni-Recon。]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72640-8_9</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72949-2</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72949-2</guid>
+辐射场方法已经实现了逼真的新型视图合成和几何重建。但它们主要应用于每个场景的优化或小基线设置。虽然最近的几项工作利用变压器研究了具有大基线的前馈重建，但它们都采用标准的全局注意机制，因此忽略了 3D 重建的局部性质。我们提出了一种在变压器层中统一局部和全局推理的方法，从而提高了质量并加快了收敛速度。我们的模型将场景表示为高斯体积，并将其与图像编码器和组注意层相结合，以实现高效的前馈重建。实验结果表明，我们的模型在四块 GPU 上训练了两天，在重建 360
+\(^{\circ }\)
+ 辐射场时表现出高保真度，并且对零样本和域外测试具有很强的鲁棒性。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73247-8_20</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
