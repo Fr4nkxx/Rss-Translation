@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Thu, 31 Oct 2024 21:13:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2024 01:09:51 GMT</lastBuildDate>
     <item>
       <title>全光成像和处理</title>
       <link>http://link.springer.com/10.1007/978-981-97-6915-5</link>
@@ -18,6 +18,35 @@
       <description><![CDATA[摘要
 重建具有无与伦比的真实感和细节水平的真实世界场景一直是计算机视觉和图形领域的长期目标。实现这一目标需要在传感技术和全光重建算法方面进行协调努力。]]></description>
       <guid>http://link.springer.com/10.1007/978-981-97-6915-5_5</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>模式识别与计算机视觉</title>
+      <link>http://link.springer.com/10.1007/978-981-97-8508-7</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-981-97-8508-7</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73220-1</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73220-1</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>具有自适应特征提取和区域感知深度预测的多视图深度估计</title>
+      <link>http://link.springer.com/10.1007/978-981-97-8508-7_3</link>
+      <description><![CDATA[摘要
+多视角深度估计是三维重建的一项重要任务，旨在通过多视角立体 (MVS) 技术从多视角图像中获取深度图。然而，当输入图像包含具有遮挡和低纹理的具有挑战性的区域时，现有的 MVS 方法可能无法获得良好的效果。为了解决这些问题，本文提出了一种多视角深度估计框架，该框架包括自适应特征提取和区域感知深度预测。为了获得更好的像素特征匹配，使用基于 CNN 的自适应局部特征提取器 (ALFE) 和基于 Transformer 的全局特征提取器 (GFE) 构建自适应特征提取，以捕获具有挑战性区域中的代表性和稳健特征。为了获得更好的深度图输出，使用区域感知深度细化模块 (RA-DRM) 构建区域感知深度预测，该模块在不同区域提取的特征的指导下迭代细化深度图。在DTU和BlendedMVS数据集上进行了定性和定量实验，结果表明了所提出的ALFE、GFE和RA-DRM模块的有效性，比较结果表明基于学习的MVS方法优于相关方法。]]></description>
+      <guid>http://link.springer.com/10.1007/978-981-97-8508-7_3</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72967-6</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72967-6</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -81,37 +110,6 @@
       <link>http://link.springer.com/10.1007/978-3-031-72658-3</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72658-3</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72998-0</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72998-0</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72624-8</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72624-8</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72761-0</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72761-0</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LaRa：高效的大基线辐射场</title>
-      <link>http://link.springer.com/10.1007/978-3-031-73247-8_20</link>
-      <description><![CDATA[摘要
-辐射场方法已经实现了逼真的新型视图合成和几何重建。但它们主要应用于每个场景的优化或小基线设置。虽然最近的几项工作利用变压器研究了具有大基线的前馈重建，但它们都采用标准的全局注意机制，因此忽略了 3D 重建的局部性质。我们提出了一种在变压器层中统一局部和全局推理的方法，从而提高了质量并加快了收敛速度。我们的模型将场景表示为高斯体积，并将其与图像编码器和组注意层相结合，以实现高效的前馈重建。实验结果表明，我们的模型在四块 GPU 上训练了两天，在重建 360
-\(^{\circ }\)
- 辐射场时表现出高保真度，并且对零样本和域外测试具有很强的鲁棒性。]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-73247-8_20</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>

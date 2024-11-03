@@ -4,13 +4,21 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Sat, 02 Nov 2024 01:03:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2024 01:09:59 GMT</lastBuildDate>
     <item>
       <title>Deblur e-NeRF：高速或低光条件下运动模糊事件中的 NeRF</title>
       <link>http://link.springer.com/10.1007/978-3-031-73232-4_11</link>
       <description><![CDATA[摘要
 事件相机的独特设计理念使其成为高速、高动态范围和低光环境的理想选择，而标准相机在这些环境中表现不佳。然而，与大多数人的想法相反，事件相机也存在运动模糊，尤其是在这些具有挑战性的条件下。这是由于事件传感器像素的带宽有限，而带宽主要与光强度成正比。因此，为了确保事件相机能够真正在这种条件下表现出色，使其比标准相机更具优势，必须在下游任务（尤其是重建）中考虑事件运动模糊。然而，之前没有关于从事件重建神经辐射场 (NeRF) 的研究，也没有事件模拟器考虑过事件运动模糊的全部影响。为此，我们提出了 Deblur e-NeRF，这是一种新方法，可以直接有效地从高速或低光条件下产生的运动模糊事件中重建模糊最小的 NeRF。这项工作的核心部分是一个物理上精确的像素带宽模型，该模型考虑了事件运动模糊。我们还引入了阈值归一化总变分损失，以更好地规范大型无纹理斑块。在真实和新颖的现实模拟序列上进行的实验验证了我们的有效性。我们的代码、事件模拟器和合成事件数据集都是开源的。]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-73232-4_11</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AG-NeRF：用于多高度大规模户外场景渲染的注意力引导神经辐射场</title>
+      <link>http://link.springer.com/10.1007/978-981-97-8508-7_8</link>
+      <description><![CDATA[摘要
+现有的基于神经辐射场 (NeRF) 的大规模室外场景新视图合成方法主要建立在单一高度上。此外，它们通常需要先验相机拍摄高度和场景范围，导致相机高度发生变化时应用效率低下且不切实际。在这项工作中，我们提出了一个端到端框架，称为 AG-NeRF，并寻求通过基于不同场景高度合成自由视点图像来降低构建良好重建的训练成本。具体而言，为了解决从低空（无人机级）到高空（卫星级）的细节变化问题，开发了一种源图像选择方法和一种基于注意的特征融合方法，以从多高度图像中提取和融合目标视图的最相关特征，以实现高保真渲染。大量实验表明，AG-NeRF 在 56 Leonard 和 Transamerica 基准上取得了 SOTA 性能，并且与最新的 BungeeNeRF 相比，仅需要半小时的训练时间即可达到具有竞争力的 PSNR。]]></description>
+      <guid>http://link.springer.com/10.1007/978-981-97-8508-7_8</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -32,6 +40,14 @@
 
 ]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-73039-9_1</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NeRFect Match：探索 NeRF 的视觉定位功能</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72691-0_7</link>
+      <description><![CDATA[摘要
+在这项工作中，我们建议使用神经辐射场 (NeRF) 作为视觉定位的场景表示。最近，NeRF 已被用于通过扩充训练数据库、通过渲染图像提供辅助监督或作为迭代细化模块来增强姿势回归和场景坐标回归模型。我们扩展了其公认的优势——它能够提供具有逼真外观和准确几何形状的紧凑场景表示——通过探索 NeRF 的内部特征在建立精确的 2D-3D 匹配以进行定位方面的潜力。为此，我们对通过视图合成获得的 NeRF 的隐性知识进行了全面检查，以便在各种条件下进行匹配。这包括探索不同的匹配网络架构、在多个层提取编码器特征以及不同的训练配置。值得注意的是，我们引入了 NeRFMatch，这是一种先进的 2D-3D 匹配函数，它利用通过视图合成学习到的 NeRF 的内部知识。我们在基于结构的管道中对标准定位基准上的 NeRFMatch 进行了评估，在剑桥地标的定位性能方面取得了有竞争力的结果。我们将发布所有模型和代码。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72691-0_7</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -93,38 +109,29 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>S $$^{3}$$ D-NeRF：用于高保真说话头部合成的单次语音驱动神经辐射场</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72684-2_21</link>
+      <description><![CDATA[摘要
+说话头像合成是一种应用广泛的实用技术。目前基于神经辐射场 (NeRF) 的方法已显示出在使用视频或从音频回归的信号驱动单次说话头像方面的优势。然而，它们中的大多数未能直接将音频作为驱动信息，无法享受语音的灵活性和可用性。由于将音频信号映射到面部变形并非易事，我们在本文中设计了一种单次语音驱动神经辐射场 (S
+\(^{3}\)
+D-NeRF) 方法来解决以下三个难题：为每个身份学习一个有代表性的外观特征、用音频对不同面部区域进行运动建模以及保持唇部区域的时间一致性。为此，我们引入了分层面部外观编码器来学习多尺度表示以捕捉不同说话者的外观，并阐述了跨模态面部变形场以根据音频信号与不同面部区域之间的关系执行语音动画。此外，为了增强重要唇部区域的时间一致性，我们引入了唇形同步鉴别器来惩罚不同步的视听序列。大量实验表明，我们的 S
+\(^{3}\)
+D-NeRF 在视频保真度和音频唇形同步方面均超越了以前的技术。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72684-2_21</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>模式识别与计算机视觉</title>
+      <link>http://link.springer.com/10.1007/978-981-97-8508-7</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-981-97-8508-7</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-72761-0</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72761-0</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72673-6</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72673-6</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-73247-8</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-73247-8</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72640-8</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72640-8</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72646-0</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72646-0</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
