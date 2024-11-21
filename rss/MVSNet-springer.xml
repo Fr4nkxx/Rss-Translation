@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Sun, 03 Nov 2024 01:09:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2024 06:20:09 GMT</lastBuildDate>
     <item>
       <title>全光成像和处理</title>
       <link>http://link.springer.com/10.1007/978-981-97-6915-5</link>
@@ -18,6 +18,21 @@
       <description><![CDATA[摘要
 重建具有无与伦比的真实感和细节水平的真实世界场景一直是计算机视觉和图形领域的长期目标。实现这一目标需要在传感技术和全光重建算法方面进行协调努力。]]></description>
       <guid>http://link.springer.com/10.1007/978-981-97-6915-5_5</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73036-8</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73036-8</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>平滑度、合成和采样：重新思考带有 DIV 损失的无监督多视角立体视觉</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73036-8_22</link>
+      <description><![CDATA[摘要
+尽管无监督多视图立体 (MVS) 取得了重大进展，但核心损失公式自推出以来基本保持不变。然而，我们确定了这种核心损失的基本限制，并提出了三项重大变化，以改进深度先验、遮挡和视图相关效应的建模。首先，我们使用限制深度平滑度约束消除了预测深度图中突出的阶梯状和边缘伪影。其次，我们提出了一种学习视图合成方法来生成光度损失的图像，避免使用手工编码的启发式方法来处理视图相关效应。最后，除了用作 MVS 输入的视图之外，我们还对其他视图进行采样以进行监督，挑战网络预测与未见视图相匹配的深度。这些贡献共同形成了一种改进的监督策略，我们称之为 DIV 损失。我们的 DIV 损失的主要优势在于它可以轻松地放入现有的无监督 MVS 训练流程中，从而显著提高竞争性重建基准，并以最小的训练成本显著提高对象边界周围的定性性能。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73036-8_22</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -96,20 +111,6 @@
       <link>http://link.springer.com/10.1007/978-3-031-73209-6</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-73209-6</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-73116-7</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-73116-7</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72658-3</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72658-3</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
