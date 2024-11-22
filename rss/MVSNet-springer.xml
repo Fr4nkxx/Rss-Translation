@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Thu, 21 Nov 2024 06:20:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2024 09:15:33 GMT</lastBuildDate>
     <item>
       <title>全光成像和处理</title>
       <link>http://link.springer.com/10.1007/978-981-97-6915-5</link>
@@ -80,6 +80,13 @@
     </item>
     <item>
       <title>计算机视觉 – ECCV 2024</title>
+      <link>http://link.springer.com/10.1007/978-3-031-72633-0</link>
+      <description><![CDATA[]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-72633-0</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉 – ECCV 2024</title>
       <link>http://link.springer.com/10.1007/978-3-031-73404-5</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-73404-5</guid>
@@ -104,13 +111,6 @@
       <link>http://link.springer.com/10.1007/978-3-031-72670-5</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72670-5</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-73209-6</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-73209-6</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
