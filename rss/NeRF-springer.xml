@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Tue, 26 Nov 2024 15:15:44 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2024 18:19:41 GMT</lastBuildDate>
     <item>
       <title>Deblur e-NeRF：高速或低光条件下运动模糊事件中的 NeRF</title>
       <link>http://link.springer.com/10.1007/978-3-031-73232-4_11</link>
@@ -100,6 +100,14 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>RoGUENeRF：一种用于 NeRF 的稳健几何一致通用增强器</title>
+      <link>http://link.springer.com/10.1007/978-3-031-73254-6_4</link>
+      <description><![CDATA[摘要
+神经渲染领域的最新进展已实现高度逼真的 3D 场景重建和新颖的视图合成。尽管取得了这些进展，但由于诸如辐射场的低频偏差和相机校准不准确等因素，当前最先进的方法仍难以重建高频细节。缓解此问题的一种方法是在渲染后增强图像。2D 增强器可以预先训练以恢复一些细节，但与场景几何无关，并且不易推广到新的图像退化分布。相反，现有的 3D 增强器能够以可推广的方式从附近的训练图像传输细节，但受到相机校准不准确的困扰，并且可能会将几何中的错误传播到渲染图像中。我们提出了一种神经渲染增强器 RoGUENeRF，它充分利用了两种范式的优点。我们的方法是经过预先训练的，可以学习通用增强器，同时还通过强大的 3D 对齐和几何感知融合利用来自附近训练图像的信息。我们的方法可以在保持几何一致性的同时恢复高频纹理，并且对不准确的相机校准也具有鲁棒性。我们表明，RoGUENeRF 显着提高了各种神经渲染基线的渲染质量，例如在现实世界 360v2 数据集上将 MipNeRF360 的 PSNR 提高了 0.63dB，将 Nerfacto 的 PSNR 提高了 1.34dB。项目页面：https://sib1.github.io/projects/roguenerf/。]]></description>
+      <guid>http://link.springer.com/10.1007/978-3-031-73254-6_4</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>URS-NeRF：神经辐射场的无序滚动快门束调整</title>
       <link>http://link.springer.com/10.1007/978-3-031-72761-0_26</link>
       <description><![CDATA[摘要
@@ -123,14 +131,6 @@
 \(^2\)
  城市区域。请访问我们的网页 https://research.nvidia.com/labs/toronto-ai/nerfxl/ 获取代码和视频。]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-73195-2_6</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Deceptive-NeRF/3DGS：扩散生成的伪观测，用于高质量稀疏视图重建</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72640-8_19</link>
-      <description><![CDATA[摘要
-通过神经辐射场 (NeRF) 或 3D 高斯溅射 (3DGS) 进行新颖的视图合成通常需要对数百张输入图像进行密集观察以规避伪影。我们引入了Deceptive-NeRF/3DGS（在和声进行中，Deceptive Cadence 可能会扰乱和弦进行的预期，但会丰富音乐的情感表达。我们的 Deceptive-X，其中“X”可以是 NeRF、3DGS 或相关的 3D 重建框架，通过密集合成一致的伪观察来抵消对稀疏输入视图的过度拟合，将原始稀疏输入丰富五到十倍。），通过利用从多视图数据集预先训练的扩散模型，仅使用一组有限的输入图像来增强稀疏视图重建。与使用扩散先验来正则化表示优化不同，我们的方法直接使用扩散生成的图像来训练 NeRF/3DGS，就好像它们是真实的输入视图一样。具体来说，我们提出了一个欺骗性扩散模型，将由少视图重建渲染的噪声图像转换为高质量的照片级真实感伪观测。为了解决伪观测和真实输入视图之间的一致性问题，我们开发了一种不确定性度量来指导扩散模型的生成。我们的系统逐步将扩散生成的伪观测纳入训练图像集，最终将稀疏的输入观测密集化 5 到 10 倍。在各种具有挑战性的数据集上进行的大量实验验证了我们的方法优于现有的最先进方法，并且能够在少视图设置中合成具有超分辨率的新视图。项目页面：https://xinhangliu.com/deceptive-nerf-3dgs。]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72640-8_19</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
