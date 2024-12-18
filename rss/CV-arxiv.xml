@@ -6,7 +6,7 @@
     <description>cs.CV 在 arXiv.org 电子印刷档案上更新。</description>
     <lastBuildDate>Tue, 17 Dec 2024 05:00:00 GMT</lastBuildDate>
     <item>
-      <title>个性化和顺序的文本到图像生成</title>
+      <title>个性化和连续的文本到图像生成</title>
       <link>https://arxiv.org/abs/2412.10419</link>
       <description><![CDATA[arXiv:2412.10419v1 公告类型：新
 摘要：我们解决了个性化、交互式文本转图像 (T2I) 生成问题，设计了一个强化学习 (RL) 代理，它通过一系列提示扩展迭代地为用户改进一组生成的图像。使用人工评估者，我们创建了一个新颖的顺序偏好数据集，并将其与大规模开源（非顺序）数据集一起使用。我们使用 EM 策略构建用户偏好和用户选择模型，并识别不同的用户偏好类型。然后，我们利用大型多模态语言模型 (LMM) 和基于价值的 RL 方法向用户推荐个性化和多样化的提示扩展。我们的个性化和顺序文本转图像代理 (PASTA) 通过个性化的多轮功能扩展了 T2I 模型，促进了协作共同创造并解决了用户意图中的不确定性或未充分规范的问题。我们使用人工评估者评估 PASTA，与基线方法相比显示出显着的改进。我们还发布了顺序评估者数据集和模拟用户评估者交互，以支持未来个性化、多轮 T2I 生成的研究。]]></description>
@@ -25,7 +25,7 @@
       <title>GPTDrawer：通过 ChatGPT 增强视觉合成</title>
       <link>https://arxiv.org/abs/2412.10429</link>
       <description><![CDATA[arXiv:2412.10429v1 公告类型：新
-摘要：在人工智能驱动的图像生成这一新兴领域，对文本提示的精确度和相关性的追求仍然至关重要。本文介绍了 GPTDrawer，这是一种创新的流程，它利用基于 GPT 的模型的生成能力来增强视觉合成过程。我们的方法采用了一种新算法，该算法使用关键字提取、语义分析和图像文本一致性评估迭代地细化输入提示。通过集成 ChatGPT 用于自然语言处理和 Stable Diffusion 用于图像生成，GPTDrawer 生成一批图像，这些图像在余弦相似度指标的指导下经过连续的细化循环，直到达到语义对齐的阈值。结果表明，根据用户定义的提示生成的图像的保真度显着提高，展示了系统解释和可视化复杂语义结构的能力。这项工作的影响扩展到从创意艺术到设计自动化的各个应用领域，为人工智能辅助创意过程树立了新的标杆。]]></description>
+摘要：在人工智能驱动的图像生成这一新兴领域，对文本提示的精确度和相关性的追求仍然至关重要。本文介绍了 GPTDrawer，这是一种创新的流程，它利用基于 GPT 的模型的生成能力来增强视觉合成过程。我们的方法采用了一种新颖的算法，该算法使用关键字提取、语义分析和图像文本一致性评估迭代地细化输入提示。通过集成 ChatGPT 用于自然语言处理和 Stable Diffusion 用于图像生成，GPTDrawer 生成了一批图像，这些图像在余弦相似度指标的指导下经过连续的细化循环，直到达到语义对齐的阈值。结果表明，根据用户定义的提示生成的图像的保真度显着提高，展示了系统解释和可视化复杂语义结构的能力。这项工作的影响扩展到从创意艺术到设计自动化的各个应用领域，为人工智能辅助创意过程树立了新的标杆。]]></description>
       <guid>https://arxiv.org/abs/2412.10429</guid>
       <pubDate>Tue, 17 Dec 2024 05:00:00 GMT</pubDate>
     </item>
@@ -104,7 +104,7 @@
     <item>
       <title>SweetTokenizer：用于紧凑视觉离散化的语义感知时空标记器</title>
       <link>https://arxiv.org/abs/2412.10443</link>
-      <description><![CDATA[arXiv:2412.10443v1 公告类型：新
+      <description><![CDATA[arXiv:2412.10443v2 公告类型：新
 摘要：本文介绍了 \textbf{S}emantic-a\textbf{W}ar\textbf{E} spatial-t\textbf{E}mporal \textbf{T}okenizer (SweetTokenizer)，这是一种紧凑而有效的视觉数据离散化方法。我们的目标是提高 tokenizer 的压缩率，同时保持 VQ-VAE 范式中的重建保真度。首先，为了获得紧凑的潜在表示，我们将图像或视频分解为时空维度，通过 \textbf{C}cross-attention \textbf{Q}uery \textbf{A}uto\textbf{E}ncoder (CQAE) 将视觉信息转换为可学习的查询空间和时间标记。其次，为了在压缩过程中补充视觉信息，我们通过从现成的 LLM 嵌入派生的专用码本量化这些标记，以利用语言模态的丰富语义。最后，为了增强训练稳定性和收敛性，我们还引入了课程学习策略，这对于有效的离散视觉表征学习至关重要。SweetTokenizer 仅使用以前最先进的视频标记器中使用的 \textbf{25\%} 的标记即可实现相当的视频重建保真度，并将视频生成结果提升 \textbf{32.9\%} w.r.t gFVD。当使用相同的标记数时，我们显著提高了视频和图像重建结果，在 UCF-101 上，w.r.t rFVD 提高了 \textbf{57.1\%}，在 ImageNet-1K 上，w.r.t rFID 提高了 \textbf{37.2\%}。此外，压缩标记还包含语义信息，从而支持下游应用程序中由 LLM 提供支持的少量识别功能。]]></description>
       <guid>https://arxiv.org/abs/2412.10443</guid>
       <pubDate>Tue, 17 Dec 2024 05:00:00 GMT</pubDate>
