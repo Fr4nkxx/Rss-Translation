@@ -4,7 +4,15 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Wed, 04 Dec 2024 21:14:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2025 01:05:18 GMT</lastBuildDate>
+    <item>
+      <title>SS-BEV：基于多尺度空间结构理解的多摄像头 BEV 物体检测</title>
+      <link>http://link.springer.com/10.1007/s11760-024-03762-5</link>
+      <description><![CDATA[摘要
+基于多摄像头的鸟瞰 (BEV) 物体检测已成为自动驾驶领域的主流范式。然而，我们发现许多现有方法在检测极大或极小的物体时表现不佳。为了解决这个问题，本文提出了一种称为 SS-BEV 的多摄像头 BEV 检测新框架。首先，我们设计了一个更具表现力的特征提取模块 A-WBFP，它使用级联方法将并行空洞卷积和加权双向特征金字塔块集成到主干网络中。这有助于防止更深的网络层中小物体信息的丢失并增强感受野，从而生成富含上下文信息的特征图。然后我们引入了 MORD 模块，它利用来自雷达点云的精确深度信息来提高模型对大物体和小物体的空间结构理解。通过学习物体内部结构与所选参考点之间的相对深度，构建相应的损失函数来监督最终的检测性能。SS-BEV 在具有挑战性的 nuScenes 验证集上的表现优于基线模型，NDS 检测分数提高了 2.1 分。在 nuScenes 测试集上，它对障碍物和工程车辆的检测准确率分别达到 66.1% 和 22.3% mAP，超越了一些基于多摄像头和 LiDAR 融合的方法。]]></description>
+      <guid>http://link.springer.com/10.1007/s11760-024-03762-5</guid>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>全光成像和处理</title>
       <link>http://link.springer.com/10.1007/978-981-97-6915-5</link>
@@ -105,13 +113,6 @@
       <link>http://link.springer.com/10.1007/978-3-031-72640-8</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72640-8</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-73254-6</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-73254-6</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
