@@ -4,7 +4,15 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Fri, 03 Jan 2025 01:05:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2025 09:14:51 GMT</lastBuildDate>
+    <item>
+      <title>用于高效边缘保留深度估计的上下文感知多视图立体网络</title>
+      <link>http://link.springer.com/10.1007/s11263-024-02337-8</link>
+      <description><![CDATA[摘要
+近年来，基于学习的多视角立体方法通过采用由粗到细的深度估计框架取得了长足的进步。然而，现有的方法在恢复无特征区域、物体边界和薄结构的深度方面仍然遇到困难，这主要是由于低纹理区域中匹配线索的可区分性差、用于成本体积正则化的 3D 卷积神经网络固有的平滑特性以及最粗尺度特征的信息丢失。为了解决这些问题，我们提出了一种上下文感知的多视角立体网络 (CANet)，利用图像中的上下文线索来实现有效的边缘保留深度估计。引入的自相似性参与成本聚合模块利用参考视图中的结构自相似性信息在成本体积中执行远程依赖关系建模，从而提高无特征区域的可匹配性。随后利用参考视图中的上下文信息通过提出的分层边缘保留残差学习模块逐步细化多尺度深度估计，从而实现边缘处的精细深度估计。为了丰富最粗尺度的特征，使其更加关注精细区域，提出了一个焦点选择模块，该模块可以增强初始深度的恢复，并具有更精细的细节，例如薄结构。通过将上述策略集成到精心设计的轻量级级联框架中，CANet 实现了卓越的性能和效率权衡。大量实验表明，所提出的方法具有快速的推理速度和较低的内存使用率，实现了最先进的性能。值得注意的是，CANet 在具有挑战性的 Tanks and Temples 高级数据集和 ETH3D 高分辨率基准上排名第一，在所有已发表的基于学习的方法中。]]></description>
+      <guid>http://link.springer.com/10.1007/s11263-024-02337-8</guid>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>SS-BEV：基于多尺度空间结构理解的多摄像头 BEV 物体检测</title>
       <link>http://link.springer.com/10.1007/s11760-024-03762-5</link>
@@ -106,13 +114,6 @@
       <link>http://link.springer.com/10.1007/978-3-031-73247-8</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-73247-8</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72640-8</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72640-8</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
