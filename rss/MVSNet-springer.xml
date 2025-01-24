@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Wed, 08 Jan 2025 09:14:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2025 18:18:26 GMT</lastBuildDate>
     <item>
       <title>用于高效边缘保留深度估计的上下文感知多视图立体网络</title>
       <link>http://link.springer.com/10.1007/s11263-024-02337-8</link>
@@ -41,6 +41,14 @@
       <link>http://link.springer.com/10.1007/978-3-031-73036-8</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-73036-8</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>多视角立体视觉的特征分布归一化网络</title>
+      <link>http://link.springer.com/10.1007/s00371-024-03334-1</link>
+      <description><![CDATA[摘要
+作为三维重建的关键技术，多视角立体视觉（MVS）的研究随着深度学习的发展取得了重大进展。然而，由于不同视角之间的特征分布不一致，MVS 面临着挑战。这一现象被认为是 MVS 的一个重要瓶颈。为了克服这一限制，我们提出了一种称为特征分布规范化网络（FDN-MVS）的创新方法。为了减轻由不一致的相对姿势引起的误差，我们利用多个视图之间的单应性变换并提出分布残差细化（DRR）模块。扩大尺度、残差连接和坐标系固定可以实现更有意义的特征分布学习。为了进一步缩小不同视图之间的差异，我们建议进行特征规范化，将特征的计算限制在一个共同的分布内。实验结果证明了我们方法的有效性。与常用的基准算法 CasMVSNet 相比，我们在 DTU 数据集上将误差降低了 13.52%，在 Tanks and Temples 数据集上将 F 得分提高了 18.77%。代码可在 https://github.com/ZYangChen/FDN-MVS 获取。]]></description>
+      <guid>http://link.springer.com/10.1007/s00371-024-03334-1</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -107,13 +115,6 @@
       <link>http://link.springer.com/10.1007/978-3-031-72967-6</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72967-6</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-73247-8</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-73247-8</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
