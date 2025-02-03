@@ -4,7 +4,15 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer 提供的最新内容</description>
-    <lastBuildDate>Sat, 25 Jan 2025 01:00:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 18:18:25 GMT</lastBuildDate>
+    <item>
+      <title>重新思考多视角立体的概率体积：一种概率分析方法</title>
+      <link>http://link.springer.com/10.1007/s10489-025-06284-w</link>
+      <description><![CDATA[摘要
+现有的基于学习的多视角立体（MVS）模型主要侧重于通过级联结构预测深度图，以实现更为稳健的重建结果。然而，它们往往强调提高立体匹配的质量，而忽略了深度假设的重要性。本文从概率体积分析的角度提出了一种新的 MVS 模型。首先，考虑概率体积对深度细化的引导作用。理想情况下，概率体积沿深度维度的概率分布遵循单峰模式。我们设计了一条单峰曲线来拟合这种模式。然后，基于预定义的概率阈值，自适应地为每个像素位置选择合理的深度细化范围。此外，考虑到匹配噪声可能导致概率体积呈现为模糊的单峰峰，我们设计了概率体积分裂合并模块（PVS-PVM）。该模块根据条件约束进行峰值搜索，将概率体积分为主概率体积和子概率体积，然后从中计算两组深度假设。最后，根据这些深度假设计算新的主概率体积和子概率体积，并合并以预测深度。这种方法可以更全面地考虑概率较高的区域，从而提高深度假设的稳健性。实验结果表明，我们的方法有效地利用了概率体积信息来指导深度图细化，并在 DTU 和 Tanks &amp; Temples 数据集上获得了增强的重建结果。我们的代码将在 https://github.com/zongh5a/ProbMVSNet 发布。]]></description>
+      <guid>http://link.springer.com/10.1007/s10489-025-06284-w</guid>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>用于高效边缘保留深度估计的上下文感知多视图立体网络</title>
       <link>http://link.springer.com/10.1007/s11263-024-02337-8</link>
@@ -47,7 +55,7 @@
       <title>多视角立体视觉的特征分布归一化网络</title>
       <link>http://link.springer.com/10.1007/s00371-024-03334-1</link>
       <description><![CDATA[摘要
-作为三维重建的关键技术，多视角立体视觉（MVS）的研究随着深度学习的发展取得了重大进展。然而，由于不同视角之间的特征分布不一致，MVS 面临着挑战。这一现象被认为是 MVS 的一个重要瓶颈。为了克服这一限制，我们提出了一种称为特征分布规范化网络（FDN-MVS）的创新方法。为了减轻由不一致的相对姿势引起的误差，我们利用多个视图之间的单应性变换并提出分布残差细化（DRR）模块。扩大尺度、残差连接和坐标系固定可以实现更有意义的特征分布学习。为了进一步缩小不同视图之间的差异，我们建议进行特征规范化，将特征的计算限制在一个共同的分布内。实验结果证明了我们方法的有效性。与常用的基准算法 CasMVSNet 相比，我们在 DTU 数据集上将误差降低了 13.52%，在 Tanks and Temples 数据集上将 F 得分提高了 18.77%。代码可在 https://github.com/ZYangChen/FDN-MVS 获取。]]></description>
+作为三维重建的关键技术，多视角立体视觉（MVS）的研究随着深度学习的发展取得了重大进展。然而，由于不同视角之间的特征分布不一致，MVS 面临着挑战。这一现象被认为是 MVS 的一个重要瓶颈。为了克服这一限制，我们提出了一种称为特征分布归一化网络（FDN-MVS）的创新方法。为了减轻由不一致的相对姿势引起的误差，我们利用多个视图之间的单应性变换并提出分布残差细化（DRR）模块。扩大尺度、残差连接和坐标系固定可以实现更有意义的特征分布学习。为了进一步缩小不同视图之间的差异，我们建议进行特征归一化，将特征的计算限制在一个共同的分布内。实验结果证明了我们方法的有效性。与常用的基准算法 CasMVSNet 相比，我们在 DTU 数据集上将误差降低了 13.52%，在 Tanks and Temples 数据集上将 F 得分提高了 18.77%。代码可在 https://github.com/ZYangChen/FDN-MVS 获取。]]></description>
       <guid>http://link.springer.com/10.1007/s00371-024-03334-1</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
@@ -108,13 +116,6 @@
       <link>http://link.springer.com/10.1007/978-3-031-72630-9</link>
       <description><![CDATA[]]></description>
       <guid>http://link.springer.com/10.1007/978-3-031-72630-9</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机视觉 – ECCV 2024</title>
-      <link>http://link.springer.com/10.1007/978-3-031-72967-6</link>
-      <description><![CDATA[]]></description>
-      <guid>http://link.springer.com/10.1007/978-3-031-72967-6</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
