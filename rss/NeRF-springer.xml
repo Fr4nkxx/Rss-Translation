@@ -4,7 +4,25 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Sat, 08 Feb 2025 01:03:42 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2025 01:08:19 GMT</lastBuildDate>
+    <item>
+      <title>基于NERF的单眼胸腔镜3D场景重建框架</title>
+      <link>http://link.springer.com/10.1007/s11517-025-03316-y</link>
+      <description><![CDATA[
+摘要
+随着在医疗程序中基于图像的3D重建的使用越来越多，准确的场景重建在手术导航和辅助治疗中起着至关重要的作用。但是，单调的颜色，有限的图像特征以及胸腔镜场景的明显亮度波动使特征点匹配过程在于传统的3D重建方法依赖，不稳定和不可靠的过程。它为准确的3D重建带来了巨大的挑战。在这项研究中，提出了一种单眼胸腔镜面场景的隐式3D重建的新方法。该方法将预训练的度量深度估计模型与神经辐射场（NERF）技术相结合，并使用密集的猛击来准确计算相机姿势。为了确保深度值的准确性以及重建场景的结构一致性，将深度和正常约束添加到NERF网络的原始颜色约束中，以实现高质量的场景重建结果。我们在害怕的数据集和临床数据集上进行了实验。在与其他方法进行比较之后，本文的深度估计精度和点云重建质量优于现有方法。本文中的方法可以提供更准确的3D重建，对复杂的胸外科手术场景进行了更大的重建，这可以显着提高手术导航的准确性和治疗功效。
+
+                  在
+                    图形摘要
+                    在
+                      
+
+
+ 
+]]></description>
+      <guid>http://link.springer.com/10.1007/s11517-025-03316-y</guid>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>用量化图像对ORB-SLAM3的性能评估</title>
       <link>http://link.springer.com/10.1007/s10015-025-01006-4</link>
@@ -164,14 +182,6 @@
 ]]></description>
       <guid>http://link.springer.com/10.1007/s00276-025-03569-0</guid>
       <pubDate>Wed, 22 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于深度学习的管道，用于对档案和库中绑定的保护评估</title>
-      <link>http://link.springer.com/10.1007/s11042-025-20615-6</link>
-      <description><![CDATA[摘要
-图书馆是书面遗产的保管人，既易又脆弱又脆弱，并且由于书籍材料的敏感性而需要定期监控。对于大多数图书馆而言，不可能单独监视每本书是不可能的。为了应对这一挑战，我们探索了深度学习的潜力，以自动收集在其刺上展示危险结构变化的书籍的精确数据。我们的研究重点是“巴黎的档案”和两个绑定照片的数据库。进行注释，将绑定与背景，标记文本和创建与不同类型的变化相对应的二进制掩码进行区分。检测管道涉及使用蒙版R-CNN进行实例分割，以将书架图像分开为单个绑定照片。使用在ImageNet上预先训练的视觉变压器（VIT）进行了改变分类，该模型进行了微调用于多标记分类。虽然检测管道在标签检测和文本识别中表现出高性能，但挑战包括低估了结合表面积和对某些变化的识别。]]></description>
-      <guid>http://link.springer.com/10.1007/s11042-025-20615-6</guid>
-      <pubDate>Tue, 21 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
