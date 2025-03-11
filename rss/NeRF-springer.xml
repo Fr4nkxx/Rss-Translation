@@ -4,7 +4,14 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Thu, 06 Mar 2025 06:21:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 09:16:39 GMT</lastBuildDate>
+    <item>
+      <title>GRPOSENET：使用稀疏RGB视图的可推广且可靠的6D对象姿势估计网络</title>
+      <link>https://link.springer.com/article/10.1007/s00371-025-03852-6</link>
+      <description><![CDATA[六度的自由对象姿势估计在各种计算机视觉和机器人技术任务中起着至关重要的作用。现有方法通常很大程度上依赖CAD模型和实质性的先验信息，从而将其概括限制为在开放场景中看不见的对象。为了解决此限制，我们提出了GRPOSENET，这是一个可推广且可靠的6D对象姿势估计网络，可以仅使用带有参考姿势的稀疏RGB图像来预测看不见的对象的姿势。 GRPOSENET包括一个开放世界检测器，一个观点选择器和自适应多尺度炼油厂。开放世界检测器利用预先训练的大型模型进行零拍分段和特征提取，克服检测和与看不见的对象的匹配错误。视点选择器使用我们设计的相似性网络选择最初的参考视图以进行初始姿势估计。自适应多尺度炼油厂通过迭代更新旋转和基于多尺度特征和自适应重量的翻译残差而进一步完善了姿势。基准数据集和我们可靠的测试数据集RBMOP的广泛实验表明，GRPOSENET实现了最新的性能，显示出极好的概括和鲁棒性，可对看不见的对象和稀疏视图。这些代码和数据集可在： https://github.com/kiers.com/kiersas/grposenet 。]]></description>
+      <guid>https://link.springer.com/article/10.1007/s00371-025-03852-6</guid>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>LFVGS：轻巧的高斯拆卸方法，用于几个镜头综合</title>
       <link>https://link.springer.com/article/10.1007/s11227-025-07114-z</link>
@@ -119,13 +126,6 @@
       <description><![CDATA[锥形束计算机断层扫描（CBCT）获得三维内部图像，特别有效地对骨骼（如骨骼）等高矿物质密度结构有效。但是，尤其是在稀疏视图方案中，其可视化低密度软组织的能力受到限制，从而限制了其临床应用。为了解决这个问题，本研究提出了一种称为解耦神经衰减场（DE-NAF）的方法。具体而言，DE-NAF使用了一个自适应混合编码器，其中包括哈希编码和3D特征网格编码方法。这种方法将CBCT重建分为两个组成部分。哈希编码用于高矿物密度结构，例如骨骼，这是由于其卓越的编码质量以及在解决哈希冲突过程中保留高矿物密度结构特征的能力。 3D特征网格用于低密度软组织（例如肌肉），因为它有效地保留了低密度软组织的特征信息。自适应混合编码器提取这些特征，然后由多层感知器（MLP）解码器解码，以预测精确重建的X射线衰减值。此外，引入了结构感知的丧失，以增强组织对比和细节，进一步协助CBCT重建。广泛的实验表明，DE-NAF有效地解决了CBCT在成像低密度软组织中的局限性，保持完整的结构完整性并超过重建质量的其他方法。]]></description>
       <guid>https://link.springer.com/article/10.1007/s10044-025-01416-x</guid>
       <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>随着事件的自我监督百叶窗展开</title>
-      <link>https://link.springer.com/article/10.1007/s11263-025-02364-z</link>
-      <description><![CDATA[连续时间全局快门视频恢复（CGVR）在从失真的滚动快门（RS）图像中恢复未发生的高帧速率全球快门（GS）视频方面面临重大挑战。由于在RS内部扫描线和框架间暴露中没有时间动态信息，因此此问题严重不足，尤其是在无法获得相机/对象运动的先验知识时。在现实情况下，对场景/动作和数据特定特征的常见人工假设很容易产生亚最佳解决方案。为了应对这一挑战，我们提出了一个基于事件的CGVR网络，在自我监督的学习范式中，即 ，即自我调整，并利用事件摄像机的极高时间分辨率，以提供准确的/内部/内部内部的动态动态信息。具体而言，提出了基于事件的间/框架内补偿器（E-IC）来预测任意时间间隔之间的每个像素动态，包括时间过渡和空间翻译。在RS-RS，RS-GS和GS-RS方面探索连接，我们明确地使用所提出的E-IC进行了相互约束，从而在没有地面真相GS图像的情况下进行了监督。对合成和真实数据集的广泛评估表明，所提出的方法可以实现最先进的方法，并在现实世界中的基于事件的RS2GS倒置显示出了出色的性能。数据集和代码可在 https://w3un.github.io/selfunroll/ 。]]></description>
-      <guid>https://link.springer.com/article/10.1007/s11263-025-02364-z</guid>
-      <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
