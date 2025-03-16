@@ -4,7 +4,14 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Tue, 11 Mar 2025 09:16:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Mar 2025 18:19:03 GMT</lastBuildDate>
+    <item>
+      <title>Easyvis：用于腹腔镜手术盒培训师的实时3D可视化软件系统</title>
+      <link>https://link.springer.com/article/10.1007/s13304-025-02153-w</link>
+      <description><![CDATA[ easyvis是一种新兴的沉浸式3D腹腔镜可视化系统，可提高腹腔镜手术的效率。它将多个微型摄像头和光源与手术端口整合在一起，以在所需的角度提供手术内手术的视觉。在这项工作中，我们在腹腔镜手术训练盒环境中使用Easyvis微型摄像机组装来开发一种可视化算法，并具有简化的训练任务，以验证这种新技术的可行性。由于大多数腹腔镜手术工具是刚体的对象，因此可以离线获取它们的3D形状。我们开发了2D对象检测和跟踪算法，以获取每个对象的2D姿势和3D融合算法，以使用估计的2D姿势来估计和跟踪每个对象的3D姿势。然后，与每个对象的获得的3D模型一起，我们能够使用3D表面模型（离线获取）和从单个微型胶片中获取的图像在所需视图处渲染每个对象。除前景刚性对象外，背景3D模型是使用结构化的灯光和运动结构来获取的。与前景物体的快速运动相比，假定背景变化缓慢。因此，背景3D模型仅需要偶尔更新。我们的渲染算法能够整合前景和背景3D模型，以促进从理想的视角渲染基于图像的渲染。我们进行了实验以验证渲染图像的准确性和质量。]]></description>
+      <guid>https://link.springer.com/article/10.1007/s13304-025-02153-w</guid>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>GRPOSENET：使用稀疏RGB视图的可推广且可靠的6D对象姿势估计网络</title>
       <link>https://link.springer.com/article/10.1007/s00371-025-03852-6</link>
@@ -119,13 +126,6 @@
                 这项研究为低情绪和焦虑中的性别不平等的证据提供了至关重要的贡献，引起人们对女孩生活的编织和复杂性的关注，并阐明了将从更大的研究中受益的各个方面。通过与女孩自己探索获得的见解，以增强系统以满足女孩需求的系统。]]></description>
       <guid>https://link.springer.com/article/10.1186/s12905-024-03517-x</guid>
       <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DE-NAF：稀疏视图CBCT重建的神经衰减场的解耦</title>
-      <link>https://link.springer.com/article/10.1007/s10044-025-01416-x</link>
-      <description><![CDATA[锥形束计算机断层扫描（CBCT）获得三维内部图像，特别有效地对骨骼（如骨骼）等高矿物质密度结构有效。但是，尤其是在稀疏视图方案中，其可视化低密度软组织的能力受到限制，从而限制了其临床应用。为了解决这个问题，本研究提出了一种称为解耦神经衰减场（DE-NAF）的方法。具体而言，DE-NAF使用了一个自适应混合编码器，其中包括哈希编码和3D特征网格编码方法。这种方法将CBCT重建分为两个组成部分。哈希编码用于高矿物密度结构，例如骨骼，这是由于其卓越的编码质量以及在解决哈希冲突过程中保留高矿物密度结构特征的能力。 3D特征网格用于低密度软组织（例如肌肉），因为它有效地保留了低密度软组织的特征信息。自适应混合编码器提取这些特征，然后由多层感知器（MLP）解码器解码，以预测精确重建的X射线衰减值。此外，引入了结构感知的丧失，以增强组织对比和细节，进一步协助CBCT重建。广泛的实验表明，DE-NAF有效地解决了CBCT在成像低密度软组织中的局限性，保持完整的结构完整性并超过重建质量的其他方法。]]></description>
-      <guid>https://link.springer.com/article/10.1007/s10044-025-01416-x</guid>
-      <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
