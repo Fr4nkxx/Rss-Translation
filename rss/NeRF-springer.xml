@@ -4,12 +4,26 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Wed, 19 Mar 2025 06:21:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 15:16:27 GMT</lastBuildDate>
     <item>
       <title>LIDAR，IMU和相机融合用于同时本地化和映射：系统评价</title>
       <link>https://link.springer.com/article/10.1007/s10462-025-11187-w</link>
       <description><![CDATA[同时本地化和映射（SLAM）是智能无名系统估算其运动和重建未知环境的至关重要技术。但是，由于传感器本身的缺陷，具有一个传感器的SLAM系统仅具有稳健性和稳定性。最近的研究表明，由于不同传感器的相互补偿，具有多个传感器（主要由LIDAR，摄像机和IMU）的SLAM系统具有更好的性能。本文研究了多传感器融合大满贯的最新进展。该综述包括对不同传感器的优势和缺点的系统分析以及多传感器解决方案的命令。它通过融合传感器将多传感器融合大满贯系统分为四种主要类型：LIDAR-IMU SLAM，Visual-Imu Slam，Lidar-Visual-Visual-Visual-visual Slam和Lidar-Imu-Visual-Visual Sllam，并进行了详细的分析以及对管道和原理的讨论。同时，该论文调查常用数据集并引入评估指标。最后，总结了多传感器融合大满贯的现有挑战和未来的机会。。]]></description>
       <guid>https://link.springer.com/article/10.1007/s10462-025-11187-w</guid>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>胺碘酮治疗引起的罕见神经病毒性：病例报告</title>
+      <link>https://link.springer.com/article/10.1186/s43044-025-00631-5</link>
+      <description><![CDATA[背景
+                胺碘酮是一种以其潜在副作用而闻名的抗心律失常药物，其中一种是神经肌病，尽管它仍然相对较少。这种情况可能带有肌肉无力，疼痛和震颤，可能导致功能障碍。尚不完全了解胺碘酮诱导的神经瘤性的确切机制，但可能涉及直接肌肉毒性和对神经传导的影响。
+              
+                案例表现
+                我们介绍了一个68岁的男性患有症状心律失常的右心室发育不良，患有长期胺碘酮，经历了双侧腿部疼痛和与胺碘酮使用相关的弱点。在临床检查中，下肢的运动强度为2/5，触觉降低。生物学评估显示肌酸激酶和C反应蛋白的正常水平。脊柱MRI正常。肌电图的“ EMG”揭示了非长度依赖性感觉运动脱髓鞘性多神经病。停用胺碘酮后，迁移率和功能都显示出显着改善。
+              
+                结论
+                这些观察结果强调了在接受胺碘酮治疗的患者中进行神经系统检查的重要性，以鉴定罕见的并发症，例如神经瘤病。重要的是，在停用药物后，神经瘤通常是可逆的。]]></description>
+      <guid>https://link.springer.com/article/10.1186/s43044-025-00631-5</guid>
       <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -106,13 +120,6 @@
       <description><![CDATA[ 3D人姿势估计是应用不可或缺的，包括活动识别，动画生成和绩效分析。深度学习技术已大大推进了3D人类姿势估计的领域，从而获得了更精确和准确的结果。至关重要的是，尽管有这些进步，但在现实生活中如何使用这些技术仍然存在局限性。准确地计算出多个受试者或具有挑战性的情况，例如户外环境，迅速发展的场景或受试者太小或离相机太远的情况，仍然是一个挑战。当使用单眼相机设置时，这些问题尤其明显，这可能会使获得精确的结果变得更加困难。该系统评价综合了单眼3D姿势估计的最新趋势，详细介绍了过去十年中使用的工具，技术，方法和策略。在432个首次出版物中，选择了103份来自学术数据库的同行评审论文，从而提供了对该领域的进步和当前趋势的见解。该研究详细介绍了方法论的演变，重点是基于回归和基于检测的方法，并讨论了普遍的数据集和性能指标。这些发现强调了需要解决深度歧义和遮挡现实世界适用性等挑战的必要性。这项全面的综述旨在了解3D人类姿势估计的轨迹和前景，对各种应用的影响。]]></description>
       <guid>https://link.springer.com/article/10.1007/s11042-024-20495-2</guid>
       <pubDate>Thu, 06 Feb 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>机器学习随机森林模型用于构建与库陶化相关的基因签名，以预测胃癌的预后</title>
-      <link>https://link.springer.com/article/10.1038/s41598-025-88812-9</link>
-      <description><![CDATA[胃癌（GC）是最常见的肿瘤之一。其预后不佳的原因之一是GC细胞可以抵抗正常的细胞死亡过程，因此会发展远处转移。昆虫吞噬是一种新型的细胞死亡类型，已经对GC中与库相关的基因（CRG）之间的关系进行了有限的研究。本研究的目的是建立CRG的预后模型，并提供诊断和治疗的方向。从癌症基因组图集和基因表达综合数据集收集了GC患者的转录组和临床数据。单样品基因集富集分析（GSEA）和随机森林方法用于建立预后模型。使用Kaplan-Meier生存曲线，接收器操作特征图和nom图来评估模型的可靠性。 GSEA和基因集变异分析（GSVA）用于检查高风险组和低风险组之间的富集途径。最后，使用免疫组织化学分析来检查GC样品中的Ephrin 4（EFNA4）表达，并根据EFNA4的表达模式确定GC患者的预后。建立了与CRG相关的7种预测模型（RTKN2，INO80B，EFNA4，ELF2，NUSTN，KRTAP4和ARHGEF40）。该模型可以用作独立的预后因素，以预测GC患者的预后。 GSEA和GSVA结果表明，高风险患者的高风险患者主要与血管生成和TGF_BETA_SIGNALING途径的富集有关。最后，GC中的EFNA4表达明显高于正常组织中的EFNA4，而GC和高EFNA4表达的患者表现出改善的预后。总之，基于CRG的预后模型可以用作预测GC患者潜在预后的基础，并为治疗GC提供新的见解。]]></description>
-      <guid>https://link.springer.com/article/10.1038/s41598-025-88812-9</guid>
-      <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
