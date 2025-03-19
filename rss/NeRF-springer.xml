@@ -4,7 +4,14 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Sun, 16 Mar 2025 18:19:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 06:21:08 GMT</lastBuildDate>
+    <item>
+      <title>LIDAR，IMU和相机融合用于同时本地化和映射：系统评价</title>
+      <link>https://link.springer.com/article/10.1007/s10462-025-11187-w</link>
+      <description><![CDATA[同时本地化和映射（SLAM）是智能无名系统估算其运动和重建未知环境的至关重要技术。但是，由于传感器本身的缺陷，具有一个传感器的SLAM系统仅具有稳健性和稳定性。最近的研究表明，由于不同传感器的相互补偿，具有多个传感器（主要由LIDAR，摄像机和IMU）的SLAM系统具有更好的性能。本文研究了多传感器融合大满贯的最新进展。该综述包括对不同传感器的优势和缺点的系统分析以及多传感器解决方案的命令。它通过融合传感器将多传感器融合大满贯系统分为四种主要类型：LIDAR-IMU SLAM，Visual-Imu Slam，Lidar-Visual-Visual-Visual-visual Slam和Lidar-Imu-Visual-Visual Sllam，并进行了详细的分析以及对管道和原理的讨论。同时，该论文调查常用数据集并引入评估指标。最后，总结了多传感器融合大满贯的现有挑战和未来的机会。。]]></description>
+      <guid>https://link.springer.com/article/10.1007/s10462-025-11187-w</guid>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Easyvis：用于腹腔镜手术盒培训师的实时3D可视化软件系统</title>
       <link>https://link.springer.com/article/10.1007/s13304-025-02153-w</link>
@@ -105,26 +112,6 @@
       <link>https://link.springer.com/article/10.1038/s41598-025-88812-9</link>
       <description><![CDATA[胃癌（GC）是最常见的肿瘤之一。其预后不佳的原因之一是GC细胞可以抵抗正常的细胞死亡过程，因此会发展远处转移。昆虫吞噬是一种新型的细胞死亡类型，已经对GC中与库相关的基因（CRG）之间的关系进行了有限的研究。本研究的目的是建立CRG的预后模型，并提供诊断和治疗的方向。从癌症基因组图集和基因表达综合数据集收集了GC患者的转录组和临床数据。单样品基因集富集分析（GSEA）和随机森林方法用于建立预后模型。使用Kaplan-Meier生存曲线，接收器操作特征图和nom图来评估模型的可靠性。 GSEA和基因集变异分析（GSVA）用于检查高风险组和低风险组之间的富集途径。最后，使用免疫组织化学分析来检查GC样品中的Ephrin 4（EFNA4）表达，并根据EFNA4的表达模式确定GC患者的预后。建立了与CRG相关的7种预测模型（RTKN2，INO80B，EFNA4，ELF2，NUSTN，KRTAP4和ARHGEF40）。该模型可以用作独立的预后因素，以预测GC患者的预后。 GSEA和GSVA结果表明，高风险患者的高风险患者主要与血管生成和TGF_BETA_SIGNALING途径的富集有关。最后，GC中的EFNA4表达明显高于正常组织中的EFNA4，而GC和高EFNA4表达的患者表现出改善的预后。总之，基于CRG的预后模型可以用作预测GC患者潜在预后的基础，并为治疗GC提供新的见解。]]></description>
       <guid>https://link.springer.com/article/10.1038/s41598-025-88812-9</guid>
-      <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>青春期女孩对其人口中低情绪和焦虑率高的解释：一项共同制作的定性研究</title>
-      <link>https://link.springer.com/article/10.1186/s12905-024-03517-x</link>
-      <description><![CDATA[背景
-                从青春期开始，女孩面对与男孩相对于男孩的情绪低落和焦虑的风险，最近证据表明这可能会恶化。精神健康研究很少有意义地发展对这些性别差异的理解，包括吸引青少年女孩自己的观点，限制了我们指导进一步研究并增强干预方法的能力。
-              
-                目标
-                我们从青春期女孩的角度检查了情绪低落和焦虑，问：青春期女孩认为是什么导致他们的人口高度低的情绪和焦虑率？ 
-              
-                方法
-                我们采用了由生态系统理论指导的共同制作的定性设计，在2022年进行了焦点小组，在英国，有32名16至18岁的青少年女孩。使用反思性主题分析分析了数据。
-              
-                分析
-                参与者将青春期女孩的情绪低落和焦虑视为“正常”，并讨论了潜在的解释，包括对性别规范的持续重申和期望，以性别的方式，同伴关系中的困难以及社交媒体环境中的比较和不安全感的方式，以性别的困难和不安全感。在整个过程中，参与者强调了这些问题的复杂程度，包括围绕个体差异，社会人口统计学环境和社会背景的细微差别。
-              
-                结论
-                这项研究为低情绪和焦虑中的性别不平等的证据提供了至关重要的贡献，引起人们对女孩生活的编织和复杂性的关注，并阐明了将从更大的研究中受益的各个方面。通过与女孩自己探索获得的见解，以增强系统以满足女孩需求的系统。]]></description>
-      <guid>https://link.springer.com/article/10.1186/s12905-024-03517-x</guid>
       <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
