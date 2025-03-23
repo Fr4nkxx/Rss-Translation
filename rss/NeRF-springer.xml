@@ -4,7 +4,14 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Sat, 22 Mar 2025 21:12:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 18:18:08 GMT</lastBuildDate>
+    <item>
+      <title>传输图引导的深层展开网络，用于增强水下图像</title>
+      <link>https://link.springer.com/article/10.1007/s11227-025-07155-4</link>
+      <description><![CDATA[近年来，随着海洋行业的发展，水下图像增强和恢复的重要性变得越来越突出。然而，由于介质在不同波长下的光吸收和光吸收，水下图像通常会遭受颜色失真和低对比度的影响。但是，大多数现有网络都采用了一种端到端的映射方法，该方法忽略了图像增强过程中的先前信息，从而导致缺乏可解释性。为了应对这些挑战，我们提出了一个传输图引导的深层展开的网络，以增强水下图像。我们的方法由三个核心组成部分组成：自适应面膜照明动态先验（AMIDP），传输引导的多尺度卷积词典（TGMCD）和恒定的空间聚合模块（CSAM）。 AMIDP通过掩码自动编码器和动态卷积提取图像的照明特性，从而使照明和反射信息的单独建模分别为共享和独特的特征。然后将这些功能输入到TGMCD模块中，该模块由传输图指导以进行迭代优化。在此过程中，我们用可学习的多尺度残差模块替换传统的近端运算符，并结合了先前的信息和约束以增强模型性能。此外，CSAM旨在加强跨功能的信息融合，确保最终增强的图像在保留关键细节的同时纠正扭曲。在多个水下数据集上进行的广泛实验表明，我们的方法可实现最先进的性能，从而验证其有效性和优势。我们的代码可在 https://github.com/makabala/tgdu-master。]]></description>
+      <guid>https://link.springer.com/article/10.1007/s11227-025-07155-4</guid>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>对基于社区的夏季干预措施进行营养辅助组件的范围审查，旨在改善儿童与体重相关的结果</title>
       <link>https://link.springer.com/article/10.1186/s12889-025-22241-1</link>
@@ -28,7 +35,7 @@
     <item>
       <title>LIDAR，IMU和相机融合用于同时本地化和映射：系统评价</title>
       <link>https://link.springer.com/article/10.1007/s10462-025-11187-w</link>
-      <description><![CDATA[同时本地化和映射（SLAM）是智能无名系统估算其运动和重建未知环境的至关重要技术。但是，由于传感器本身的缺陷，具有一个传感器的SLAM系统仅具有稳健性和稳定性。最近的研究表明，由于不同传感器的相互补偿，具有多个传感器（主要由LIDAR，摄像机和IMU）的SLAM系统具有更好的性能。本文研究了多传感器融合大满贯的最新进展。该综述包括对不同传感器的优势和缺点的系统分析以及多传感器解决方案的命令。它通过融合传感器将多传感器融合大满贯系统分为四种主要类型：LIDAR-IMU SLAM，Visual-Imu Slam，Lidar-Visual-Visual-Visual-visual Slam和Lidar-Imu-Visual-Visual Sllam，并进行了详细的分析以及对管道和原理的讨论。同时，该论文调查常用数据集并引入评估指标。最后，总结了多传感器融合大满贯的现有挑战和未来的机会。。]]></description>
+      <description><![CDATA[同时本地化和映射（SLAM）是智能无名系统估算其运动和重建未知环境的至关重要技术。但是，由于传感器本身的缺陷，只有一个传感器的大满贯系统具有较差的鲁棒性和稳定性。最近的研究表明，由于不同传感器的相互补偿，具有多个传感器（主要由LIDAR，摄像机和IMU）的SLAM系统具有更好的性能。本文研究了多传感器融合大满贯的最新进展。该综述包括对不同传感器的优势和缺点的系统分析以及多传感器解决方案的命令。它通过融合传感器将多传感器融合大满贯系统分为四种主要类型：LIDAR-IMU SLAM，Visual-Imu Slam，Lidar-Visual-Visual-Visual-visual Slam和Lidar-Imu-Visual-Visual Sllam，并进行了详细的分析以及对管道和原理的讨论。同时，该论文调查常用数据集并引入评估指标。最后，总结了多传感器融合大满贯的现有挑战和未来的机会。。]]></description>
       <guid>https://link.springer.com/article/10.1007/s10462-025-11187-w</guid>
       <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
     </item>
@@ -126,13 +133,6 @@
                ]]></description>
       <guid>https://link.springer.com/article/10.1007/s11517-025-03316-y</guid>
       <pubDate>Sat, 08 Feb 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>用量化图像对ORB-SLAM3的性能评估</title>
-      <link>https://link.springer.com/article/10.1007/s10015-025-01006-4</link>
-      <description><![CDATA[视觉同时定位和映射（SLAM）是机器人进行高精度导航的关键技术，从而增加了研究人员之间的重点以提高其准确性。但是，SLAM准确性的提高总是以增加内存足迹为代价，这限制了在约束硬件资源下运行的设备的长期操作。量化方法的应用被提出是解决此问题的有前途解决方案。由于量化会导致绩效降解，因此定量评估潜在降解和存储器节省之间的权衡至关重要，以评估其对视觉大满贯的实用性。本文介绍了一种评估量化方法对视觉猛击的影响的机制，并将其应用于评估三种不同量化方法对ORB-SLAM3的影响。具体而言，我们检查了两种静态量化方法和一种称为误差扩散的动态量化方法，该方法可以伪造图像阴影信息。本文得出的结论是，错误扩散在误差扩散滤波器中具有受控的权重参数可以抑制降解并减少内存足迹，从而在动态环境中证明了其有效性。]]></description>
-      <guid>https://link.springer.com/article/10.1007/s10015-025-01006-4</guid>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
