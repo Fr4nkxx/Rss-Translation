@@ -4,7 +4,17 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Sun, 23 Mar 2025 18:18:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Mar 2025 15:16:26 GMT</lastBuildDate>
+    <item>
+      <title>来自多视图特征立体匹配先验的健壮的小说视图综合</title>
+      <link>https://link.springer.com/article/10.1007/s00530-025-01757-x</link>
+      <description><![CDATA[ nerf（神经辐射场）表现出从未知视图中合成图像的能力。但是，它面临着诸如闭塞，非斜体表面，稀疏输入以及多视图图像中通常遇到的弱质地等因素所面临的挑战。这些复杂性通常会导致拟合错误的场景几何形状，从而导致次优的新型视图综合质量。本文通过利用基于功能的多视立体匹配（MVS）先验的潜力来解决这一挑战。该方法的区别是其基于MVS估算的深度值，不确定性和深度间隔的自适应构建高斯函数的区别，从而为任意缩放场景提供了灵活性和适应性。在此基础上，通过比较该分布之间的差异与量渲染射线上采样点的重量分布之间的差异来实现NERF训练过程的优化。此外，我们提出了一种有效的Riemann和近似策略，以进一步提高深度损失的性能。适用于三个实际场景数据集的定量指标，即LLFF，IBRNET和DTU，表明本文提供的方法显着提高了与当前的先进方法相比，新型视图合成的质量，可实现3.8％至26.9％的增强。可视化实验揭示了强大的优化结果，尤其是在常规NERF遇到困难的挑战区域中。
+                图形摘要
+                
+]]></description>
+      <guid>https://link.springer.com/article/10.1007/s00530-025-01757-x</guid>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>传输图引导的深层展开网络，用于增强水下图像</title>
       <link>https://link.springer.com/article/10.1007/s11227-025-07155-4</link>
@@ -35,7 +45,7 @@
     <item>
       <title>LIDAR，IMU和相机融合用于同时本地化和映射：系统评价</title>
       <link>https://link.springer.com/article/10.1007/s10462-025-11187-w</link>
-      <description><![CDATA[同时本地化和映射（SLAM）是智能无名系统估算其运动和重建未知环境的至关重要技术。但是，由于传感器本身的缺陷，只有一个传感器的大满贯系统具有较差的鲁棒性和稳定性。最近的研究表明，由于不同传感器的相互补偿，具有多个传感器（主要由LIDAR，摄像机和IMU）的SLAM系统具有更好的性能。本文研究了多传感器融合大满贯的最新进展。该综述包括对不同传感器的优势和缺点的系统分析以及多传感器解决方案的命令。它通过融合传感器将多传感器融合大满贯系统分为四种主要类型：LIDAR-IMU SLAM，Visual-Imu Slam，Lidar-Visual-Visual-Visual-visual Slam和Lidar-Imu-Visual-Visual Sllam，并进行了详细的分析以及对管道和原理的讨论。同时，该论文调查常用数据集并引入评估指标。最后，总结了多传感器融合大满贯的现有挑战和未来的机会。。]]></description>
+      <description><![CDATA[同时本地化和映射（SLAM）是智能无名系统估算其运动和重建未知环境的至关重要技术。但是，由于传感器本身的缺陷，具有一个传感器的SLAM系统仅具有稳健性和稳定性。最近的研究表明，由于不同传感器的相互补偿，具有多个传感器（主要由LIDAR，摄像机和IMU）的SLAM系统具有更好的性能。本文研究了多传感器融合大满贯的最新进展。该综述包括对不同传感器的优势和缺点的系统分析以及多传感器解决方案的命令。它通过融合传感器将多传感器融合大满贯系统分为四种主要类型：LIDAR-IMU SLAM，Visual-Imu Slam，Lidar-Visual-Visual-Visual-visual Slam和Lidar-Imu-Visual-Visual Sllam，并进行了详细的分析以及对管道和原理的讨论。同时，该论文调查常用数据集并引入评估指标。最后，总结了多传感器融合大满贯的现有挑战和未来的机会。。]]></description>
       <guid>https://link.springer.com/article/10.1007/s10462-025-11187-w</guid>
       <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
     </item>
@@ -122,17 +132,6 @@
       <description><![CDATA[使用多层感知器（MLP）进行隐式场景表示，神经辐射场（NERF）的最新进展可以从新的角度综合现实观点。但是，输入图像的数量和质量的降解可能会导致场景重建失败，并且难以合成高质量的视图。为了解决这些局限性，本文提出了基于NERF的框架（MBS-NERF），该框架可以从有限数量的运动型输入图像中重建尖锐的NERF，以进行高质量的视图合成。该框架将深度信息集成为限制，以应对缺乏足够的视图信息，并引入运动模糊模拟模块（MBSM）以模拟运动模糊的物理形成过程。我们在曝光过程中进一步介绍摄像头轨迹优化，以稳健地摄像机位置。考虑到光度一致性和深度监督，MBS-NERF经过彻底训练。关于合成和真实数据集的综合实验验证了该模型在重建尖锐的NERF和从稀疏，运动毛发输入中实现高质量视图合成的有效性。]]></description>
       <guid>https://link.springer.com/article/10.1038/s41598-025-88614-z</guid>
       <pubDate>Wed, 12 Feb 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于NERF的单眼胸腔镜3D场景重建框架</title>
-      <link>https://link.springer.com/article/10.1007/s11517-025-03316-y</link>
-      <description><![CDATA[抽象的
-              随着在医疗程序中越来越多地使用基于图像的3D重建，准确的场景重建在手术导航和辅助治疗中起着至关重要的作用。但是，单调的颜色，有限的图像特征以及胸腔镜场景的明显亮度波动使特征点匹配过程在于传统的3D重建方法依赖，不稳定和不可靠的过程。它为准确的3D重建带来了巨大的挑战。在这项研究中，提出了一种单眼胸腔镜面场景的隐式3D重建的新方法。该方法将预训练的度量深度估计模型与神经辐射场（NERF）技术相结合，并使用密集的猛击来准确计算相机姿势。为了确保深度值的准确性以及重建场景的结构一致性，将深度和正常约束添加到NERF网络的原始颜色约束中，以实现高质量的场景重建结果。我们在害怕的数据集和临床数据集上进行了实验。在与其他方法进行比较之后，本文的深度估计精度和点云重建质量优于现有方法。本文中的方法可以提供更准确的3D重建，对复杂的胸外科手术场景进行了更大的重建，这可以显着提高手术导航的准确性和治疗功效。
-            
-              图形摘要
-               ]]></description>
-      <guid>https://link.springer.com/article/10.1007/s11517-025-03316-y</guid>
-      <pubDate>Sat, 08 Feb 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
