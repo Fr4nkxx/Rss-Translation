@@ -4,12 +4,19 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Fri, 28 Mar 2025 03:29:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 09:16:16 GMT</lastBuildDate>
     <item>
       <title>AAGS：外观感知3D高斯裂开，无约束的照片集</title>
       <link>https://link.springer.com/article/10.1007/s00530-025-01742-4</link>
       <description><![CDATA[从无限制的野外照片收藏中重建3D场景一直是一个挑战性的问题。主要难度在于不同的外观条件和不受控制的图像样本的瞬态遮挡器。随着神经辐射领域（NERF）的发展，以前的作品制定了一些有效的策略来解决此问题。但是，受深网和体积渲染技术的限制，这些方法通常需要大量的时间成本。最近，3D高斯脱落（3DGS）的出现大大加快了3D重建任务的训练和渲染速度。然而，香草3DGS难以区分野外照片集的不同外观。为了解决上述问题，我们提出了出现感知的3D高斯裂片（AAGS），这是3DGS的新型扩展到无约束的照片集。具体而言，我们采用一个外观提取器来捕获图像样本的全局特征，从而使视觉条件的区别，例如，例如，照明和天气，跨不同的观测值。此外，为了减轻瞬态遮挡器的影响，我们设计了一个瞬态驱动模块，该模块可自适应地学习2D可见性图，从而从复杂的现实世界场景中分解静态目标。进行了广泛的实验，以验证我们的AAG的有效性和优势。与以前的作品相比，我们的方法不仅可以更好地重建和渲染质量，而且大大降低了培训和渲染开销。代码将在&lt;a href =“ https://github.com/zhang-wencong/aags”上发布。]]></description>
       <guid>https://link.springer.com/article/10.1007/s00530-025-01742-4</guid>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>3D神经风格化的进步：一项调查</title>
+      <link>https://link.springer.com/article/10.1007/s11263-025-02403-9</link>
+      <description><![CDATA[现代人工智能提供了一种新颖而变革的方法，可以跨越图像，视频和3D数据（释放创造力的力量）跨越各种样式和方式创建数字艺术，并彻底改变了我们感知并与视觉内容互动的方式。本文报道了使用神经网络的表达能力进行风格化的3D资产创造和操纵的最新进展。我们考虑了关键的设计选择，例如场景表示，指导数据，优化策略和输出样式，以建立神经风格风格化的分类学。在此类分类法的基础上，我们的调查首先重新审视了2D图像上神经风化的背景，然后对3D数据的最新神经风格化方法进行了深入的讨论，并伴随着评估选定的网格和神经场风格化方法的基准测试。根据调查中获得的见解，我们强调了实际意义，开放挑战，未来的研究以及神经风格的潜在影响，这促进了研究人员和从业人员使用现代人工智能的3D内容创造的迅速发展的景观。 。]]></description>
+      <guid>https://link.springer.com/article/10.1007/s11263-025-02403-9</guid>
       <pubDate>Fri, 28 Mar 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -125,13 +132,6 @@
       <description><![CDATA[最近的3D对象重建方法依靠用户输入alpha哑光来删除背景并重建对象，因为自动预测的alpha mattes不够准确。为了实现自动3D对象重建，我们提出了一个用于图像垫和3D对象重建（关节MR）的联合框架。它迭代地将所有图像的信息整合到对象提示图中，以帮助图像垫模型预测每个图像的更好的alpha哑光，进而改善3D对象重建性能。从理论上讲，我们的框架的融合是可以保证的。我们进一步提出了一种将任意图像矩阵模型转换为基于提示的方法的方法。我们从多视图图像和来自单眼视频的3D动态对象重建的3D对象重建进行实验。还测试了3D对象重建模型和图像底漆模型的不同组合。实验结果表明，我们的框架仅略微增加了计算成本，但显着提高了所有模型组合的性能，表明其兼容性和效率。我们的代码，模型和数据可在 https://github.com/xinshuangl/jointmr/jointmr 。]]></description>
       <guid>https://link.springer.com/article/10.1007/s11263-024-02341-y</guid>
       <pubDate>Fri, 21 Feb 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>报告</title>
-      <link>https://link.springer.com/article/10.1007/s41064-025-00335-0</link>
-      <description><![CDATA[]]></description>
-      <guid>https://link.springer.com/article/10.1007/s41064-025-00335-0</guid>
-      <pubDate>Wed, 12 Feb 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
