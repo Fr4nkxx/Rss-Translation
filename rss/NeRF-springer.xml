@@ -4,7 +4,14 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Wed, 26 Mar 2025 15:16:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 03:29:39 GMT</lastBuildDate>
+    <item>
+      <title>AAGS：外观感知3D高斯裂开，无约束的照片集</title>
+      <link>https://link.springer.com/article/10.1007/s00530-025-01742-4</link>
+      <description><![CDATA[从无限制的野外照片收藏中重建3D场景一直是一个挑战性的问题。主要难度在于不同的外观条件和不受控制的图像样本的瞬态遮挡器。随着神经辐射领域（NERF）的发展，以前的作品制定了一些有效的策略来解决此问题。但是，受深网和体积渲染技术的限制，这些方法通常需要大量的时间成本。最近，3D高斯脱落（3DGS）的出现大大加快了3D重建任务的训练和渲染速度。然而，香草3DGS难以区分野外照片集的不同外观。为了解决上述问题，我们提出了出现感知的3D高斯裂片（AAGS），这是3DGS的新型扩展到无约束的照片集。具体而言，我们采用一个外观提取器来捕获图像样本的全局特征，从而使视觉条件的区别，例如，例如，照明和天气，跨不同的观测值。此外，为了减轻瞬态遮挡器的影响，我们设计了一个瞬态驱动模块，该模块可自适应地学习2D可见性图，从而从复杂的现实世界场景中分解静态目标。进行了广泛的实验，以验证我们的AAG的有效性和优势。与以前的作品相比，我们的方法不仅可以更好地重建和渲染质量，而且大大降低了培训和渲染开销。代码将在&lt;a href =“ https://github.com/zhang-wencong/aags”上发布。]]></description>
+      <guid>https://link.springer.com/article/10.1007/s00530-025-01742-4</guid>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>来自多视图特征立体匹配先验的健壮的小说视图综合</title>
       <link>https://link.springer.com/article/10.1007/s00530-025-01757-x</link>
@@ -124,13 +131,6 @@
       <link>https://link.springer.com/article/10.1007/s41064-025-00335-0</link>
       <description><![CDATA[]]></description>
       <guid>https://link.springer.com/article/10.1007/s41064-025-00335-0</guid>
-      <pubDate>Wed, 12 Feb 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MBS-NERF：从运动毛线稀疏图像中重建尖锐的神经辐射场</title>
-      <link>https://link.springer.com/article/10.1038/s41598-025-88614-z</link>
-      <description><![CDATA[使用多层感知器（MLP）进行隐式场景表示，神经辐射场（NERF）的最新进展可以从新的角度综合现实观点。但是，输入图像的数量和质量的降解可能会导致场景重建失败，并且难以合成高质量的视图。为了解决这些局限性，本文提出了基于NERF的框架（MBS-NERF），该框架可以从有限数量的运动型输入图像中重建尖锐的NERF，以进行高质量的视图合成。该框架将深度信息集成为限制，以应对缺乏足够的视图信息，并引入运动模糊模拟模块（MBSM）以模拟运动模糊的物理形成过程。我们在曝光过程中进一步介绍摄像头轨迹优化，以稳健地摄像机位置。考虑到光度一致性和深度监督，MBS-NERF经过彻底训练。关于合成和真实数据集的综合实验验证了该模型在重建尖锐的NERF和从稀疏，运动毛发输入中实现高质量视图合成的有效性。]]></description>
-      <guid>https://link.springer.com/article/10.1038/s41598-025-88614-z</guid>
       <pubDate>Wed, 12 Feb 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
