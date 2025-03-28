@@ -4,12 +4,19 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Fri, 28 Mar 2025 09:16:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 15:15:26 GMT</lastBuildDate>
     <item>
       <title>AAGS：外观感知3D高斯裂开，无约束的照片集</title>
       <link>https://link.springer.com/article/10.1007/s00530-025-01742-4</link>
       <description><![CDATA[从无限制的野外照片收藏中重建3D场景一直是一个挑战性的问题。主要难度在于不同的外观条件和不受控制的图像样本的瞬态遮挡器。随着神经辐射领域（NERF）的发展，以前的作品制定了一些有效的策略来解决此问题。但是，受深网和体积渲染技术的限制，这些方法通常需要大量的时间成本。最近，3D高斯脱落（3DGS）的出现大大加快了3D重建任务的训练和渲染速度。然而，香草3DGS难以区分野外照片集的不同外观。为了解决上述问题，我们提出了出现感知的3D高斯裂片（AAGS），这是3DGS的新型扩展到无约束的照片集。具体而言，我们采用一个外观提取器来捕获图像样本的全局特征，从而使视觉条件的区别，例如，例如，照明和天气，跨不同的观测值。此外，为了减轻瞬态遮挡器的影响，我们设计了一个瞬态驱动模块，该模块可自适应地学习2D可见性图，从而从复杂的现实世界场景中分解静态目标。进行了广泛的实验，以验证我们的AAG的有效性和优势。与以前的作品相比，我们的方法不仅可以更好地重建和渲染质量，而且大大降低了培训和渲染开销。代码将在&lt;a href =“ https://github.com/zhang-wencong/aags”上发布。]]></description>
       <guid>https://link.springer.com/article/10.1007/s00530-025-01742-4</guid>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>纹理驱动的姿势引导的人类图像合成</title>
+      <link>https://link.springer.com/article/10.1007/s10044-025-01452-7</link>
+      <description><![CDATA[随着计算机视觉和人工智能的快速发展，在角色图像合成领域已经取得了重大突破。尽管现有方法可以综合目标姿势图像，但处理复杂的纹理和姿势比对仍存在局限性，例如纹理失真，姿势错位和缺失的信息。为了解决这个问题，本文提出了一种姿势引导的人类图像合成方法，称为人姿势转移生成对抗网络（HPT-GAN）。该模型通过引入Resblocks模块，设计纹理传输模块（TTM）和TORGB模块来显着提高合成图像的质量和效率。具体而言，重新建筑增强了梯度稳定性，同时保留上下文信息，TTM通过多头注意机制有效地对齐纹理，并且TORGB模块优化了多分辨率特征的融合。与类似方法相比，HPT-GAN具有少量参数，同时达到更快的处理速度。此外，它在DeepFashion和Market-1501数据集上取得了良好的成果。]]></description>
+      <guid>https://link.springer.com/article/10.1007/s10044-025-01452-7</guid>
       <pubDate>Fri, 28 Mar 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -124,13 +131,6 @@
       <link>https://link.springer.com/article/10.1007/s10044-025-01427-8</link>
       <description><![CDATA[从多个图像捕获的新型视图综合是计算机视觉和计算摄影的关键研究主题，因为其应用范围很广。神经辐射场通过使用多层感知器优化连续体积场景函数来显着提高性能。尽管神经辐射场及其修改提供了高质量的场景，但由于其层次结构包括粗网络，它们在优化精确的辐射场方面有限制。它们还需要许多参数，通常不考虑射线上样本之间的局部和全球关系。本文提出了一个统一的单阶段范式，该范式共同了解了使用卷积神经网络的三维射线的相对位置及其对复杂场景的相对颜色和密度的相对位置，以减少噪声和无关的特征并防止过度拟合。包括消融测试在内的实验结果验证了所提出的方法比当前最新模型合成新观点的鲁棒性。该代码可在 https://github.com/xkdytk/scorf 。]]></description>
       <guid>https://link.springer.com/article/10.1007/s10044-025-01427-8</guid>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个循环中的图像垫和3D重建</title>
-      <link>https://link.springer.com/article/10.1007/s11263-024-02341-y</link>
-      <description><![CDATA[最近的3D对象重建方法依靠用户输入alpha哑光来删除背景并重建对象，因为自动预测的alpha mattes不够准确。为了实现自动3D对象重建，我们提出了一个用于图像垫和3D对象重建（关节MR）的联合框架。它迭代地将所有图像的信息整合到对象提示图中，以帮助图像垫模型预测每个图像的更好的alpha哑光，进而改善3D对象重建性能。从理论上讲，我们的框架的融合是可以保证的。我们进一步提出了一种将任意图像矩阵模型转换为基于提示的方法的方法。我们从多视图图像和来自单眼视频的3D动态对象重建的3D对象重建进行实验。还测试了3D对象重建模型和图像底漆模型的不同组合。实验结果表明，我们的框架仅略微增加了计算成本，但显着提高了所有模型组合的性能，表明其兼容性和效率。我们的代码，模型和数据可在 https://github.com/xinshuangl/jointmr/jointmr 。]]></description>
-      <guid>https://link.springer.com/article/10.1007/s11263-024-02341-y</guid>
       <pubDate>Fri, 21 Feb 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
