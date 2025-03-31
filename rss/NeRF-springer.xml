@@ -4,7 +4,14 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Fri, 28 Mar 2025 15:15:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 09:17:14 GMT</lastBuildDate>
+    <item>
+      <title>基于单个RGB-LIDAR视图的结构化3D高斯裂口，用于新型视图合成</title>
+      <link>https://link.springer.com/article/10.1007/s10489-025-06494-2</link>
+      <description><![CDATA[ 3D场景重建是计算机视觉和图形中的一项关键任务，最近在3D高斯碎片（3DG）中取得了进步，展示了令人印象深刻的新型视图综合（NVS）结果。但是，大多数3DGS方法都依赖于多视图图像，这些图像并非总是可用的，尤其是在室外环境中。在本文中，我们仅使用单视数据探索3D场景重建，包括RGB图像和LIDAR传感器的稀疏点云。为了解决有限的参考和激光雷达传感器不足点云所带来的挑战，我们提出了一个基于体素的结构化3DGS框架，并随着深度预测增强了。我们引入了一个新的深度，先前的向导Voxel生长和修剪算法，该算法利用了深度图来完善场景结构并提高渲染质量。此外，我们设计了一种具有自适应体素尺寸的虚拟背景拟合方法，以适应室外场景中LIDAR数据的稀疏分布。我们的方法超过了现有的方法，包括脚手架，高斯式PRO，3DGS，MIPSPLATTING和UNIDEPTH，就PSNR，SSIM，LPIPS和FID指标而言，在KITTI和Waymo数据集上，在单个ViewPoint 3D Recoluction和NVS和NVS上的有效性展示了其有效性。]]></description>
+      <guid>https://link.springer.com/article/10.1007/s10489-025-06494-2</guid>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>AAGS：外观感知3D高斯裂开，无约束的照片集</title>
       <link>https://link.springer.com/article/10.1007/s00530-025-01742-4</link>
@@ -15,7 +22,7 @@
     <item>
       <title>纹理驱动的姿势引导的人类图像合成</title>
       <link>https://link.springer.com/article/10.1007/s10044-025-01452-7</link>
-      <description><![CDATA[随着计算机视觉和人工智能的快速发展，在角色图像合成领域已经取得了重大突破。尽管现有方法可以综合目标姿势图像，但处理复杂的纹理和姿势比对仍存在局限性，例如纹理失真，姿势错位和缺失的信息。为了解决这个问题，本文提出了一种姿势引导的人类图像合成方法，称为人姿势转移生成对抗网络（HPT-GAN）。该模型通过引入Resblocks模块，设计纹理传输模块（TTM）和TORGB模块来显着提高合成图像的质量和效率。具体而言，重新建筑增强了梯度稳定性，同时保留上下文信息，TTM通过多头注意机制有效地对齐纹理，并且TORGB模块优化了多分辨率特征的融合。与类似方法相比，HPT-GAN具有少量参数，同时达到更快的处理速度。此外，它在DeepFashion和Market-1501数据集上取得了良好的成果。]]></description>
+      <description><![CDATA[随着计算机视觉和人工智能的快速发展，在角色图像合成领域已经取得了重大突破。尽管现有方法可以综合目标姿势图像，但处理复杂的纹理和姿势比对仍存在局限性，例如纹理失真，姿势错位和缺失的信息。为了解决这个问题，本文提出了一种姿势引导的人类图像合成方法，称为人姿势转移生成对抗网络（HPT-GAN）。该模型通过引入Resblocks模块，设计纹理传输模块（TTM）和TORGB模块来显着提高合成图像的质量和效率。具体而言，重新建筑增强了梯度稳定性，同时保留上下文信息，TTM通过多头注意机制有效地对齐纹理，并且TORGB模块优化了多分辨率特征的融合。与类似方法相比，HPT-GAN具有少量参数，同时实现处理速度更快。此外，它在DeepFashion和Market-1501数据集上取得了良好的成果。]]></description>
       <guid>https://link.springer.com/article/10.1007/s10044-025-01452-7</guid>
       <pubDate>Fri, 28 Mar 2025 00:00:00 GMT</pubDate>
     </item>
@@ -125,13 +132,6 @@
       <description><![CDATA[视觉的出现催化了关键的进化进步，使生物不仅能够感知，而且可以与环境聪明地互动。机器人系统的演变反映了这种转变，在该演变中，利用视力模拟和预测自己的动态的能力标志着朝着自主性和自我意识飞跃。人类利用愿景来记录经验并内部模拟潜在的动作。例如，我们可以想象，如果我们站起来并举起手臂，身体将形成“ T”形状而无需身体运动。同样，仿真允许机器人计划和预测潜在动作的结果而无需执行。在这里，我们介绍了一个自制的学习框架，以使机器人仅使用简短的原始视频数据来建模和预测其形态，运动学和运动控制，从而消除了对广泛的现实数据收集和运动学先验的需求。通过观察自己的动作，类似于人类在镜子中观看反射，机器人学会了模拟自己并预测各种任务的空间运动的能力。我们的结果表明，这种自学模拟不仅可以实现准确的运动计划，而且还允许机器人检测异常并从损害中恢复。]]></description>
       <guid>https://link.springer.com/article/10.1038/s42256-025-01006-w</guid>
       <pubDate>Tue, 25 Feb 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>单阶段卷积神经辐射场</title>
-      <link>https://link.springer.com/article/10.1007/s10044-025-01427-8</link>
-      <description><![CDATA[从多个图像捕获的新型视图综合是计算机视觉和计算摄影的关键研究主题，因为其应用范围很广。神经辐射场通过使用多层感知器优化连续体积场景函数来显着提高性能。尽管神经辐射场及其修改提供了高质量的场景，但由于其层次结构包括粗网络，它们在优化精确的辐射场方面有限制。它们还需要许多参数，通常不考虑射线上样本之间的局部和全球关系。本文提出了一个统一的单阶段范式，该范式共同了解了使用卷积神经网络的三维射线的相对位置及其对复杂场景的相对颜色和密度的相对位置，以减少噪声和无关的特征并防止过度拟合。包括消融测试在内的实验结果验证了所提出的方法比当前最新模型合成新观点的鲁棒性。该代码可在 https://github.com/xkdytk/scorf 。]]></description>
-      <guid>https://link.springer.com/article/10.1007/s10044-025-01427-8</guid>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
