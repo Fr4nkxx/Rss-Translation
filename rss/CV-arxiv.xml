@@ -38,14 +38,6 @@
       <pubDate>Thu, 03 Apr 2025 04:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>在机器人辅助体内贴片钳中的多页板本地化的粗到精细学习</title>
-      <link>https://arxiv.org/abs/2504.01044</link>
-      <description><![CDATA[ARXIV：2504.01044V1公告类型：新 
-摘要：体内图像引导的多页板贴片钳对于研究神经科学中的细胞相互作用和网络动态至关重要。但是，当前程序主要依赖于手动专业知识，这限制了可访问性和可伸缩性。机器人自动化提出了一个有希望的解决方案，但是实现多个移液器的精确实时检测仍然是一个挑战。现有的方法着眼于离体实验或单一移液管的使用，使其不足以进行体内多页板场景。为了应对这些挑战，我们提出了一项由热图调节的粗到精细学习技术，以促进用于机器人辅助体内贴片钳的多页板实时定位。更具体地说，我们引入了基于生成的对抗网络（GAN）的模块，以消除背景噪声并增强移液管的可见性。然后，我们引入了一个两阶段的变压器模型，该模型从预测移液器尖端的粗热图开始，然后是细粒的配位回归模块，以进行精确的尖端定位。为了确保良好的训练，我们使用匈牙利算法在预测位置和实际位置之间进行最佳匹配。实验结果表明，我们的方法在10 {\ MU} M内达到了&gt; 98％的精度，并且在5 {\ MU} M内的精度&gt; 89％，用于定位多页板尖端。平均MSE为2.52 {\ MU} m。]]></description>
-      <guid>https://arxiv.org/abs/2504.01044</guid>
-      <pubDate>Thu, 03 Apr 2025 04:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>通过机器学习对演员的面部认识来预测电影制作年</title>
       <link>https://arxiv.org/abs/2504.01047</link>
       <description><![CDATA[ARXIV：2504.01047V1公告类型：新 
@@ -88,7 +80,7 @@
     <item>
       <title>RIPVIS：RIP Currents视频实例细分基准用于海滩监控和安全性</title>
       <link>https://arxiv.org/abs/2504.01128</link>
-      <description><![CDATA[ARXIV：2504.01128V1公告类型：新 
+      <description><![CDATA[ARXIV：2504.01128V2公告类型：新 
 摘要：撕裂电流是强大的，局部的和狭窄的水流，它们向外流入大海，在全球造成了许多与海滩有关的伤害和死亡。由于其无定形性质和缺乏带注释的数据，对RIP电流的准确识别仍然具有挑战性，这通常需要专家知识。为了解决这些问题，我们提出了RIPVIS，这是一个大规模的视频实例细分基准明确设计用于RIP当前细分。 RIPVIS比以前的数据集大的数量级，其中包含$ 184 $的视频（$ 212,328 $框架），其中$ 150 $ $ 150 $的视频（$ 163,528 $帧）与Rip Currents一起收集，这些视频是从各种来源收集的，包括无人机，移动电话和固定的海滩喜剧片。我们的数据集涵盖了各种全球地点，包括美国，墨西哥，哥斯达黎加，葡萄牙，意大利，希腊，罗马尼亚，罗马尼亚，斯里兰卡，澳大利亚，澳大利亚和新西兰等多个全球地点，包括波浪破坏图案，沉积物流量和水色变化。大多数视频以$ 5 $ fps的注释，以确保在动态方案中的准确性，并附加了34美元的$ 34 $视频（$ 48,800 $帧），而无需撕裂电流。我们使用蒙版R-CNN，Cascade Mask R-CNN，SparseSinst和Yolo11进行全面的实验，以微调这些模型，以实现RIP当前分割的任务。结果是根据多个指标报告的，特别关注$ f_2 $得分，以优先考虑召回并减少虚假负面因素。为了提高分割性能，我们基于时间置信度聚集（TCA）引入了一个新的后处理步骤。 RIPVIS旨在为RIP当前细分设定新的标准，从而有助于更安全的海滩环境。我们提供一个基准网站，与研究社区共享数据，模型和结果，鼓励持续的合作和未来的贡献，网址为https://ripvis.ai。]]></description>
       <guid>https://arxiv.org/abs/2504.01128</guid>
       <pubDate>Thu, 03 Apr 2025 04:00:00 GMT</pubDate>
@@ -97,7 +89,7 @@
       <title>Gru-Aunet：无接触式指纹呈现攻击检测的域适应框架</title>
       <link>https://arxiv.org/abs/2504.01213</link>
       <description><![CDATA[ARXIV：2504.01213V1公告类型：新 
-摘要：尽管非接触式指纹提供了用户舒适性，但它们更容易受到欺骗的影响。当前在非接触式指纹区域进行抗旋转的解决方案依赖于域的适应性学习，从而限制了它们的概括和可扩展性。为了解决这些局限性，我们引入了Gru-Aunet，这是一种域的适应方法，将基于Swin Transformer的UNET架构与Gru增强注意机制，瓶颈中的动态滤波器网络以及焦点和对比损失函数集成在一起。 Gru-aunet接受了真正的和欺骗指纹图像的培训，在Clarkson，Colfispoof和IIITD数据集中表现出了强大的抵御性抗韧性，平均BPCer为0.09 \％，APCer为1.2 \％。]]></description>
+摘要：尽管非接触式指纹提供了用户舒适性，但它们更容易受到欺骗的影响。当前在非接触式指纹区域进行抗旋转的解决方案依赖于域的适应性学习，从而限制了它们的概括和可扩展性。为了解决这些局限性，我们引入了Gru-Aunet，这是一种域的适应方法，将基于Swin Transformer的UNET架构与Gru增强注意机制，瓶颈中的动态滤波器网络以及焦点和对比度损耗功能相结合。 Gru-aunet接受了真正的和欺骗指纹图像的培训，在Clarkson，Colfispoof和IIITD数据集中表现出了强大的抵御性抗韧性，平均BPCer为0.09 \％，APCer为1.2 \％。]]></description>
       <guid>https://arxiv.org/abs/2504.01213</guid>
       <pubDate>Thu, 03 Apr 2025 04:00:00 GMT</pubDate>
     </item>
@@ -123,6 +115,14 @@
       <description><![CDATA[ARXIV：2504.01228V1公告类型：新 
 摘要：深度学习模型在计算机视觉上取得了巨大的成功，但仍然容易受到对抗性攻击的影响，尤其是在模型细节未知的黑箱设置中。现有的对抗攻击方法（即使是与关键帧一起使用）通常将视频数据视为简单的向量，忽略了它们固有的多维结构，并且需要大量查询，从而使它们效率低下且可检测到。在本文中，我们提出了一种基于新颖的张量的低级对抗攻击\ textbf {tenad}，它通过将视频表示为四阶张量来利用视频数据的多维属性。通过利用低级攻击，我们的方法可大大减少搜索空间以及在黑框设置中生成对抗示例所需的查询数量。标准视频分类数据集的实验结果表明，\ textbf {tenad}有效地产生了不可察觉的对抗性扰动，同时与最先进的方法相比，获得了较高的攻击成功率和查询效率。我们的方法在成功率，查询效率和扰动不可识别方面优于现有的黑盒对抗攻击，突出了基于张量的方法对视频模型的对抗性攻击的潜力。]]></description>
       <guid>https://arxiv.org/abs/2504.01228</guid>
+      <pubDate>Thu, 03 Apr 2025 04:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>融合：频率引导的水下空间图像重建</title>
+      <link>https://arxiv.org/abs/2504.01243</link>
+      <description><![CDATA[ARXIV：2504.01243V1公告类型：新 
+摘要：水下图像遭受严重的降解，包括颜色扭曲，可见度降低以及由于波长依赖性衰减和散射而导致的结构细节丧失。现有的增强方法主要集中于空间域处理，忽略了频率域捕获全局颜色分布和远距离依赖性的潜力。为了解决这些局限性，我们提出了融合，这是一个双重域深度学习框架，共同利用空间和频域信息。 Fusion通过多尺度的卷积内核和空间域中的自适应注意机制独立处理每个RGB通道，同时通过基于FFT的频率注意力同时提取全局结构信息。频率引导的融合模块整合了两个域的互补特征，然后进行通道间融合和自适应通道重新校准，以确保平衡的色彩分布。 Extensive experiments on benchmark datasets (UIEB, EUVP, SUIM-E) demonstrate that FUSION achieves state-of-the-art performance, consistently outperforming existing methods in reconstruction fidelity (highest PSNR of 23.717 dB and SSIM of 0.883 on UIEB), perceptual quality (lowest LPIPS of 0.112 on UIEB), and visual enhancement metrics (best UIQM在UIEB上为3.414），同时需要较少的参数（0.28m）和较低的计算复杂性，这表明其适合实时水下水下成像应用。]]></description>
+      <guid>https://arxiv.org/abs/2504.01243</guid>
       <pubDate>Thu, 03 Apr 2025 04:00:00 GMT</pubDate>
     </item>
     </channel>
