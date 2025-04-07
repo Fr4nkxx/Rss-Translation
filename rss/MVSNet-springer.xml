@@ -4,7 +4,7 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Mon, 07 Apr 2025 18:20:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 21:14:08 GMT</lastBuildDate>
     <item>
       <title>来自多视图特征立体匹配先验的健壮的小说视图综合</title>
       <link>https://link.springer.com/article/10.1007/s00530-025-01757-x</link>
@@ -51,30 +51,6 @@
       <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>朝向大规模的元素重建</title>
-      <link>https://link.springer.com/chapter/10.1007/978-981-97-6915-5_5</link>
-      <description><![CDATA[在计算机视觉和图形领域，以无与伦比的现实主义和细节来重建现实世界的现实场景一直是一个长期的目标。实现这一目标需要在感应技术和元素重建算法中进行协调的努力。]]></description>
-      <guid>https://link.springer.com/chapter/10.1007/978-981-97-6915-5_5</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MVSGAUSSIAN：多视图立体声</title>
-      <link>https://link.springer.com/chapter/10.1007/978-3-031-72649-1_3</link>
-      <description><![CDATA[我们提出了MVSgaussian，这是一种可推广的新的3D高斯表示方法，该方法源自多视图立体声（MVS），可以有效地重建看不见的场景。具体而言，1）我们利用MVS编码几何形状 - 意识到高斯表示，并将其解码为高斯参数。 2）为了进一步提高性能，我们提出了一种混合高斯渲染，该渲染整合了新型视图合成的有效体积渲染设计。 3）为了支持特定场景的快速微调，我们引入了多视图几何一致的聚合策略，以有效地汇总了由可推广模型产生的点云，作为每场局部优化的初始化。与以前可推广的基于NERF的方法相比，通常需要进行微调和秒渲染的几分钟，MVSgaussian可以为每个场景提供更好的合成质量实时渲染。与Vanilla 3D-GS相比，MVSGaussian以较少的训练计算成本获得了更好的视图合成。对DTU，实际向前的，NERF合成以及坦克和神庙数据集进行了广泛的实验，以验证MVSgaussian具有令人信服的通用性，实时渲染速度和快速的每场曲（每场启动）的最佳性能。]]></description>
-      <guid>https://link.springer.com/chapter/10.1007/978-3-031-72649-1_3</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OMNI-RECON：利用基于图像的通用神经辐射场的渲染</title>
-      <link>https://link.springer.com/chapter/10.1007/978-3-031-72640-8_9</link>
-      <description><![CDATA[神经辐射场（NERF）的最新突破已经引发了对它们集成到现实世界3D应用程序中的大量需求。但是，不同3D应用所需的各种功能通常需要具有各种管道的不同NERF模型，从而为每个目标任务和繁琐的试用试验实验提供了乏味的NERF培训。我们的工作旨在从新兴基金会模型的概括能力和适应性中汲取灵感，旨在开发一个通用的NERF来处理各种3D任务。我们通过提出一个名为Omni-Recon的框架来实现这一目标，该框架能够（1）可推广的3D重建和零击的多任务场景的理解，以及（2）对多样化的下游3D应用程序的适应性，例如实时渲染和场景编辑。我们的主要见解是，具有准确的几何形状和外观估算的基于图像的渲染管道可以将2D图像特征提升到其3D对应物中，从而以可推广的方式将2D任务扩展到3D世界。具体而言，我们的Omni-Recon使用基于图像的渲染具有两个解耦分支的渲染：一个基于图像的分支：一个基于图像的渲染：一个基于复杂的变压器的分支，逐渐融合了几何形状和外观特征，以进行准确的几何学估计，以及一个可预测混合源视图的轻量级分支。该设计实现了最新的（SOTA）可推广的3D表面重建质量，并在各种任务中重复使用的重量可重复使用，以了解零照片的多任务场景。此外，它可以在将复杂的几何分支烘烤到网格中后实现实时渲染，快速适应以实现SOTA可推广的3D理解性能，并与2D扩散模型无缝集成，用于文本指导的3D编辑。我们的代码可用： 
-              https://github.com/gatech-eic/omni-recon
-              
-            。]]></description>
-      <guid>https://link.springer.com/chapter/10.1007/978-3-031-72640-8_9</guid>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Caesarnerf：校准的语义表示，用于几个可概括的神经渲染</title>
       <link>https://link.springer.com/chapter/10.1007/978-3-031-72658-3_5</link>
       <description><![CDATA[普遍性和少数学习是神经辐射场（NERF）的主要挑战，通常是由于对像素级渲染缺乏整体理解。我们介绍了Caesarnerf，这是一种端到端的方法，它利用场景级校准的语义表示以及像素级表示，以促进几乎没有弹性的可推广的神经渲染，从而促进整体理解而不损害高质量的细节。 Caesarnerf明确模型构成参考视图的差异，以结合场景级的语义表示，提供了校准的整体理解。该校准过程将各种观点与精确的位置保持一致，并通过顺序细化进一步增强，以捕获不同的细节。在公共数据集上进行了广泛的实验，包括LLFF，Shiny，MIP-NYF 360和MVIMGNET，表明Caesarnerf在不同的参考视图中提供最先进的性能，即使单个参考图像也有效。]]></description>
@@ -92,6 +68,16 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>OMNI-RECON：利用基于图像的通用神经辐射场的渲染</title>
+      <link>https://link.springer.com/chapter/10.1007/978-3-031-72640-8_9</link>
+      <description><![CDATA[神经辐射场（NERF）的最新突破已经引发了对它们集成到现实世界3D应用程序中的大量需求。但是，不同3D应用所需的各种功能通常需要具有各种管道的不同NERF模型，从而为每个目标任务和繁琐的试用试验实验提供了乏味的NERF培训。我们的工作旨在从新兴基金会模型的概括能力和适应性中汲取灵感，旨在开发一个通用的NERF来处理各种3D任务。我们通过提出一个名为Omni-Recon的框架来实现这一目标，该框架能够（1）可推广的3D重建和零击的多任务场景的理解，以及（2）对多样化的下游3D应用程序的适应性，例如实时渲染和场景编辑。我们的主要见解是，具有准确的几何形状和外观估算的基于图像的渲染管道可以将2D图像特征提升到其3D对应物中，从而以可推广的方式将2D任务扩展到3D世界。具体而言，我们的Omni-Recon使用基于图像的渲染具有两个解耦分支的渲染：一个基于图像的分支：一个基于图像的渲染：一个基于复杂的变压器的分支，逐渐融合了几何形状和外观特征，以进行准确的几何学估计，以及一个可预测混合源视图的轻量级分支。该设计实现了最新的（SOTA）可推广的3D表面重建质量，并在各种任务中重复使用的重量可重复使用，以了解零照片的多任务场景。此外，它可以在将复杂的几何分支烘烤到网格中后实现实时渲染，快速适应以实现SOTA可推广的3D理解性能，并与2D扩散模型无缝集成，用于文本指导的3D编辑。我们的代码可用： 
+              https://github.com/gatech-eic/omni-recon
+              
+            。]]></description>
+      <guid>https://link.springer.com/chapter/10.1007/978-3-031-72640-8_9</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>LARA：有效的大型基线辐射场</title>
       <link>https://link.springer.com/chapter/10.1007/978-3-031-73247-8_20</link>
       <description><![CDATA[辐射场方法已经实现了逼真的新型视图合成和几何重建。但是它们主要用于人均优化或小型基线设置。尽管最近的几项工作通过使用变压器来调查大型基线的进料重建，但它们都以标准的全球注意力机制运行，因此忽略了3D重建的局部性质。我们提出了一种在变压器层中统一本地和全球推理的方法，从而提高了质量和更快的收敛性。我们的模型代表场景作为高斯体积，并将其与图像编码器和小组注意层结合起来，以有效地进行进料重建。实验结果表明，我们的模型在四个GPU上接受了两天的训练，证明了重建360的高保真度
@@ -102,6 +88,20 @@
               
              辐射场，以及零射和室外测试的鲁棒性。]]></description>
       <guid>https://link.springer.com/chapter/10.1007/978-3-031-73247-8_20</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MVSGAUSSIAN：多视图立体声</title>
+      <link>https://link.springer.com/chapter/10.1007/978-3-031-72649-1_3</link>
+      <description><![CDATA[我们提出了MVSgaussian，这是一种可推广的新的3D高斯表示方法，该方法源自多视图立体声（MVS），可以有效地重建看不见的场景。具体而言，1）我们利用MVS编码几何形状 - 意识到高斯表示，并将其解码为高斯参数。 2）为了进一步提高性能，我们提出了一种混合高斯渲染，该渲染整合了新型视图合成的有效体积渲染设计。 3）为了支持特定场景的快速微调，我们引入了多视图几何一致的聚合策略，以有效地汇总了由可推广模型产生的点云，作为每场局部优化的初始化。与以前可推广的基于NERF的方法相比，通常需要进行微调和秒渲染的几分钟，MVSgaussian可以为每个场景提供更好的合成质量实时渲染。与Vanilla 3D-GS相比，MVSGaussian以较少的训练计算成本获得了更好的视图合成。对DTU，实际向前的，NERF合成以及坦克和神庙数据集进行了广泛的实验，以验证MVSgaussian具有令人信服的通用性，实时渲染速度和快速的每场曲（每场启动）的最佳性能。]]></description>
+      <guid>https://link.springer.com/chapter/10.1007/978-3-031-72649-1_3</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>朝向大规模的元素重建</title>
+      <link>https://link.springer.com/chapter/10.1007/978-981-97-6915-5_5</link>
+      <description><![CDATA[在计算机视觉和图形领域，以无与伦比的现实主义和细节来重建现实世界的现实场景一直是一个长期的目标。实现这一目标需要在感应技术和元素重建算法中进行协调的努力。]]></description>
+      <guid>https://link.springer.com/chapter/10.1007/978-981-97-6915-5_5</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
     </item>
     <item>
