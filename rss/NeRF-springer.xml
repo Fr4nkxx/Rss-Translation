@@ -4,7 +4,14 @@
     <title>最新结果</title>
     <link>http://link.springer.com</link>
     <description>Springer可用的最新内容</description>
-    <lastBuildDate>Thu, 10 Apr 2025 01:11:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Apr 2025 12:29:47 GMT</lastBuildDate>
+    <item>
+      <title>基于小波注意的隐式多跨性超分辨率网络</title>
+      <link>https://link.springer.com/article/10.1007/s40747-025-01862-4</link>
+      <description><![CDATA[图像超分辨率（SR）是计算机视觉领域的基本挑战。最近，基于卷积的神经网络（CNN）的图像SR方法已在各种SR任务中取得了显着进展。但是，大多数当前的研究都集中在设计更深入和更广泛的架构上，通常会牺牲计算负担和速度以提高图像SR质量。为了实现更有效的SR方法，本文提出了图像SR的小波注意网络（WANET）。首先，提出了一个基于小波的注意模块。与现有的自我发场模块相比，小波注意模块使用小波变换将图像特征分解为不同的频率组件。然后，它应用了一种自我注意的机制来捕获多尺度特征，从而使一个更高效，更大的接受场有助于网络捕获长期特征依赖性。其次，引入了本地隐性功能，以增强编码器汇总本地邻里功能的能力。最后，粗糙和细粒的交织像素特征是协同关联的，以提高隐式特征解码器的性能。与最先进的SR方法的实验比较证明了Wanet在图像SR领域的有效性和优越性。]]></description>
+      <guid>https://link.springer.com/article/10.1007/s40747-025-01862-4</guid>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>表示表示，优化策略和全向视觉应用的调查</title>
       <link>https://link.springer.com/article/10.1007/s11263-025-02391-w</link>
@@ -127,13 +134,6 @@
                 这些观察结果强调了在接受胺碘酮治疗的患者中进行神经系统检查的重要性，以鉴定罕见的并发症，例如神经瘤病。重要的是，在停用药物后，神经瘤通常是可逆的。]]></description>
       <guid>https://link.springer.com/article/10.1186/s43044-025-00631-5</guid>
       <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Easyvis：用于腹腔镜手术盒培训师的实时3D可视化软件系统</title>
-      <link>https://link.springer.com/article/10.1007/s13304-025-02153-w</link>
-      <description><![CDATA[ easyvis是一种新兴的沉浸式3D腹腔镜可视化系统，可提高腹腔镜手术的效率。它将多个微型摄像头和光源与手术端口整合在一起，以在所需的角度提供手术内手术的视觉。在这项工作中，我们在腹腔镜手术训练盒环境中使用Easyvis微型摄像机组装来开发一种可视化算法，并具有简化的训练任务，以验证这种新技术的可行性。由于大多数腹腔镜手术工具是刚体的对象，因此可以离线获取它们的3D形状。我们开发了2D对象检测和跟踪算法，以获取每个对象的2D姿势和3D融合算法，以使用估计的2D姿势来估计和跟踪每个对象的3D姿势。然后，与每个对象的获得的3D模型一起，我们能够使用3D表面模型（离线获取）和从单个微型胶片中获取的图像在所需视图处渲染每个对象。除前景刚性对象外，背景3D模型是使用结构化的灯光和运动结构来获取的。与前景物体的快速运动相比，假定背景变化缓慢。因此，背景3D模型仅需要偶尔更新。我们的渲染算法能够整合前景和背景3D模型，以促进从理想的视角渲染基于图像的渲染。我们进行了实验以验证渲染图像的准确性和质量。]]></description>
-      <guid>https://link.springer.com/article/10.1007/s13304-025-02153-w</guid>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
